@@ -1,0 +1,441 @@
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\appsettings.Development.json
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\appsettings.json
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.staticwebassets.runtime.json
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.staticwebassets.endpoints.json
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.exe
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.deps.json
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.runtimeconfig.json
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.pdb
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Azure.Core.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Azure.Identity.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Humanizer.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\System.ClientModel.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\System.CodeDom.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Memory.Data.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\depi projects\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.csproj.AssemblyReference.cache
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.GeneratedMSBuildEditorConfig.editorconfig
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.AssemblyInfoInputs.cache
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.AssemblyInfo.cs
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.csproj.CoreCompileInputs.cache
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.MvcApplicationPartsAssemblyInfo.cache
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.RazorAssemblyInfo.cache
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.RazorAssemblyInfo.cs
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\scopedcss\bundle\Graduation Project.styles.css
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\scopedcss\projectbundle\Graduation Project.bundle.scp.css
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets.build.json
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets.development.json
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.Graduation Project.Microsoft.AspNetCore.StaticWebAssets.props
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.Graduation Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.build.Graduation Project.props
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Graduation Project.props
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Graduation Project.props
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets.pack.json
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduati.512903E3.Up2Date
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.dll
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\refint\Graduation Project.dll
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.pdb
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.genruntimeconfig.cache
+E:\depi projects\Graduation Project\Graduation Project\obj\Debug\net8.0\ref\Graduation Project.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\appsettings.Development.json
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\appsettings.json
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.staticwebassets.endpoints.json
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.staticwebassets.runtime.json
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.exe
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.deps.json
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.runtimeconfig.json
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.pdb
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Azure.Core.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Azure.Identity.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Humanizer.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\Mono.TextTemplating.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\System.ClientModel.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\System.CodeDom.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Composition.Convention.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Composition.Hosting.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Composition.Runtime.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Composition.TypedParts.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Drawing.Common.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Memory.Data.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Runtime.Caching.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Security.Permissions.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Windows.Extensions.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.csproj.AssemblyReference.cache
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.GeneratedMSBuildEditorConfig.editorconfig
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.AssemblyInfoInputs.cache
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.AssemblyInfo.cs
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.csproj.CoreCompileInputs.cache
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.MvcApplicationPartsAssemblyInfo.cache
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.RazorAssemblyInfo.cache
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.RazorAssemblyInfo.cs
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\scopedcss\bundle\Graduation Project.styles.css
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\scopedcss\projectbundle\Graduation Project.bundle.scp.css
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets.build.json
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets.development.json
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.Graduation Project.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.Graduation Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.build.Graduation Project.props
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Graduation Project.props
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Graduation Project.props
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets.pack.json
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduati.512903E3.Up2Date
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.dll
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\refint\Graduation Project.dll
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.pdb
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.genruntimeconfig.cache
+F:\Graduation Project\Graduation Project\obj\Debug\net8.0\ref\Graduation Project.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\appsettings.Development.json
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\appsettings.json
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.staticwebassets.endpoints.json
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.staticwebassets.runtime.json
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.exe
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.deps.json
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.runtimeconfig.json
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Graduation Project.pdb
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Azure.Core.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Azure.Identity.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Humanizer.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\Mono.TextTemplating.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\System.ClientModel.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\System.CodeDom.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Composition.Convention.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Composition.Hosting.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Composition.Runtime.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Composition.TypedParts.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Drawing.Common.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Memory.Data.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Runtime.Caching.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Security.Permissions.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\System.Windows.Extensions.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\Grad project\Graduation Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.csproj.AssemblyReference.cache
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.GeneratedMSBuildEditorConfig.editorconfig
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.AssemblyInfoInputs.cache
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.AssemblyInfo.cs
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.csproj.CoreCompileInputs.cache
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.MvcApplicationPartsAssemblyInfo.cache
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.RazorAssemblyInfo.cache
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.RazorAssemblyInfo.cs
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\scopedcss\bundle\Graduation Project.styles.css
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\scopedcss\projectbundle\Graduation Project.bundle.scp.css
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets.build.json
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets.development.json
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.Graduation Project.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.Graduation Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.build.Graduation Project.props
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Graduation Project.props
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Graduation Project.props
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets.pack.json
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduati.512903E3.Up2Date
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.dll
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\refint\Graduation Project.dll
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.pdb
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.genruntimeconfig.cache
+F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\ref\Graduation Project.dll
