@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Grad project\\Graduation Project\\Graduation Project\\Graduation Project.csproj": {}
+    "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\Graduation Project.csproj": {}
   },
   "projects": {
-    "F:\\Grad project\\Graduation Project\\Graduation Project\\Graduation Project.csproj": {
+    "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\Graduation Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Grad project\\Graduation Project\\Graduation Project\\Graduation Project.csproj",
+        "projectUniqueName": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\Graduation Project.csproj",
         "projectName": "Graduation Project",
-        "projectPath": "F:\\Grad project\\Graduation Project\\Graduation Project\\Graduation Project.csproj",
-        "packagesPath": "C:\\Users\\cm\\.nuget\\packages\\",
-        "outputPath": "F:\\Grad project\\Graduation Project\\Graduation Project\\obj\\",
+        "projectPath": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\Graduation Project.csproj",
+        "packagesPath": "C:\\Users\\e2len\\.nuget\\packages\\",
+        "outputPath": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\cm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\e2len\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -73,24 +72,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.15, 8.0.15]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.15, 8.0.15]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.15, 8.0.15]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.15, 8.0.15]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"

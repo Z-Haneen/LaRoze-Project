@@ -439,3 +439,151 @@ F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\refint\Gr
 F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.pdb
 F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\Graduation Project.genruntimeconfig.cache
 F:\Grad project\Graduation Project\Graduation Project\obj\Debug\net8.0\ref\Graduation Project.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\appsettings.Development.json
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\appsettings.json
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Graduation Project.staticwebassets.runtime.json
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Graduation Project.staticwebassets.endpoints.json
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Graduation Project.exe
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Graduation Project.deps.json
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Graduation Project.runtimeconfig.json
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Graduation Project.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Graduation Project.pdb
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Azure.Core.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Azure.Identity.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Humanizer.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\Mono.TextTemplating.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\System.ClientModel.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\System.CodeDom.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\System.Composition.Convention.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\System.Composition.Hosting.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\System.Composition.Runtime.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\System.Composition.TypedParts.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\System.Drawing.Common.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\System.Memory.Data.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\System.Runtime.Caching.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\System.Security.Permissions.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\System.Windows.Extensions.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\Graduation Project.csproj.AssemblyReference.cache
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\Graduation Project.GeneratedMSBuildEditorConfig.editorconfig
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\Graduation Project.AssemblyInfoInputs.cache
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\Graduation Project.AssemblyInfo.cs
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\Graduation Project.csproj.CoreCompileInputs.cache
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\Graduation Project.MvcApplicationPartsAssemblyInfo.cache
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\Graduation Project.RazorAssemblyInfo.cache
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\Graduation Project.RazorAssemblyInfo.cs
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\Graduation Project.sourcelink.json
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\scopedcss\bundle\Graduation Project.styles.css
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\scopedcss\projectbundle\Graduation Project.bundle.scp.css
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\staticwebassets.build.json
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\staticwebassets.development.json
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.Graduation Project.Microsoft.AspNetCore.StaticWebAssets.props
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.Graduation Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.build.Graduation Project.props
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Graduation Project.props
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Graduation Project.props
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\staticwebassets.pack.json
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\Graduati.512903E3.Up2Date
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\Graduation Project.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\refint\Graduation Project.dll
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\Graduation Project.pdb
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\Graduation Project.genruntimeconfig.cache
+F:\ExtraImpt\LaRoze-Project\Graduation Project\obj\Debug\net8.0\ref\Graduation Project.dll
