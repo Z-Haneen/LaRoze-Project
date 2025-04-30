@@ -184,23 +184,32 @@ namespace Graduation_Project.Controllers
         }
 
         // POST: Product/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [ActionName("DeleteConfirmed")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var product = await _productService.GetProductByIdAsync(id);
+
             if (product == null)
             {
-                return NotFound();
+                TempData["ErrorMessage"] = "Product not found.";
+                return RedirectToAction(nameof(Index));
             }
 
-            // Optional: delete associated image from wwwroot
+            // Delete image file
             var imagePath = Path.Combine(_webHostEnvironment.WebRootPath, product.ImageUrl.TrimStart('/'));
             if (System.IO.File.Exists(imagePath))
             {
                 System.IO.File.Delete(imagePath);
             }
 
+            // Delete from database
             await _productService.DeleteProductAsync(id);
+
+            // Set success message
+            TempData["SuccessMessage"] = $"Product '{product.Name}' has been deleted successfully.";
+
             return RedirectToAction(nameof(Index));
         }
     }

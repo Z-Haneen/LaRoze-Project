@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OvQIg7da+Kz12wXZmKdEA1H2fFXtcvT6gJCHLP9EzNY=",
+  "Hash": "5LmCdjJ9IRisfmwWbRG5LOXgxURLGsrxV+PLixzVawM=",
   "Source": "Graduation Project",
   "BasePath": "_content/Graduation Project",
   "Mode": "Default",
@@ -563,33 +563,12 @@
       "OriginalItemSpec": "wwwroot\\images\\portrait-young-japanese-woman-with-jacket.jpg"
     },
     {
-      "Identity": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\products\\2a7893c6-fc2e-4bab-963b-2d68327d7cd3_7acf559f231ad01bef94a184d0596525.png",
+      "Identity": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\products\\1269f044-17db-4021-b70d-79e02a606df5_20250428185637558.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
-      "RelativePath": "images/products/2a7893c6-fc2e-4bab-963b-2d68327d7cd3_7acf559f231ad01bef94a184d0596525#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ta4hhbfs8n",
-      "Integrity": "Bd35rVY0JuckFnPYteeSKvKNZpjfhQdRkFhopnGbujQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\2a7893c6-fc2e-4bab-963b-2d68327d7cd3_7acf559f231ad01bef94a184d0596525.png"
-    },
-    {
-      "Identity": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\products\\51e76569-6dcd-4a5f-a435-1681444f6ead_20250428185637558.png",
-      "SourceId": "Graduation Project",
-      "SourceType": "Discovered",
-      "ContentRoot": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\",
-      "BasePath": "_content/Graduation Project",
-      "RelativePath": "images/products/51e76569-6dcd-4a5f-a435-1681444f6ead_20250428185637558#[.{fingerprint}]?.png",
+      "RelativePath": "images/products/1269f044-17db-4021-b70d-79e02a606df5_20250428185637558#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -602,15 +581,15 @@
       "Integrity": "gPV7gK+/tLkDQph/r579h6nB/vYgnon4KgaNHqx4Zk8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\51e76569-6dcd-4a5f-a435-1681444f6ead_20250428185637558.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\1269f044-17db-4021-b70d-79e02a606df5_20250428185637558.png"
     },
     {
-      "Identity": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\products\\995711ca-53ff-4150-a1f3-14a527ddf9da_2faadc710b84f9d3875e674a81274137.jpg",
+      "Identity": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\products\\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
-      "RelativePath": "images/products/995711ca-53ff-4150-a1f3-14a527ddf9da_2faadc710b84f9d3875e674a81274137#[.{fingerprint}]?.jpg",
+      "RelativePath": "images/products/3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -619,11 +598,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rfynvayr1q",
-      "Integrity": "F9WvpfABTCF/ej0XMYOUAxu7p8WkkTCYZwV8LqDL9us=",
+      "Fingerprint": "63ohx84n2c",
+      "Integrity": "MnU1x2MrSSAkAi9sQ6a8BEaciqLM98nDd84rkDKZ70Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\995711ca-53ff-4150-a1f3-14a527ddf9da_2faadc710b84f9d3875e674a81274137.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg"
     },
     {
       "Identity": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\js\\site.js",
@@ -3978,90 +3957,8 @@
       ]
     },
     {
-      "Route": "images/products/2a7893c6-fc2e-4bab-963b-2d68327d7cd3_7acf559f231ad01bef94a184d0596525.png",
-      "AssetFile": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\products\\2a7893c6-fc2e-4bab-963b-2d68327d7cd3_7acf559f231ad01bef94a184d0596525.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "290833"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Bd35rVY0JuckFnPYteeSKvKNZpjfhQdRkFhopnGbujQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 23:04:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Bd35rVY0JuckFnPYteeSKvKNZpjfhQdRkFhopnGbujQ="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/2a7893c6-fc2e-4bab-963b-2d68327d7cd3_7acf559f231ad01bef94a184d0596525.ta4hhbfs8n.png",
-      "AssetFile": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\products\\2a7893c6-fc2e-4bab-963b-2d68327d7cd3_7acf559f231ad01bef94a184d0596525.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "290833"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Bd35rVY0JuckFnPYteeSKvKNZpjfhQdRkFhopnGbujQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 23:04:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ta4hhbfs8n"
-        },
-        {
-          "Name": "label",
-          "Value": "images/products/2a7893c6-fc2e-4bab-963b-2d68327d7cd3_7acf559f231ad01bef94a184d0596525.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Bd35rVY0JuckFnPYteeSKvKNZpjfhQdRkFhopnGbujQ="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/51e76569-6dcd-4a5f-a435-1681444f6ead_20250428185637558.8api9nozz5.png",
-      "AssetFile": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\products\\51e76569-6dcd-4a5f-a435-1681444f6ead_20250428185637558.png",
+      "Route": "images/products/1269f044-17db-4021-b70d-79e02a606df5_20250428185637558.8api9nozz5.png",
+      "AssetFile": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\products\\1269f044-17db-4021-b70d-79e02a606df5_20250428185637558.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4082,7 +3979,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 22:59:25 GMT"
+          "Value": "Wed, 30 Apr 2025 10:49:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4096,7 +3993,7 @@
         },
         {
           "Name": "label",
-          "Value": "images/products/51e76569-6dcd-4a5f-a435-1681444f6ead_20250428185637558.png"
+          "Value": "images/products/1269f044-17db-4021-b70d-79e02a606df5_20250428185637558.png"
         },
         {
           "Name": "integrity",
@@ -4105,8 +4002,8 @@
       ]
     },
     {
-      "Route": "images/products/51e76569-6dcd-4a5f-a435-1681444f6ead_20250428185637558.png",
-      "AssetFile": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\products\\51e76569-6dcd-4a5f-a435-1681444f6ead_20250428185637558.png",
+      "Route": "images/products/1269f044-17db-4021-b70d-79e02a606df5_20250428185637558.png",
+      "AssetFile": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\products\\1269f044-17db-4021-b70d-79e02a606df5_20250428185637558.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4127,7 +4024,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 22:59:25 GMT"
+          "Value": "Wed, 30 Apr 2025 10:49:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4142,8 +4039,8 @@
       ]
     },
     {
-      "Route": "images/products/995711ca-53ff-4150-a1f3-14a527ddf9da_2faadc710b84f9d3875e674a81274137.jpg",
-      "AssetFile": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\products\\995711ca-53ff-4150-a1f3-14a527ddf9da_2faadc710b84f9d3875e674a81274137.jpg",
+      "Route": "images/products/3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.63ohx84n2c.jpg",
+      "AssetFile": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\products\\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4152,7 +4049,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9882156"
+          "Value": "3358786"
         },
         {
           "Name": "Content-Type",
@@ -4160,48 +4057,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"F9WvpfABTCF/ej0XMYOUAxu7p8WkkTCYZwV8LqDL9us=\""
+          "Value": "\"MnU1x2MrSSAkAi9sQ6a8BEaciqLM98nDd84rkDKZ70Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 23:07:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-F9WvpfABTCF/ej0XMYOUAxu7p8WkkTCYZwV8LqDL9us="
-        }
-      ]
-    },
-    {
-      "Route": "images/products/995711ca-53ff-4150-a1f3-14a527ddf9da_2faadc710b84f9d3875e674a81274137.rfynvayr1q.jpg",
-      "AssetFile": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\products\\995711ca-53ff-4150-a1f3-14a527ddf9da_2faadc710b84f9d3875e674a81274137.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9882156"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"F9WvpfABTCF/ej0XMYOUAxu7p8WkkTCYZwV8LqDL9us=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 23:07:48 GMT"
+          "Value": "Wed, 30 Apr 2025 10:49:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4211,15 +4071,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rfynvayr1q"
+          "Value": "63ohx84n2c"
         },
         {
           "Name": "label",
-          "Value": "images/products/995711ca-53ff-4150-a1f3-14a527ddf9da_2faadc710b84f9d3875e674a81274137.jpg"
+          "Value": "images/products/3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-F9WvpfABTCF/ej0XMYOUAxu7p8WkkTCYZwV8LqDL9us="
+          "Value": "sha256-MnU1x2MrSSAkAi9sQ6a8BEaciqLM98nDd84rkDKZ70Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg",
+      "AssetFile": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\products\\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3358786"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MnU1x2MrSSAkAi9sQ6a8BEaciqLM98nDd84rkDKZ70Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Apr 2025 10:49:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MnU1x2MrSSAkAi9sQ6a8BEaciqLM98nDd84rkDKZ70Y="
         }
       ]
     },
