@@ -414,12 +414,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c5e484ced9dd246ed3366ed2b44dad6a.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\dab9ea2f0909ea4fbebd1359df55a0a0.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\login.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Graduation Project</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Graduation Project</BasePath>
-      <RelativePath>images/dab9ea2f0909ea4fbebd1359df55a0a0.jpg</RelativePath>
+      <RelativePath>images/login.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -430,7 +430,7 @@
       <Integrity>3ph7tTXSZG2x1DTitt8TFjr/EPmmWvCs3bopWCHS1RY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\dab9ea2f0909ea4fbebd1359df55a0a0.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\login.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\portrait-young-japanese-woman-with-jacket.jpg'))">
       <SourceType>Package</SourceType>
@@ -449,6 +449,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\portrait-young-japanese-woman-with-jacket.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Graduation Project</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Graduation Project</BasePath>
+      <RelativePath>images/products/129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ta4hhbfs8n</Fingerprint>
+      <Integrity>Bd35rVY0JuckFnPYteeSKvKNZpjfhQdRkFhopnGbujQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\products\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg'))">
       <SourceType>Package</SourceType>

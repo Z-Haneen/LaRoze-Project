@@ -20,8 +20,9 @@ wwwroot\images\b366f2b1cccc6ee838112b9eaf20b553cb393a1eeebefdf390185ce12985832a.
 wwwroot\images\bde5f982972185f839a8e1eb6a491078.png
 wwwroot\images\c0fe906f7fd102780b3957c19514dff4.png
 wwwroot\images\c5e484ced9dd246ed3366ed2b44dad6a.png
-wwwroot\images\dab9ea2f0909ea4fbebd1359df55a0a0.jpg
+wwwroot\images\login.jpg
 wwwroot\images\portrait-young-japanese-woman-with-jacket.jpg
+wwwroot\images\products\129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525.png
 wwwroot\images\products\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg
 wwwroot\images\products\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg
 wwwroot\js\site.js
