@@ -1,0 +1,15 @@
+﻿@model Graduation_Project.Models.Product
+
+<h2>Are you sure you want to delete this product?</h2>
+
+<div>
+    <h4>@Model.Name</h4>
+    <p>Price: @Model.Price</p>
+    <p>Category: @Model.Category?.Name</p>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="ProductId" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a href="@Url.Action("Index", "Product")" class="btn btn-secondary">Cancel</a>
+</form>

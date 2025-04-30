@@ -1,0 +1,369 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Graduation Project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Graduation Project.hi2qgzlr1m.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\20250428185637558.png",
+      "PackagePath": "staticwebassets\\images\\20250428185637558.png"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\20250428185656497.jpg",
+      "PackagePath": "staticwebassets\\images\\20250428185656497.jpg"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\20250428185705326.png",
+      "PackagePath": "staticwebassets\\images\\20250428185705326.png"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\20250428185712692.jpg",
+      "PackagePath": "staticwebassets\\images\\20250428185712692.jpg"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\20250428185719764.png",
+      "PackagePath": "staticwebassets\\images\\20250428185719764.png"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\20250428185726618.png",
+      "PackagePath": "staticwebassets\\images\\20250428185726618.png"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\20250428185754763.jpg",
+      "PackagePath": "staticwebassets\\images\\20250428185754763.jpg"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\20250428185804416.jpg",
+      "PackagePath": "staticwebassets\\images\\20250428185804416.jpg"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\20250428185822318.png",
+      "PackagePath": "staticwebassets\\images\\20250428185822318.png"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\285936577be25b998c758479b04f0ac4.png",
+      "PackagePath": "staticwebassets\\images\\285936577be25b998c758479b04f0ac4.png"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\2faadc710b84f9d3875e674a81274137.jpg",
+      "PackagePath": "staticwebassets\\images\\2faadc710b84f9d3875e674a81274137.jpg"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "PackagePath": "staticwebassets\\images\\3ddc1cd528270fe310bfe715bcb4840c.jpg"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\641fb71b6e610e9e2496af24e1cde9f8.png",
+      "PackagePath": "staticwebassets\\images\\641fb71b6e610e9e2496af24e1cde9f8.png"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\7389d65b3e3fd0d8561cba3756a24e6c.png",
+      "PackagePath": "staticwebassets\\images\\7389d65b3e3fd0d8561cba3756a24e6c.png"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\7acf559f231ad01bef94a184d0596525.png",
+      "PackagePath": "staticwebassets\\images\\7acf559f231ad01bef94a184d0596525.png"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\8ecc239031fd3b010ef0589725ce0e91.png",
+      "PackagePath": "staticwebassets\\images\\8ecc239031fd3b010ef0589725ce0e91.png"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\b366f2b1cccc6ee838112b9eaf20b553cb393a1eeebefdf390185ce12985832a.jpeg",
+      "PackagePath": "staticwebassets\\images\\b366f2b1cccc6ee838112b9eaf20b553cb393a1eeebefdf390185ce12985832a.jpeg"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\bde5f982972185f839a8e1eb6a491078.png",
+      "PackagePath": "staticwebassets\\images\\bde5f982972185f839a8e1eb6a491078.png"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\c0fe906f7fd102780b3957c19514dff4.png",
+      "PackagePath": "staticwebassets\\images\\c0fe906f7fd102780b3957c19514dff4.png"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\c5e484ced9dd246ed3366ed2b44dad6a.png",
+      "PackagePath": "staticwebassets\\images\\c5e484ced9dd246ed3366ed2b44dad6a.png"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\dab9ea2f0909ea4fbebd1359df55a0a0.jpg",
+      "PackagePath": "staticwebassets\\images\\dab9ea2f0909ea4fbebd1359df55a0a0.jpg"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\portrait-young-japanese-woman-with-jacket.jpg",
+      "PackagePath": "staticwebassets\\images\\portrait-young-japanese-woman-with-jacket.jpg"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\products\\2a7893c6-fc2e-4bab-963b-2d68327d7cd3_7acf559f231ad01bef94a184d0596525.png",
+      "PackagePath": "staticwebassets\\images\\products\\2a7893c6-fc2e-4bab-963b-2d68327d7cd3_7acf559f231ad01bef94a184d0596525.png"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\products\\51e76569-6dcd-4a5f-a435-1681444f6ead_20250428185637558.png",
+      "PackagePath": "staticwebassets\\images\\products\\51e76569-6dcd-4a5f-a435-1681444f6ead_20250428185637558.png"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\images\\products\\995711ca-53ff-4150-a1f3-14a527ddf9da_2faadc710b84f9d3875e674a81274137.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\995711ca-53ff-4150-a1f3-14a527ddf9da_2faadc710b84f9d3875e674a81274137.jpg"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\Grad project\\Graduation Project\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Graduation Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Graduation Project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Graduation Project.props",
+      "PackagePath": "build\\Graduation Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Graduation Project.props",
+      "PackagePath": "buildMultiTargeting\\Graduation Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Graduation Project.props",
+      "PackagePath": "buildTransitive\\Graduation Project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
