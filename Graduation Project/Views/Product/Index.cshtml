@@ -64,10 +64,13 @@
                                    asp-controller="Product"
                                    asp-action="Edit"
                                    asp-route-id="@product.ProductId">Edit</a>
-                                <a class="btn btn-sm btn-outline-danger me-1"
-                                   asp-controller="Product"
-                                   asp-action="Delete"
-                                   asp-route-id="@product.ProductId">Delete</a>
+                                <button class="btn btn-sm btn-outline-danger me-1 delete-btn"
+                                        data-id="@product.ProductId"
+                                        data-name="@product.Name"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#deleteConfirmModal">
+                                    Delete
+                                </button>
                             </td>
                         </tr>
                     }
@@ -81,4 +84,48 @@
             </tbody>
         </table>
     </div>
+
+    <!-- Delete Confirmation Modal -->
+    <div class="modal fade" id="deleteConfirmModal" tabindex="-1" aria-labelledby="deleteConfirmModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header bg-danger text-white">
+                    <h5 class="modal-title" id="deleteConfirmModalLabel">Confirm Deletion</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Are you sure you want to delete the product "<span id="productName"></span>"? This action cannot be undone.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <form id="deleteForm" asp-controller="Product" asp-action="DeleteConfirmed" method="post">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="id" id="productId" />
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const deleteButtons = document.querySelectorAll('.delete-btn');
+            const modal = document.getElementById('deleteConfirmModal');
+            const productNameSpan = document.getElementById('productName');
+            const productIdInput = document.getElementById('productId');
+
+            deleteButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const productId = this.getAttribute('data-id');
+                    const productName = this.getAttribute('data-name');
+
+                    productNameSpan.textContent = productName;
+                    productIdInput.value = productId;
+                });
+            });
+        });
+    </script>
+}

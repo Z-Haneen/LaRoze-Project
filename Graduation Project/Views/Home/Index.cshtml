@@ -2,6 +2,67 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome in Larozee</h1>
-</div>
+<main>
+    <div class="container">
+        <section class="hero">
+            <img src="~/images/bde5f982972185f839a8e1eb6a491078.png" alt="">
+        </section>
+
+        <section class="categories">
+            <h1>Categories</h1>
+            <div class="categ-box">
+                <div class="categ-card one">
+                    <div class="overlay">
+                        <h1>Women</h1>
+                    </div>
+                </div>
+                <div class="categ-card two">
+                    <div class="overlay">
+                        <h1>Men</h1>
+                    </div>
+                </div>
+                <div class="categ-card three">
+                    <div class="overlay">
+                        <h1>Kids</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="offers">
+            <h1>Offers</h1>
+            <div class="box">
+                <img src="~/images/7389d65b3e3fd0d8561cba3756a24e6c.png" alt="">
+            </div>
+        </section>
+
+        <section class="best-sales">
+            <h1>Best Selling</h1>
+            <div class="best-sales-box">
+                <div class="best-sales-card num1">
+                    <img src="~/images/c0fe906f7fd102780b3957c19514dff4.png" alt="">
+                    <h3>psycho Bunny</h3>
+                    <p>Tee 001 BLACK</p>
+                    <span>$48</span>
+                    <button class="btn btn-primary mt-2" onclick="addToCart('Tee 001 BLACK', 48)">Add to Cart</button>
+                </div>
+
+                <div class="best-sales-card num2">
+                    <img src="~/images/8ecc239031fd3b010ef0589725ce0e91.png" alt="">
+                    <h3>psycho Bunny</h3>
+                    <p>Tee 001 BLACK</p>
+                    <span>$48</span>
+                    <button class="btn btn-primary mt-2" onclick="addToCart('Tee 001 BLACK', 48)">Add to Cart</button>
+                </div>
+
+                <div class="best-sales-card num3">
+                    <img src="~/images/7acf559f231ad01bef94a184d0596525.png" alt="">
+                    <h3>psycho Bunny</h3>
+                    <p>Tee 001 BLACK</p>
+                    <span>$48</span>
+                    <button class="btn btn-primary mt-2" onclick="addToCart('Tee 001 BLACK', 48)">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>

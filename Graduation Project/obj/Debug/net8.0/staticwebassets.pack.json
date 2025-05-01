@@ -9,8 +9,16 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\1c9eec6dad94dfe052fadee794d3d311.jpg",
+      "PackagePath": "staticwebassets\\images\\1c9eec6dad94dfe052fadee794d3d311.jpg"
     },
     {
       "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\20250428185637558.png",
@@ -93,20 +101,40 @@
       "PackagePath": "staticwebassets\\images\\c5e484ced9dd246ed3366ed2b44dad6a.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\dab9ea2f0909ea4fbebd1359df55a0a0.jpg",
-      "PackagePath": "staticwebassets\\images\\dab9ea2f0909ea4fbebd1359df55a0a0.jpg"
+      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\login.jpg",
+      "PackagePath": "staticwebassets\\images\\login.jpg"
     },
     {
       "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\portrait-young-japanese-woman-with-jacket.jpg",
       "PackagePath": "staticwebassets\\images\\portrait-young-japanese-woman-with-jacket.jpg"
     },
     {
+      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525.png",
+      "PackagePath": "staticwebassets\\images\\products\\129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525.png"
+    },
+    {
+      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "PackagePath": "staticwebassets\\images\\products\\25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e2496af24e1cde9f8.png"
+    },
+    {
       "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg",
       "PackagePath": "staticwebassets\\images\\products\\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg"
     },
     {
+      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "PackagePath": "staticwebassets\\images\\products\\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png"
+    },
+    {
+      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "PackagePath": "staticwebassets\\images\\products\\ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.png"
+    },
+    {
       "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg",
       "PackagePath": "staticwebassets\\images\\products\\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg"
+    },
+    {
+      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
       "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\js\\site.js",

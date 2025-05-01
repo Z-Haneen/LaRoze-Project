@@ -1,49 +1,92 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Graduation_Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Graduation_Project.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true">
+    <title>@ViewData["Title"] - Laroze</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Graduation_Project</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+    <div class="off-screen-menu">
+        <ul>
+            <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            @{
+                if (!(User.Identity?.IsAuthenticated ?? false))
+                {
+                    <li><a asp-controller="Login" asp-action="Index" class="btn btn-primary">Sign in</a></li>
+                    <li><a asp-controller="Register" asp-action="add" class="btn btn-secondary">Register</a></li>
+                }
+                else
+                {
+                    <li><a asp-controller="Account" asp-action="Logout" class="btn btn-secondary">Logout</a></li>
+                }
+            }
+        </ul>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - Graduation_Project - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <nav>
+        <div class="ham-logo-container">
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <a asp-area="" asp-controller="Home" asp-action="Index" class="logo">Laroze</a>
+            <div class="cart-heart-container">
+                <a href="cart.html" class="cart-link"><i class='bx bx-cart'></i></a>
+                <a href="#" class="cart-link"><i class='bx bx-heart'></i></a>
+            </div>
         </div>
-    </footer>
+        <ul class="nav-links">
+            <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            @{
+                if (!(User.Identity?.IsAuthenticated ?? false))
+                {
+                    <li class="sign-in-li"><a asp-controller="Login" asp-action="Index" class="btn btn-primary">Sign in</a></li>
+                    <li><a asp-controller="Register" asp-action="add" class="btn btn-secondary">Register</a></li>
+                }
+                else
+                {
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdownProfile" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-person-circle me-1"></i> @User.Identity.Name
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownProfile">
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" asp-controller="Account" asp-action="Logout">Logout</a></li>
+                        </ul>
+                    </li>
+                }
+            }
+            <li><a href="cart.html" class="cart-link"><i class='bx bx-cart'></i></a></li>
+            <li><a href="#" class="cart-link"><i class='bx bx-heart'></i></a></li>
+        </ul>
+    </nav>
+
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+
+    <!-- JavaScript -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/main.js" asp-append-version="true"></script>
+
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

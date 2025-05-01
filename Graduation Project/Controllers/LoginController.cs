@@ -80,7 +80,8 @@ namespace Graduation_Project.Controllers
 
                         // إعادة توجيه إلى الصفحة الرئيسية
                         TempData["SuccessMessage"] = "Login successful!";
-                        return RedirectToAction("Index", "Home");
+                        return Redirect("/Home/Index");
+
                     }
                 }
 
