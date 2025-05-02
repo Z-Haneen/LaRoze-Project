@@ -13,6 +13,7 @@ namespace Graduation_Project.Models
         public Category ParentCategory { get; set; }
         public ICollection<Product> Products { get; set; }
         public ICollection<SubCategory> SubCategories { get; set; }
+        public ICollection<Category> ChildCategories { get; set; } // Added for self-referencing relationship
 
     }
 }

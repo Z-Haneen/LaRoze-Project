@@ -29,6 +29,8 @@ wwwroot\images\products\25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e249
 wwwroot\images\products\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg
 wwwroot\images\products\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png
 wwwroot\images\products\ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.png
+wwwroot\images\products\e5b4a5f8-0887-418d-a561-15c946035837_641fb71b6e610e9e2496af24e1cde9f8.png
+wwwroot\images\products\e98360e0-38a2-48df-b9e9-31db0cfeb488_7acf559f231ad01bef94a184d0596525.png
 wwwroot\images\products\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg
 wwwroot\js\main.js
 wwwroot\js\site.js

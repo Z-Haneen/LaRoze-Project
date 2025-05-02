@@ -16,7 +16,17 @@
     <div class="off-screen-menu">
         <ul>
             <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-            <li><a href="#">Categories</a></li>
+            <!-- In off-screen-menu -->
+            <li class="nav-item dropdown">
+                <a class="dropdown-toggle" href="#" id="navbarDropdownCategoriesOffScreen" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownCategoriesOffScreen">
+                    <li><a class="dropdown-item" asp-controller="Category" asp-action="Products" asp-route-categoryId="1">Men</a></li>
+                    <li><a class="dropdown-item" asp-controller="Category" asp-action="Products" asp-route-categoryId="2">Women</a></li>
+                    <li><a class="dropdown-item" asp-controller="Category" asp-action="Products" asp-route-categoryId="3">Kids</a></li>
+                </ul>
+            </li>
             <li><a href="shop.html">Shop</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
@@ -49,7 +59,17 @@
         </div>
         <ul class="nav-links">
             <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-            <li><a href="#">Categories</a></li>
+            <!-- In nav-links -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCategories" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownCategories">
+                    <li><a class="dropdown-item" asp-controller="Category" asp-action="Products" asp-route-categoryId="1">Men</a></li>
+                    <li><a class="dropdown-item" asp-controller="Category" asp-action="Products" asp-route-categoryId="2">Women</a></li>
+                    <li><a class="dropdown-item" asp-controller="Category" asp-action="Products" asp-route-categoryId="3">Kids</a></li>
+                </ul>
+            </li>
             <li><a href="shop.html">Shop</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>

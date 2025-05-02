@@ -4,10 +4,17 @@ namespace Graduation_Project.Models
 {
     public class GraduationDbContext : DbContext
     {
+        public GraduationDbContext(DbContextOptions<GraduationDbContext> options)
+            : base(options)
+        {
+        }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder
-                .UseSqlServer("Server=.;Database=Graduation;Trusted_Connection=True;TrustServerCertificate=True;");
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer("Server=.;Database=Graduation;Trusted_Connection=True;TrustServerCertificate=True;");
+            }
         }
 
         public DbSet<Cart> Carts { get; set; }
@@ -26,6 +33,7 @@ namespace Graduation_Project.Models
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<Promotion> Promotions { get; set; }
         public DbSet<CartItem> CartItems { get; set; }
+        public DbSet<LoginModel> Logins { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -142,6 +150,20 @@ namespace Graduation_Project.Models
                 .WithMany(p => p.Promotions)
                 .HasForeignKey(pr => pr.ProductId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            // Category ↔ ParentCategory (Self-referencing relationship)
+            modelBuilder.Entity<Category>()
+                .HasOne(c => c.ParentCategory)
+                .WithMany(c => c.ChildCategories) // Updated to use ChildCategories
+                .HasForeignKey(c => c.ParentCategoryId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            // Seed Categories
+            modelBuilder.Entity<Category>().HasData(
+                new Category { CategoryId = 1, Name = "Men", Description = "Clothing and accessories for men", ParentCategoryId = null },
+                new Category { CategoryId = 2, Name = "Women", Description = "Clothing and accessories for women", ParentCategoryId = null },
+                new Category { CategoryId = 3, Name = "Kids", Description = "Clothing and accessories for children", ParentCategoryId = null }
+            );
         }
     }
 }

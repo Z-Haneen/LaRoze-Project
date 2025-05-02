@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "q3j/6osk5Hc9OcJLNld9paZZFij1dwZUqWG0kXNmFQE=",
+  "Hash": "6HTejGh9uQgCpoCiAl3uOLscR1MrboPkkYC0ffq/BBc=",
   "Source": "Graduation Project",
   "BasePath": "_content/Graduation Project",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lbndo0z1uk",
-      "Integrity": "r8DDy+S+rJn1rHtiZvXWxCn9FHVz8ASFbx4wIt5uDA8=",
+      "Fingerprint": "u2rif36tk1",
+      "Integrity": "aqsiPt8hw3PBUrnDO+Eaxh9aaMRK7NWpH0H1QfNCcxA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
@@ -710,6 +710,48 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.png"
     },
     {
+      "Identity": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\e5b4a5f8-0887-418d-a561-15c946035837_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "SourceId": "Graduation Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\",
+      "BasePath": "_content/Graduation Project",
+      "RelativePath": "images/products/e5b4a5f8-0887-418d-a561-15c946035837_641fb71b6e610e9e2496af24e1cde9f8#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rcmx8xczci",
+      "Integrity": "a5sfIYFf/8NZDxbmyRrNTHiwsUz9qMp9HwzDCicINok=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\e5b4a5f8-0887-418d-a561-15c946035837_641fb71b6e610e9e2496af24e1cde9f8.png"
+    },
+    {
+      "Identity": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\e98360e0-38a2-48df-b9e9-31db0cfeb488_7acf559f231ad01bef94a184d0596525.png",
+      "SourceId": "Graduation Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\",
+      "BasePath": "_content/Graduation Project",
+      "RelativePath": "images/products/e98360e0-38a2-48df-b9e9-31db0cfeb488_7acf559f231ad01bef94a184d0596525#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ta4hhbfs8n",
+      "Integrity": "Bd35rVY0JuckFnPYteeSKvKNZpjfhQdRkFhopnGbujQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\e98360e0-38a2-48df-b9e9-31db0cfeb488_7acf559f231ad01bef94a184d0596525.png"
+    },
+    {
       "Identity": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
@@ -745,8 +787,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "e7gwxps2w4",
-      "Integrity": "9uAOCuObjKC/0HMad1WRGwgZJPCe9KLtGW9nwhlYvBY=",
+      "Fingerprint": "8cmg865pwg",
+      "Integrity": "6LpngUic3sTOxHV5CQGbNomjAKMlWagfGmwdSzWBQao=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\main.js"
@@ -1994,7 +2036,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 12:43:05 GMT"
+          "Value": "Fri, 02 May 2025 08:28:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2039,7 +2081,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 12:43:05 GMT"
+          "Value": "Fri, 02 May 2025 08:28:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2064,7 +2106,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21751"
+          "Value": "24778"
         },
         {
           "Name": "Content-Type",
@@ -2072,11 +2114,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"r8DDy+S+rJn1rHtiZvXWxCn9FHVz8ASFbx4wIt5uDA8=\""
+          "Value": "\"aqsiPt8hw3PBUrnDO+Eaxh9aaMRK7NWpH0H1QfNCcxA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 13:43:37 GMT"
+          "Value": "Fri, 02 May 2025 09:03:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2086,12 +2128,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-r8DDy+S+rJn1rHtiZvXWxCn9FHVz8ASFbx4wIt5uDA8="
+          "Value": "sha256-aqsiPt8hw3PBUrnDO+Eaxh9aaMRK7NWpH0H1QfNCcxA="
         }
       ]
     },
     {
-      "Route": "css/style.lbndo0z1uk.css",
+      "Route": "css/style.u2rif36tk1.css",
       "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2101,7 +2143,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "21751"
+          "Value": "24778"
         },
         {
           "Name": "Content-Type",
@@ -2109,11 +2151,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"r8DDy+S+rJn1rHtiZvXWxCn9FHVz8ASFbx4wIt5uDA8=\""
+          "Value": "\"aqsiPt8hw3PBUrnDO+Eaxh9aaMRK7NWpH0H1QfNCcxA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 13:43:37 GMT"
+          "Value": "Fri, 02 May 2025 09:03:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2123,7 +2165,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lbndo0z1uk"
+          "Value": "u2rif36tk1"
         },
         {
           "Name": "label",
@@ -2131,7 +2173,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-r8DDy+S+rJn1rHtiZvXWxCn9FHVz8ASFbx4wIt5uDA8="
+          "Value": "sha256-aqsiPt8hw3PBUrnDO+Eaxh9aaMRK7NWpH0H1QfNCcxA="
         }
       ]
     },
@@ -2240,7 +2282,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 14:27:44 GMT"
+          "Value": "Fri, 02 May 2025 07:09:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2277,7 +2319,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 14:27:44 GMT"
+          "Value": "Fri, 02 May 2025 07:09:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2322,7 +2364,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 14:27:44 GMT"
+          "Value": "Fri, 02 May 2025 07:09:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2367,7 +2409,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 01 May 2025 14:27:44 GMT"
+          "Value": "Fri, 02 May 2025 07:09:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4678,6 +4720,170 @@
       ]
     },
     {
+      "Route": "images/products/e5b4a5f8-0887-418d-a561-15c946035837_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\e5b4a5f8-0887-418d-a561-15c946035837_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "215291"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a5sfIYFf/8NZDxbmyRrNTHiwsUz9qMp9HwzDCicINok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 07:44:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a5sfIYFf/8NZDxbmyRrNTHiwsUz9qMp9HwzDCicINok="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/e5b4a5f8-0887-418d-a561-15c946035837_641fb71b6e610e9e2496af24e1cde9f8.rcmx8xczci.png",
+      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\e5b4a5f8-0887-418d-a561-15c946035837_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "215291"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a5sfIYFf/8NZDxbmyRrNTHiwsUz9qMp9HwzDCicINok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 07:44:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rcmx8xczci"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/e5b4a5f8-0887-418d-a561-15c946035837_641fb71b6e610e9e2496af24e1cde9f8.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a5sfIYFf/8NZDxbmyRrNTHiwsUz9qMp9HwzDCicINok="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/e98360e0-38a2-48df-b9e9-31db0cfeb488_7acf559f231ad01bef94a184d0596525.png",
+      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\e98360e0-38a2-48df-b9e9-31db0cfeb488_7acf559f231ad01bef94a184d0596525.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "290833"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Bd35rVY0JuckFnPYteeSKvKNZpjfhQdRkFhopnGbujQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 09:14:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Bd35rVY0JuckFnPYteeSKvKNZpjfhQdRkFhopnGbujQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/e98360e0-38a2-48df-b9e9-31db0cfeb488_7acf559f231ad01bef94a184d0596525.ta4hhbfs8n.png",
+      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\e98360e0-38a2-48df-b9e9-31db0cfeb488_7acf559f231ad01bef94a184d0596525.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "290833"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Bd35rVY0JuckFnPYteeSKvKNZpjfhQdRkFhopnGbujQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 09:14:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ta4hhbfs8n"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/e98360e0-38a2-48df-b9e9-31db0cfeb488_7acf559f231ad01bef94a184d0596525.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Bd35rVY0JuckFnPYteeSKvKNZpjfhQdRkFhopnGbujQ="
+        }
+      ]
+    },
+    {
       "Route": "images/products/f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.63ohx84n2c.jpg",
       "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg",
       "Selectors": [],
@@ -4760,7 +4966,7 @@
       ]
     },
     {
-      "Route": "js/main.e7gwxps2w4.js",
+      "Route": "js/main.8cmg865pwg.js",
       "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\js\\main.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4770,7 +4976,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4166"
+          "Value": "4396"
         },
         {
           "Name": "Content-Type",
@@ -4778,11 +4984,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9uAOCuObjKC/0HMad1WRGwgZJPCe9KLtGW9nwhlYvBY=\""
+          "Value": "\"6LpngUic3sTOxHV5CQGbNomjAKMlWagfGmwdSzWBQao=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 15:13:54 GMT"
+          "Value": "Fri, 02 May 2025 07:03:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4792,7 +4998,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e7gwxps2w4"
+          "Value": "8cmg865pwg"
         },
         {
           "Name": "label",
@@ -4800,7 +5006,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9uAOCuObjKC/0HMad1WRGwgZJPCe9KLtGW9nwhlYvBY="
+          "Value": "sha256-6LpngUic3sTOxHV5CQGbNomjAKMlWagfGmwdSzWBQao="
         }
       ]
     },
@@ -4815,7 +5021,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4166"
+          "Value": "4396"
         },
         {
           "Name": "Content-Type",
@@ -4823,11 +5029,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9uAOCuObjKC/0HMad1WRGwgZJPCe9KLtGW9nwhlYvBY=\""
+          "Value": "\"6LpngUic3sTOxHV5CQGbNomjAKMlWagfGmwdSzWBQao=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 15:13:54 GMT"
+          "Value": "Fri, 02 May 2025 07:03:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4837,7 +5043,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9uAOCuObjKC/0HMad1WRGwgZJPCe9KLtGW9nwhlYvBY="
+          "Value": "sha256-6LpngUic3sTOxHV5CQGbNomjAKMlWagfGmwdSzWBQao="
         }
       ]
     },
@@ -4864,7 +5070,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 14:01:35 GMT"
+          "Value": "Fri, 02 May 2025 08:28:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4901,7 +5107,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 14:01:35 GMT"
+          "Value": "Fri, 02 May 2025 08:28:41 GMT"
         },
         {
           "Name": "Cache-Control",

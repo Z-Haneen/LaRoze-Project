@@ -1,0 +1,124 @@
+﻿@* by fady *@
+@model List<Graduation_Project.Models.Product>
+@{
+    ViewData["Title"] = $"{ViewData["CategoryName"]} Products";
+}
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">@ViewData["CategoryName"] Products</h2>
+
+    <!-- Display Success or Error Messages -->
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["ErrorMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <!-- Products Grid -->
+    @if (Model == null || !Model.Any())
+    {
+        <div class="col-12 text-center text-muted">
+            <p>No products found in this category.</p>
+        </div>
+    }
+    else
+    {
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <!-- Increased gutter to g-4 for more space -->
+            @foreach (var product in Model)
+            {
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="@(string.IsNullOrEmpty(product.ImageUrl) ? "/images/products/no-image.png" : product.ImageUrl)"
+                             class="card-img-top"
+                             alt="@product.Name"
+                             style="height: 100%; object-fit: cover;" />
+                        <div class="card-body text-center p-2">
+                            <h6 class="card-title mb-0">@product.Name</h6>
+                            <p class="card-text text-muted small mb-0">Category: @(product.Category?.Name ?? "N/A")</p>
+                            <p class="card-text fw-bold small mb-1">@product.Price.ToString("C")</p>
+                            <button class="btn btn-primary btn-sm" onclick="addToCart('@product.Name', @product.Price)">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        function addToCart(name, price) {
+            console.log(`Added ${name} to cart for ${price}`);
+        }
+
+        // Fade in cards on page load
+        document.addEventListener('DOMContentLoaded', function () {
+            document.querySelectorAll('.card').forEach(card => {
+                card.style.opacity = '1';
+            });
+        });
+    </script>
+    <style>
+        .card {
+            max-width: 200px; /* Limit the card width */
+            margin: 0 auto; /* Center the card in the column */
+            margin-top: 235px;
+            margin-left: -530px;
+        }
+
+        .card-body {
+            padding: 0.5rem; /* Consistent padding */
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .card-img-top {
+            height: 100px; /* Consistent image height */
+            object-fit: cover;
+        }
+
+        .card-title {
+            font-size: 0.85rem; /* Smaller title */
+            margin-bottom: 0; /* Remove margin */
+        }
+
+        .card-text {
+            font-size: 0.75rem; /* Smaller text */
+            margin-bottom: 0.25rem; /* Reduce margin */
+        }
+
+        .btn-sm {
+            padding: 0.2rem 0.4rem; /* Smaller button */
+            font-size: 0.75rem;
+        }
+
+        /* Ensure grid layout with proper spacing */
+        .row {
+            display: flex !important;
+            flex-wrap: wrap !important;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+
+        .col {
+            flex: 0 0 auto !important;
+            width: 25% !important; /* 4 columns on medium screens and up */
+            padding-right: 15px;
+            padding-left: 232px;
+            box-sizing: border-box;
+        }
+
+    </style>
+}

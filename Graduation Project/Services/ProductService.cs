@@ -1,52 +1,81 @@
 ﻿using Graduation_Project.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 
 namespace Graduation_Project.Services
 {
     public class ProductService
     {
         private readonly GraduationDbContext _context;
+        private readonly ILogger<ProductService> _logger;
 
-        public ProductService(GraduationDbContext context)
+        public ProductService(GraduationDbContext context, ILogger<ProductService> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
-        // دالة لاسترجاع جميع التصنيفات
         public List<Category> GetCategories()
         {
             return _context.Categories.ToList();
         }
 
-        // دالة لاسترجاع جميع المنتجات
         public async Task<List<Product>> GetAllProductsAsync()
         {
-            return await _context.Products.Include(p => p.Category).ToListAsync();
+            return await _context.Products
+                .Include(p => p.Category)
+                .ToListAsync();
         }
 
-        // دالة لاسترجاع منتج حسب الـ ID
         public async Task<Product> GetProductByIdAsync(int id)
         {
-            return await _context.Products.FirstOrDefaultAsync(p => p.ProductId == id);
+            return await _context.Products
+                .Include(p => p.Category)
+                .FirstOrDefaultAsync(p => p.ProductId == id);
         }
 
-        // دالة لإضافة منتج جديد
+        public async Task<List<Product>> GetProductsByCategoryAsync(int categoryId)
+        {
+            _logger.LogInformation($"Querying products for CategoryId: {categoryId}");
+
+            var products = await _context.Products
+                .Include(p => p.Category)
+                .Where(p => p.CategoryId == categoryId)
+                .ToListAsync();
+
+            if (!products.Any())
+            {
+                _logger.LogWarning($"No products found for CategoryId {categoryId}.");
+            }
+            else
+            {
+                _logger.LogInformation($"Found {products.Count} products for CategoryId: {categoryId}: {string.Join(", ", products.Select(p => $"ProductId: {p.ProductId}, Name: {p.Name}"))}");
+            }
+
+            return products;
+        }
+
+        public async Task<Category> GetCategoryByIdAsync(int categoryId)
+        {
+            return await _context.Categories
+                .FirstOrDefaultAsync(c => c.CategoryId == categoryId);
+        }
+
         public async Task AddProductAsync(Product product)
         {
             await _context.Products.AddAsync(product);
             await _context.SaveChangesAsync();
         }
 
-        // دالة لتحديث منتج
         public async Task UpdateProductAsync(Product product)
         {
             _context.Products.Update(product);
             await _context.SaveChangesAsync();
         }
 
-        // دالة لحذف منتج
         public async Task DeleteProductAsync(int id)
         {
             var product = await GetProductByIdAsync(id);

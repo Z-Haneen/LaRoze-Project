@@ -139,3 +139,10 @@ document.addEventListener("mouseup", () => {
 });
 
 updateProgress();
+
+
+function addToCart(name, price) {
+    // Placeholder for cart functionality
+    alert(`Added ${name} to cart for $${price}`);
+    // Implement actual cart logic here, e.g., using session storage or API calls
+}

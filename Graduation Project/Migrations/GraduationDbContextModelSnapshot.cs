@@ -93,6 +93,26 @@ namespace Graduation_Project.Migrations
                     b.HasIndex("ParentCategoryId");
 
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            CategoryId = 1,
+                            Description = "Clothing and accessories for men",
+                            Name = "Men"
+                        },
+                        new
+                        {
+                            CategoryId = 2,
+                            Description = "Clothing and accessories for women",
+                            Name = "Women"
+                        },
+                        new
+                        {
+                            CategoryId = 3,
+                            Description = "Clothing and accessories for children",
+                            Name = "Kids"
+                        });
                 });
 
             modelBuilder.Entity("Graduation_Project.Models.Contact", b =>
@@ -130,6 +150,27 @@ namespace Graduation_Project.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Contacts");
+                });
+
+            modelBuilder.Entity("Graduation_Project.Models.LoginModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Logins");
                 });
 
             modelBuilder.Entity("Graduation_Project.Models.Order", b =>
@@ -604,8 +645,9 @@ namespace Graduation_Project.Migrations
             modelBuilder.Entity("Graduation_Project.Models.Category", b =>
                 {
                     b.HasOne("Graduation_Project.Models.Category", "ParentCategory")
-                        .WithMany()
-                        .HasForeignKey("ParentCategoryId");
+                        .WithMany("ChildCategories")
+                        .HasForeignKey("ParentCategoryId")
+                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.Navigation("ParentCategory");
                 });
@@ -797,6 +839,8 @@ namespace Graduation_Project.Migrations
 
             modelBuilder.Entity("Graduation_Project.Models.Category", b =>
                 {
+                    b.Navigation("ChildCategories");
+
                     b.Navigation("Products");
 
                     b.Navigation("SubCategories");
