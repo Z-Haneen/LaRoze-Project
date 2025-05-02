@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6HTejGh9uQgCpoCiAl3uOLscR1MrboPkkYC0ffq/BBc=",
+  "Hash": "xv80pSW+MxE9NsBvg0clXACpiEewOPHDob4kx65WbV0=",
   "Source": "Graduation Project",
   "BasePath": "_content/Graduation Project",
   "Mode": "Default",
@@ -626,6 +626,27 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525.png"
     },
     {
+      "Identity": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311.jpg",
+      "SourceId": "Graduation Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\",
+      "BasePath": "_content/Graduation Project",
+      "RelativePath": "images/products/1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nm471apr0a",
+      "Integrity": "0ZMFHiSewaeq5+KgenT2KsZ9cdhB5Rm3qnHhxdz4AKs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311.jpg"
+    },
+    {
       "Identity": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e2496af24e1cde9f8.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
@@ -668,6 +689,48 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg"
     },
     {
+      "Identity": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.jpg",
+      "SourceId": "Graduation Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\",
+      "BasePath": "_content/Graduation Project",
+      "RelativePath": "images/products/5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gjxgp374m7",
+      "Integrity": "NN0eDQqQQwq8hxHEyT/aIzO6UfVa0YiZ399NaoK/pyM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.jpg"
+    },
+    {
+      "Identity": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png",
+      "SourceId": "Graduation Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\",
+      "BasePath": "_content/Graduation Project",
+      "RelativePath": "images/products/5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vnsujqq8s8",
+      "Integrity": "mye3ia1+rjtNJdF+7mLdWJMWtlevoSgE8tRywwD9j9A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png"
+    },
+    {
       "Identity": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
@@ -687,6 +750,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png"
+    },
+    {
+      "Identity": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.png",
+      "SourceId": "Graduation Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\",
+      "BasePath": "_content/Graduation Project",
+      "RelativePath": "images/products/970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nbv82194s5",
+      "Integrity": "k8Y0G61/ZOdmlLcKx40rK4RMk7Vz8OPbGGvszfzEITA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.png"
+    },
+    {
+      "Identity": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "SourceId": "Graduation Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\",
+      "BasePath": "_content/Graduation Project",
+      "RelativePath": "images/products/b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "63ohx84n2c",
+      "Integrity": "MnU1x2MrSSAkAi9sQ6a8BEaciqLM98nDd84rkDKZ70Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.jpg"
+    },
+    {
+      "Identity": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.png",
+      "SourceId": "Graduation Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\",
+      "BasePath": "_content/Graduation Project",
+      "RelativePath": "images/products/c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8api9nozz5",
+      "Integrity": "gPV7gK+/tLkDQph/r579h6nB/vYgnon4KgaNHqx4Zk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.png"
     },
     {
       "Identity": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.png",
@@ -710,12 +836,12 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.png"
     },
     {
-      "Identity": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\e5b4a5f8-0887-418d-a561-15c946035837_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "Identity": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\d6e15746-00b9-49ef-94a3-1ddcb875a72d_7389d65b3e3fd0d8561cba3756a24e6c.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
-      "RelativePath": "images/products/e5b4a5f8-0887-418d-a561-15c946035837_641fb71b6e610e9e2496af24e1cde9f8#[.{fingerprint}]?.png",
+      "RelativePath": "images/products/d6e15746-00b9-49ef-94a3-1ddcb875a72d_7389d65b3e3fd0d8561cba3756a24e6c#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -724,11 +850,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rcmx8xczci",
-      "Integrity": "a5sfIYFf/8NZDxbmyRrNTHiwsUz9qMp9HwzDCicINok=",
+      "Fingerprint": "ua8gpm3z4r",
+      "Integrity": "Bk9mk9D+0ag/Q+7OrXa4OyD/cHwaGEkzAVgkUlbnp6g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\e5b4a5f8-0887-418d-a561-15c946035837_641fb71b6e610e9e2496af24e1cde9f8.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\d6e15746-00b9-49ef-94a3-1ddcb875a72d_7389d65b3e3fd0d8561cba3756a24e6c.png"
     },
     {
       "Identity": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\e98360e0-38a2-48df-b9e9-31db0cfeb488_7acf559f231ad01bef94a184d0596525.png",
@@ -2118,7 +2244,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 09:03:53 GMT"
+          "Value": "Fri, 02 May 2025 13:01:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2155,7 +2281,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 09:03:53 GMT"
+          "Value": "Fri, 02 May 2025 13:01:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2282,7 +2408,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 07:09:36 GMT"
+          "Value": "Fri, 02 May 2025 18:09:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2319,7 +2445,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 07:09:36 GMT"
+          "Value": "Fri, 02 May 2025 18:09:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2364,7 +2490,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 07:09:36 GMT"
+          "Value": "Fri, 02 May 2025 18:09:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2409,7 +2535,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 07:09:36 GMT"
+          "Value": "Fri, 02 May 2025 18:09:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4392,6 +4518,88 @@
       ]
     },
     {
+      "Route": "images/products/1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311.jpg",
+      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9601302"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0ZMFHiSewaeq5+KgenT2KsZ9cdhB5Rm3qnHhxdz4AKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 12:47:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0ZMFHiSewaeq5+KgenT2KsZ9cdhB5Rm3qnHhxdz4AKs="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311.nm471apr0a.jpg",
+      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9601302"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0ZMFHiSewaeq5+KgenT2KsZ9cdhB5Rm3qnHhxdz4AKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 12:47:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nm471apr0a"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0ZMFHiSewaeq5+KgenT2KsZ9cdhB5Rm3qnHhxdz4AKs="
+        }
+      ]
+    },
+    {
       "Route": "images/products/25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e2496af24e1cde9f8.png",
       "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e2496af24e1cde9f8.png",
       "Selectors": [],
@@ -4556,6 +4764,170 @@
       ]
     },
     {
+      "Route": "images/products/5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.gjxgp374m7.jpg",
+      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1411430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NN0eDQqQQwq8hxHEyT/aIzO6UfVa0YiZ399NaoK/pyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 12:48:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gjxgp374m7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NN0eDQqQQwq8hxHEyT/aIzO6UfVa0YiZ399NaoK/pyM="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.jpg",
+      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1411430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NN0eDQqQQwq8hxHEyT/aIzO6UfVa0YiZ399NaoK/pyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 12:48:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NN0eDQqQQwq8hxHEyT/aIzO6UfVa0YiZ399NaoK/pyM="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png",
+      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "279344"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mye3ia1+rjtNJdF+7mLdWJMWtlevoSgE8tRywwD9j9A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 13:17:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mye3ia1+rjtNJdF+7mLdWJMWtlevoSgE8tRywwD9j9A="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.vnsujqq8s8.png",
+      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "279344"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mye3ia1+rjtNJdF+7mLdWJMWtlevoSgE8tRywwD9j9A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 13:17:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vnsujqq8s8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mye3ia1+rjtNJdF+7mLdWJMWtlevoSgE8tRywwD9j9A="
+        }
+      ]
+    },
+    {
       "Route": "images/products/70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png",
       "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png",
       "Selectors": [],
@@ -4634,6 +5006,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-a5sfIYFf/8NZDxbmyRrNTHiwsUz9qMp9HwzDCicINok="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.nbv82194s5.png",
+      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k8Y0G61/ZOdmlLcKx40rK4RMk7Vz8OPbGGvszfzEITA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 12:49:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nbv82194s5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k8Y0G61/ZOdmlLcKx40rK4RMk7Vz8OPbGGvszfzEITA="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.png",
+      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k8Y0G61/ZOdmlLcKx40rK4RMk7Vz8OPbGGvszfzEITA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 12:49:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k8Y0G61/ZOdmlLcKx40rK4RMk7Vz8OPbGGvszfzEITA="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.63ohx84n2c.jpg",
+      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3358786"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MnU1x2MrSSAkAi9sQ6a8BEaciqLM98nDd84rkDKZ70Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 12:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "63ohx84n2c"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MnU1x2MrSSAkAi9sQ6a8BEaciqLM98nDd84rkDKZ70Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3358786"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MnU1x2MrSSAkAi9sQ6a8BEaciqLM98nDd84rkDKZ70Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 12:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MnU1x2MrSSAkAi9sQ6a8BEaciqLM98nDd84rkDKZ70Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.8api9nozz5.png",
+      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4973533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gPV7gK+/tLkDQph/r579h6nB/vYgnon4KgaNHqx4Zk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 12:45:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8api9nozz5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gPV7gK+/tLkDQph/r579h6nB/vYgnon4KgaNHqx4Zk8="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.png",
+      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4973533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gPV7gK+/tLkDQph/r579h6nB/vYgnon4KgaNHqx4Zk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 02 May 2025 12:45:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gPV7gK+/tLkDQph/r579h6nB/vYgnon4KgaNHqx4Zk8="
         }
       ]
     },
@@ -4720,8 +5338,8 @@
       ]
     },
     {
-      "Route": "images/products/e5b4a5f8-0887-418d-a561-15c946035837_641fb71b6e610e9e2496af24e1cde9f8.png",
-      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\e5b4a5f8-0887-418d-a561-15c946035837_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "Route": "images/products/d6e15746-00b9-49ef-94a3-1ddcb875a72d_7389d65b3e3fd0d8561cba3756a24e6c.png",
+      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\d6e15746-00b9-49ef-94a3-1ddcb875a72d_7389d65b3e3fd0d8561cba3756a24e6c.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4730,7 +5348,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "215291"
+          "Value": "172633"
         },
         {
           "Name": "Content-Type",
@@ -4738,11 +5356,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a5sfIYFf/8NZDxbmyRrNTHiwsUz9qMp9HwzDCicINok=\""
+          "Value": "\"Bk9mk9D+0ag/Q+7OrXa4OyD/cHwaGEkzAVgkUlbnp6g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 07:44:42 GMT"
+          "Value": "Fri, 02 May 2025 18:39:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4752,13 +5370,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a5sfIYFf/8NZDxbmyRrNTHiwsUz9qMp9HwzDCicINok="
+          "Value": "sha256-Bk9mk9D+0ag/Q+7OrXa4OyD/cHwaGEkzAVgkUlbnp6g="
         }
       ]
     },
     {
-      "Route": "images/products/e5b4a5f8-0887-418d-a561-15c946035837_641fb71b6e610e9e2496af24e1cde9f8.rcmx8xczci.png",
-      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\e5b4a5f8-0887-418d-a561-15c946035837_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "Route": "images/products/d6e15746-00b9-49ef-94a3-1ddcb875a72d_7389d65b3e3fd0d8561cba3756a24e6c.ua8gpm3z4r.png",
+      "AssetFile": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\d6e15746-00b9-49ef-94a3-1ddcb875a72d_7389d65b3e3fd0d8561cba3756a24e6c.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4767,7 +5385,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "215291"
+          "Value": "172633"
         },
         {
           "Name": "Content-Type",
@@ -4775,11 +5393,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a5sfIYFf/8NZDxbmyRrNTHiwsUz9qMp9HwzDCicINok=\""
+          "Value": "\"Bk9mk9D+0ag/Q+7OrXa4OyD/cHwaGEkzAVgkUlbnp6g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 02 May 2025 07:44:42 GMT"
+          "Value": "Fri, 02 May 2025 18:39:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4789,15 +5407,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "rcmx8xczci"
+          "Value": "ua8gpm3z4r"
         },
         {
           "Name": "label",
-          "Value": "images/products/e5b4a5f8-0887-418d-a561-15c946035837_641fb71b6e610e9e2496af24e1cde9f8.png"
+          "Value": "images/products/d6e15746-00b9-49ef-94a3-1ddcb875a72d_7389d65b3e3fd0d8561cba3756a24e6c.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a5sfIYFf/8NZDxbmyRrNTHiwsUz9qMp9HwzDCicINok="
+          "Value": "sha256-Bk9mk9D+0ag/Q+7OrXa4OyD/cHwaGEkzAVgkUlbnp6g="
         }
       ]
     },

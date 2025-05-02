@@ -12,6 +12,13 @@ namespace Graduation_Project.Services
         private readonly GraduationDbContext _context;
         private readonly ILogger<ProductService> _logger;
 
+
+        public ProductService(GraduationDbContext context)
+        {
+            _context = context;
+        }
+
+
         public ProductService(GraduationDbContext context, ILogger<ProductService> logger)
         {
             _context = context;

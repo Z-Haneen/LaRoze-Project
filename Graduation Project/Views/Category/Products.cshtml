@@ -47,7 +47,7 @@
                             <h6 class="card-title mb-0">@product.Name</h6>
                             <p class="card-text text-muted small mb-0">Category: @(product.Category?.Name ?? "N/A")</p>
                             <p class="card-text fw-bold small mb-1">@product.Price.ToString("C")</p>
-                            <button class="btn btn-primary btn-sm" onclick="addToCart('@product.Name', @product.Price)">Add to Cart</button>
+                            <a asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@product.ProductId" class="btn btn-primary btn-sm">Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,6 @@
             max-width: 200px; /* Limit the card width */
             margin: 0 auto; /* Center the card in the column */
             margin-top: 235px;
-            margin-left: -530px;
         }
 
         .card-body {

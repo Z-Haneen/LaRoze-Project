@@ -1,5 +1,4 @@
-﻿@* by fady *@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -27,19 +26,17 @@
                     <li><a class="dropdown-item" asp-controller="Category" asp-action="Products" asp-route-categoryId="3">Kids</a></li>
                 </ul>
             </li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            @{
-                if (!(User.Identity?.IsAuthenticated ?? false))
-                {
-                    <li><a asp-controller="Login" asp-action="Index" class="btn btn-primary">Sign in</a></li>
-                    <li><a asp-controller="Register" asp-action="add" class="btn btn-secondary">Register</a></li>
-                }
-                else
-                {
-                    <li><a asp-controller="Account" asp-action="Logout" class="btn btn-secondary">Logout</a></li>
-                }
+            <li><a asp-controller="Home" asp-action="Shop">Shop</a></li>
+            <li><a asp-controller="Home" asp-action="About">About</a></li>
+            <li><a asp-controller="Home" asp-action="Contact">Contact</a></li>
+            @if (string.IsNullOrEmpty(Context.Session.GetString("UserId")))
+            {
+                <li><a asp-controller="Login" asp-action="Index" class="btn btn-primary">Sign in</a></li>
+                <li><a asp-controller="Register" asp-action="add" class="btn btn-secondary">Register</a></li>
+            }
+            else
+            {
+                <li><a asp-controller="Login" asp-action="Logout" class="btn btn-secondary">Logout</a></li>
             }
         </ul>
     </div>
@@ -53,8 +50,8 @@
             </div>
             <a asp-area="" asp-controller="Home" asp-action="Index" class="logo">Laroze</a>
             <div class="cart-heart-container">
-                <a href="cart.html" class="cart-link"><i class='bx bx-cart'></i></a>
-                <a href="#" class="cart-link"><i class='bx bx-heart'></i></a>
+                <a asp-controller="Cart" asp-action="Index" class="cart-link"><i class='bx bx-cart'></i></a>
+                <a asp-controller="Wishlist" asp-action="Index" class="cart-link"><i class='bx bx-heart'></i></a>
             </div>
         </div>
         <ul class="nav-links">
@@ -70,31 +67,29 @@
                     <li><a class="dropdown-item" asp-controller="Category" asp-action="Products" asp-route-categoryId="3">Kids</a></li>
                 </ul>
             </li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            @{
-                if (!(User.Identity?.IsAuthenticated ?? false))
-                {
-                    <li class="sign-in-li"><a asp-controller="Login" asp-action="Index" class="btn btn-primary">Sign in</a></li>
-                    <li><a asp-controller="Register" asp-action="add" class="btn btn-secondary">Register</a></li>
-                }
-                else
-                {
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdownProfile" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="bi bi-person-circle me-1"></i> @User.Identity.Name
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownProfile">
-                            <li><a class="dropdown-item" href="#">Profile</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" asp-controller="Account" asp-action="Logout">Logout</a></li>
-                        </ul>
-                    </li>
-                }
+            <li><a asp-controller="Home" asp-action="Shop">Shop</a></li>
+            <li><a asp-controller="Home" asp-action="About">About</a></li>
+            <li><a asp-controller="Home" asp-action="Contact">Contact</a></li>
+            @if (string.IsNullOrEmpty(Context.Session.GetString("UserId")))
+            {
+                <li class="sign-in-li"><a asp-controller="Login" asp-action="Index" class="btn btn-primary">Sign in</a></li>
+                <li><a asp-controller="Register" asp-action="add" class="btn btn-secondary">Register</a></li>
             }
-            <li><a href="cart.html" class="cart-link"><i class='bx bx-cart'></i></a></li>
-            <li><a href="#" class="cart-link"><i class='bx bx-heart'></i></a></li>
+            else
+            {
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdownProfile" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-person-circle me-1"></i> Welcome
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownProfile">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" asp-controller="Login" asp-action="Logout">Logout</a></li>
+                    </ul>
+                </li>
+            }
+            <li><a asp-controller="Cart" asp-action="Index" class="cart-link"><i class='bx bx-cart'></i></a></li>
+            <li><a asp-controller="Wishlist" asp-action="Index" class="cart-link"><i class='bx bx-heart'></i></a></li>
         </ul>
     </nav>
 

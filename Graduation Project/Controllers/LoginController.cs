@@ -1,67 +1,74 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Graduation_Project.Models;
+using Microsoft.Extensions.Logging;
 
 namespace Graduation_Project.Controllers
 {
     public class LoginController : Controller
     {
         private readonly GraduationDbContext _context;
+        private readonly ILogger<LoginController> _logger;
 
-        public LoginController(GraduationDbContext context)
+        public LoginController(GraduationDbContext context, ILogger<LoginController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
-        // GET: عرض صفحة تسجيل الدخول
+        // GET: Display login page
         public IActionResult Index()
         {
             return View("Login");
         }
 
-        // POST: تسجيل الدخول
+        // POST: Handle login
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Login(LoginModel loginModel)
         {
             if (ModelState.IsValid)
             {
-                // البحث عن المستخدم في قاعدة البيانات باستخدام البريد الإلكتروني
                 var user = _context.Users.FirstOrDefault(u => u.Email == loginModel.Email);
 
-                if (user != null)
+                if (user != null && user.Password == loginModel.Password)
                 {
-                    // التحقق من صحة كلمة المرور مباشرة (بدون تشفير)
-                    if (user.Password == loginModel.Password)
-                    {
-                        // إذا تم العثور على المستخدم، تحديث حالة تسجيل الدخول
-                        user.LastLogin = DateTime.Now;
-                        _context.SaveChanges();
+                    user.LastLogin = DateTime.Now;
+                    _context.SaveChanges();
 
-                        // تخزين معلومات المستخدم في Session
-                        HttpContext.Session.SetString("UserId", user.UserId.ToString());
-                        HttpContext.Session.SetString("UserRole", user.RoleId.ToString());
+                    // Set session data
+                    HttpContext.Session.SetString("UserId", user.UserId.ToString());
+                    HttpContext.Session.SetString("UserRole", user.RoleId.ToString());
+                    _logger.LogInformation($"User {user.UserId} logged in successfully. Session UserId set to {user.UserId}");
 
-                        // إعادة توجيه إلى الصفحة الرئيسية
-                        TempData["SuccessMessage"] = "Login successful!";
-                        return Redirect("/Home/Index");
-                    }
+                    // Log session keys and cookie for debugging
+                    var sessionKeys = HttpContext.Session.Keys;
+                    var sessionCookie = HttpContext.Request.Cookies["ASP.NET_SessionId"];
+                    _logger.LogInformation($"After setting session. Session Keys: {string.Join(", ", sessionKeys)}, Session Cookie: {sessionCookie ?? "null"}");
+
+                    // Ensure session is committed before redirect
+                    HttpContext.Session.CommitAsync().GetAwaiter().GetResult();
+
+                    TempData["SuccessMessage"] = "Login successful! Redirecting to home.";
+                    return RedirectToAction("Index", "Home");
                 }
 
-                // إذا لم يتم العثور على المستخدم أو كلمة المرور غير صحيحة
-                ModelState.AddModelError("", "Invalid email or password.");
+                // Handle invalid login
+                TempData["ErrorMessage"] = "Invalid email or password.";
+                _logger.LogWarning($"Failed login attempt for email: {loginModel.Email}");
+            }
+            else
+            {
+                TempData["ErrorMessage"] = "Please provide valid email and password.";
             }
 
-            // إذا كانت البيانات غير صالحة، إعادة عرض الصفحة مع رسائل الخطأ
             return View("Login", loginModel);
         }
 
-        // GET: تسجيل الخروج
+        // GET: Handle logout
         public IActionResult Logout()
         {
-            // مسح بيانات الجلسة
             HttpContext.Session.Clear();
-
-            // إعادة توجيه إلى صفحة تسجيل الدخول
+            _logger.LogInformation("User logged out. Session cleared.");
             TempData["SuccessMessage"] = "You have been logged out successfully.";
             return RedirectToAction("Index", "Login");
         }
