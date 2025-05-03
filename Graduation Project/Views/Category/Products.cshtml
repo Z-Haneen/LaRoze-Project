@@ -47,7 +47,7 @@
                             <h6 class="card-title mb-0">@product.Name</h6>
                             <p class="card-text text-muted small mb-0">Category: @(product.Category?.Name ?? "N/A")</p>
                             <p class="card-text fw-bold small mb-1">@product.Price.ToString("C")</p>
-                            <a asp-controller="Cart" asp-action="AddToCart" asp-route-productId="@product.ProductId" class="btn btn-primary btn-sm">Add to Cart</a>
+                            <a asp-controller="Category" asp-action="ProductDetails" asp-route-productId="@product.ProductId" class="btn btn-primary btn-sm">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -118,6 +118,5 @@
             padding-left: 232px;
             box-sizing: border-box;
         }
-
     </style>
 }
