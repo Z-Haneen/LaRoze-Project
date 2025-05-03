@@ -36,8 +36,6 @@ wwwroot\images\products\970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef
 wwwroot\images\products\b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.jpg
 wwwroot\images\products\c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.png
 wwwroot\images\products\ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.png
-wwwroot\images\products\d6e15746-00b9-49ef-94a3-1ddcb875a72d_7389d65b3e3fd0d8561cba3756a24e6c.png
-wwwroot\images\products\e98360e0-38a2-48df-b9e9-31db0cfeb488_7acf559f231ad01bef94a184d0596525.png
 wwwroot\images\products\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg
 wwwroot\js\main.js
 wwwroot\js\site.js

@@ -67,18 +67,35 @@
                         if (response.success) {
                             messageDiv.removeClass('alert-danger d-none').addClass('alert-success').text(response.message);
                             setTimeout(function () {
+                                messageDiv.addClass('d-none'); // اخفاء الرسالة
                                 window.location.href = '@Url.Action("Index", "Home")'; // Redirect to home
-                            }, 2000);
+                            }, 1500);
                         } else {
                             messageDiv.removeClass('alert-success d-none').addClass('alert-danger').text(response.message);
+                            setTimeout(function () {
+                                messageDiv.addClass('d-none'); // اخفاء الرسالة
+                            }, 3000);
                         }
                     },
                     error: function (xhr, status, error) {
                         console.error("AJAX error:", status, error); // Debugging
                         messageDiv.removeClass('alert-success d-none').addClass('alert-danger').text('An error occurred. Please try again.');
+                        setTimeout(function () {
+                            messageDiv.addClass('d-none');
+                        }, 3000);
                     }
                 });
             });
         });
     </script>
+    <style>
+        #checkoutMessage {
+            margin-top: 10px; /* مسافة صغيرة تحت العنوان */
+            text-align: center;
+            width: 100%;
+            max-width: 500px; /* عرض مناسب */
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 }

@@ -1,24 +1,14 @@
 ﻿@model Graduation_Project.Models.Cart
-@{
-    ViewData["Title"] = "Your Cart";
-}
 
 <div class="container my-5">
     <h2 class="text-center mb-4">Your Cart</h2>
 
-    <!-- Error/Success Message Placeholder -->
-    <div id="cartMessage" class="alert d-none" role="alert"></div>
+    <!-- Placeholder for success/error message -->
+    <div id="message" class="alert d-none" role="alert"></div>
 
-    @if (Model == null || Model.CartItems == null || !Model.CartItems.Any())
+    @if (Model.CartItems.Any())
     {
-        <div class="col-12 text-center text-muted">
-            <p>Your cart is empty.</p>
-            <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Continue Shopping</a>
-        </div>
-    }
-    else
-    {
-        <table class="table table-bordered">
+        <table class="table">
             <thead>
                 <tr>
                     <th>Image</th>
@@ -33,24 +23,18 @@
                 @foreach (var item in Model.CartItems)
                 {
                     <tr>
-                        <td>
-                            <img src="@(string.IsNullOrEmpty(item.Product.ImageUrl) ? "/images/products/no-image.png" : item.Product.ImageUrl)"
-                                 class="img-fluid rounded"
-                                 alt="@item.Product.Name"
-                                 style="max-height: 50px; object-fit: cover;" />
-                        </td>
+                        <td><img src="@item.Product.ImageUrl" alt="@item.Product.Name" style="width: 50px;" /></td>
                         <td>@item.Product.Name</td>
                         <td>@item.Product.Price.ToString("C")</td>
                         <td>
                             <form class="update-quantity-form" data-cart-item-id="@item.CartItemId">
-                                <input type="number" name="quantity" value="@item.Quantity" min="1" max="@item.Product.StockQuantity" class="form-control d-inline w-50" />
-                                <button type="submit" class="btn btn-primary btn-sm">Update</button>
+                                <input type="number" name="quantity" value="@item.Quantity" min="1" max="@(item.Product.StockQuantity + item.Quantity)" class="form-control w-25 d-inline" />
+                                <button type="submit" class="btn btn-secondary btn-sm">Update</button>
                             </form>
                         </td>
                         <td>@((item.Quantity * item.Product.Price).ToString("C"))</td>
                         <td>
-                            <form asp-controller="Cart" asp-action="RemoveFromCart" method="post">
-                                <input type="hidden" name="cartItemId" value="@item.CartItemId" />
+                            <form class="remove-item-form" data-cart-item-id="@item.CartItemId">
                                 <button type="submit" class="btn btn-danger btn-sm">Remove</button>
                             </form>
                         </td>
@@ -59,47 +43,98 @@
             </tbody>
         </table>
 
-        <!-- Cart Actions -->
-        <div class="text-end mt-4">
-            <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Continue Shopping</a>
+        <div class="text-center mt-4">
+            <a href="@Url.Action("Index", "Home")" class="btn btn-success">Continue Shopping</a>
             <a href="@Url.Action("Checkout", "Cart")" class="btn btn-primary">Complete Order</a>
         </div>
+    }
+    else
+    {
+        <p class="text-center">Your cart is empty.</p>
     }
 </div>
 
 @section Scripts {
     <script>
         $(document).ready(function () {
+            // Update Quantity
             $('.update-quantity-form').submit(function (e) {
                 e.preventDefault();
                 var form = $(this);
                 var cartItemId = form.data('cart-item-id');
                 var quantity = form.find('input[name="quantity"]').val();
-                var messageDiv = $('#cartMessage');
-
-                console.log("Updating quantity for CartItemId:", cartItemId, "Quantity:", quantity); // Debugging
+                var messageDiv = $('#message');
 
                 $.ajax({
                     url: '@Url.Action("UpdateQuantity", "Cart")',
                     type: 'POST',
                     data: { cartItemId: cartItemId, quantity: quantity },
                     success: function (response) {
-                        console.log("AJAX response:", response); // Debugging
                         if (response.success) {
                             messageDiv.removeClass('alert-danger d-none').addClass('alert-success').text(response.message);
                             setTimeout(function () {
-                                location.reload(); // Reload to update cart totals
-                            }, 2000);
+                                messageDiv.addClass('d-none'); // اخفاء الرسالة
+                                location.reload(); // تجديد الصفحة
+                            }, 1500); // انتظار 1.5 ثانية
                         } else {
                             messageDiv.removeClass('alert-success d-none').addClass('alert-danger').text(response.message);
+                            setTimeout(function () {
+                                messageDiv.addClass('d-none'); // اخفاء الرسالة
+                            }, 3000); // اخفاء بعد 3 ثواني لو فيه خطأ
                         }
                     },
-                    error: function (xhr, status, error) {
-                        console.error("AJAX error:", status, error); // Debugging
-                        messageDiv.removeClass('alert-success d-none').addClass('alert-danger').text('An error occurred. Please try again.');
+                    error: function () {
+                        messageDiv.removeClass('alert-success d-none').addClass('alert-danger').text('An error occurred while updating the quantity.');
+                        setTimeout(function () {
+                            messageDiv.addClass('d-none');
+                        }, 3000);
+                    }
+                });
+            });
+
+            // Remove Item
+            $('.remove-item-form').submit(function (e) {
+                e.preventDefault();
+                var form = $(this);
+                var cartItemId = form.data('cart-item-id');
+                var messageDiv = $('#message');
+
+                $.ajax({
+                    url: '@Url.Action("RemoveFromCart", "Cart")',
+                    type: 'POST',
+                    data: { cartItemId: cartItemId },
+                    success: function (response) {
+                        if (response.success) {
+                            messageDiv.removeClass('alert-danger d-none').addClass('alert-success').text(response.message);
+                            setTimeout(function () {
+                                messageDiv.addClass('d-none');
+                                location.reload();
+                            }, 1500);
+                        } else {
+                            messageDiv.removeClass('alert-success d-none').addClass('alert-danger').text(response.message);
+                            setTimeout(function () {
+                                messageDiv.addClass('d-none');
+                            }, 3000);
+                        }
+                    },
+                    error: function () {
+                        messageDiv.removeClass('alert-success d-none').addClass('alert-danger').text('An error occurred while removing the item.');
+                        setTimeout(function () {
+                            messageDiv.addClass('d-none');
+                        }, 3000);
                     }
                 });
             });
         });
     </script>
+    <style>
+        #message {
+            margin-top: 10px; /* مسافة صغيرة تحت العنوان */
+            text-align: center;
+            width: 100%;
+            max-width: 500px; /* عرض مناسب */
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hanee\\OneDrive\\Desktop\\Graduation Project (8)\\Graduation Project\\Graduation Project.csproj": {}
+    "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\Graduation Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hanee\\OneDrive\\Desktop\\Graduation Project (8)\\Graduation Project\\Graduation Project.csproj": {
+    "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\Graduation Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hanee\\OneDrive\\Desktop\\Graduation Project (8)\\Graduation Project\\Graduation Project.csproj",
+        "projectUniqueName": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\Graduation Project.csproj",
         "projectName": "Graduation Project",
-        "projectPath": "C:\\Users\\hanee\\OneDrive\\Desktop\\Graduation Project (8)\\Graduation Project\\Graduation Project.csproj",
-        "packagesPath": "C:\\Users\\hanee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hanee\\OneDrive\\Desktop\\Graduation Project (8)\\Graduation Project\\obj\\",
+        "projectPath": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\Graduation Project.csproj",
+        "packagesPath": "C:\\Users\\e2len\\.nuget\\packages\\",
+        "outputPath": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hanee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\e2len\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -94,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

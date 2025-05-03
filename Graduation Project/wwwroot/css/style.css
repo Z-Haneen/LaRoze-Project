@@ -1229,8 +1229,8 @@ input:focus{
 }
 
 input:hover {
-    border: 1.5px solid #dab9ea;
-    transform: scale(1.02);
+/*    border: 1.5px solid #dab9ea;*/
+/*    transform: scale(1.02);*/
 }
 
 .register-form .agree{

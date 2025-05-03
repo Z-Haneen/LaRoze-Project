@@ -84,7 +84,7 @@ namespace Graduation_Project.Controllers
                 return Json(new { success = false, message = "Product not found." });
             }
 
-            if (quantity >= product.StockQuantity)
+            if (quantity > product.StockQuantity) // غيرنا >= إلى >
             {
                 _logger.LogWarning($"Cannot add requested quantity for ProductId {productId}. Requested: {quantity}, Available: {product.StockQuantity}");
                 return Json(new { success = false, message = $"Out of Stock. Only {product.StockQuantity} items available." });
@@ -105,10 +105,11 @@ namespace Graduation_Project.Controllers
             if (cartItem != null)
             {
                 var newQuantity = cartItem.Quantity + quantity;
-                if (newQuantity >= product.StockQuantity)
+                var availableQuantity = product.StockQuantity + cartItem.Quantity; // نجمع الكمية الموجودة في السلة مع الكمية المتاحة
+                if (newQuantity > availableQuantity)
                 {
-                    _logger.LogWarning($"Cannot add more items than available stock for ProductId {productId}. Current: {cartItem.Quantity}, Requested: {quantity}, Available: {product.StockQuantity}");
-                    return Json(new { success = false, message = $"Out of Stock. Only {product.StockQuantity} items available." });
+                    _logger.LogWarning($"Cannot add more items than available stock for ProductId {productId}. Current: {cartItem.Quantity}, Requested: {quantity}, Available: {availableQuantity}");
+                    return Json(new { success = false, message = $"Out of Stock. Only {availableQuantity} items available." });
                 }
                 cartItem.Quantity = newQuantity;
             }
@@ -199,7 +200,7 @@ namespace Graduation_Project.Controllers
                 return Json(new { success = true, message = "Item removed from cart." });
             }
 
-            if (quantity >= cartItem.Product.StockQuantity + cartItem.Quantity)
+            if (quantity > cartItem.Product.StockQuantity + cartItem.Quantity) // غيرنا >= إلى >
             {
                 _logger.LogWarning($"Cannot set quantity at or above available stock for CartItemId {cartItemId}. Requested: {quantity}, Available: {cartItem.Product.StockQuantity + cartItem.Quantity}");
                 return Json(new { success = false, message = $"Out of Stock. Only {cartItem.Product.StockQuantity + cartItem.Quantity} items available." });
