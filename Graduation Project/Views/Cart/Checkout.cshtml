@@ -1,0 +1,101 @@
+﻿@model Graduation_Project.Models.Cart
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Checkout</h2>
+
+    <!-- Error/Success Message Placeholder -->
+    <div id="checkoutMessage" class="alert d-none" role="alert"></div>
+
+    @if (Model == null || Model.CartItems == null || !Model.CartItems.Any())
+    {
+        <div class="col-12 text-center text-muted">
+            <p>Your cart is empty.</p>
+            <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Continue Shopping</a>
+        </div>
+    }
+    else
+    {
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.CartItems)
+                {
+                    <tr>
+                        <td>@item.Product.Name</td>
+                        <td>@item.Product.Price.ToString("C")</td>
+                        <td>@item.Quantity</td>
+                        <td>@((item.Quantity * item.Product.Price).ToString("C"))</td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="text-end"><strong>Total:</strong></td>
+                    <td>@Model.CartItems.Sum(item => item.Quantity * item.Product.Price).ToString("C")</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <div class="text-end mt-4">
+            <a href="@Url.Action("Index", "Cart")" class="btn btn-secondary">Back to Cart</a>
+            <button id="confirmOrderBtn" class="btn btn-primary">Confirm Order</button>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('#confirmOrderBtn').click(function () {
+                var messageDiv = $('#checkoutMessage');
+
+                $.ajax({
+                    url: '@Url.Action("ConfirmOrder", "Cart")',
+                    type: 'POST',
+                    success: function (response) {
+                        console.log("AJAX response:", response); // Debugging
+                        if (response.success) {
+                            messageDiv.removeClass('alert-danger d-none').addClass('alert-success').text(response.message);
+                            setTimeout(function () {
+                                messageDiv.addClass('d-none'); // اخفاء الرسالة
+                                window.location.href = '@Url.Action("Index", "Home")'; // Redirect to home
+                            }, 1500);
+                        } else {
+                            messageDiv.removeClass('alert-success d-none').addClass('alert-danger').text(response.message);
+                            setTimeout(function () {
+                                messageDiv.addClass('d-none'); // اخفاء الرسالة
+                            }, 3000);
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("AJAX error:", status, error); // Debugging
+                        messageDiv.removeClass('alert-success d-none').addClass('alert-danger').text('An error occurred. Please try again.');
+                        setTimeout(function () {
+                            messageDiv.addClass('d-none');
+                        }, 3000);
+                    }
+                });
+            });
+        });
+    </script>
+    <style>
+        #checkoutMessage {
+            margin-top: 10px; /* مسافة صغيرة تحت العنوان */
+            text-align: center;
+            width: 100%;
+            max-width: 500px; /* عرض مناسب */
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+}

@@ -1,0 +1,78 @@
+﻿@model Graduation_Project.Models.Product
+@{
+    ViewData["Title"] = $"{Model.Name} - Product Details";
+}
+
+<div class="container my-5">
+    <div class="row">
+        <!-- Product Image -->
+        <div class="col-md-6">
+            <img src="@(string.IsNullOrEmpty(Model.ImageUrl) ? "/images/products/no-image.png" : Model.ImageUrl)"
+                 class="img-fluid rounded"
+                 alt="@Model.Name"
+                 style="max-height: 500px; object-fit: cover;" />
+        </div>
+        <!-- Product Details -->
+        <div class="col-md-6">
+            <h2>@Model.Name</h2>
+            <p class="text-muted">Category: @(Model.Category?.Name ?? "N/A")</p>
+            <p class="lead">@Model.Price.ToString("C")</p>
+            <p>@Model.Description</p>
+            <!-- Error/Success Message Placeholder -->
+            <div id="message" class="alert d-none" role="alert"></div>
+            @if (Model.StockQuantity > 0)
+            {
+                <form id="addToCartForm" asp-controller="Cart" asp-action="AddToCart" method="post">
+                    <input type="hidden" name="productId" value="@Model.ProductId" />
+                    <div class="mb-3">
+                        <label for="quantity" class="form-label">Quantity (Available: <span id="availableStock">@Model.StockQuantity</span>):</label>
+                        <input type="number" id="quantity" name="quantity" class="form-control w-25" value="1" min="1" max="@Model.StockQuantity" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Buy Now</button>
+                </form>
+            }
+            else
+            {
+                <p class="text-danger">Out of Stock</p>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            console.log("jQuery loaded and form ready"); // Debugging
+
+            $('#addToCartForm').submit(function (e) {
+                e.preventDefault();
+                console.log("Form submitted"); // Debugging
+
+                var messageDiv = $('#message');
+                var formData = $(this).serialize();
+                console.log("Form data:", formData); // Debugging
+
+                $.ajax({
+                    url: $(this).attr('action'),
+                    type: 'POST',
+                    data: formData,
+                    success: function (response) {
+                        console.log("AJAX response:", response); // Debugging
+                        if (response.success) {
+                            messageDiv.removeClass('alert-danger d-none').addClass('alert-success').text(response.message);
+                            setTimeout(function () {
+                                location.reload(); // Reload page to update stock quantity
+                            }, 2000); // Reload after 2 seconds
+                        } else {
+                            messageDiv.removeClass('alert-success d-none').addClass('alert-danger').text(response.message);
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("AJAX error:", status, error); // Debugging
+                        messageDiv.removeClass('alert-success d-none').addClass('alert-danger').text('An error occurred. Please try again.');
+                    }
+                });
+            });
+        });
+    </script>
+}

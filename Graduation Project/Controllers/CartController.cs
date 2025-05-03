@@ -62,7 +62,6 @@ namespace Graduation_Project.Controllers
             return View(cart);
         }
 
-
         // POST: Cart/AddToCart
         [HttpPost]
         public async Task<IActionResult> AddToCart(int productId, int quantity = 1)
@@ -85,10 +84,10 @@ namespace Graduation_Project.Controllers
                 return Json(new { success = false, message = "Product not found." });
             }
 
-            if (product.StockQuantity < quantity)
+            if (quantity > product.StockQuantity) // غيرنا >= إلى >
             {
-                _logger.LogWarning($"Insufficient stock for ProductId {productId}. Requested: {quantity}, Available: {product.StockQuantity}");
-                return Json(new { success = false, message = "Insufficient stock available." });
+                _logger.LogWarning($"Cannot add requested quantity for ProductId {productId}. Requested: {quantity}, Available: {product.StockQuantity}");
+                return Json(new { success = false, message = $"Out of Stock. Only {product.StockQuantity} items available." });
             }
 
             var cart = await _context.Carts
@@ -105,12 +104,14 @@ namespace Graduation_Project.Controllers
             var cartItem = cart.CartItems.FirstOrDefault(ci => ci.ProductId == productId);
             if (cartItem != null)
             {
-                cartItem.Quantity += quantity;
-                if (cartItem.Quantity > product.StockQuantity)
+                var newQuantity = cartItem.Quantity + quantity;
+                var availableQuantity = product.StockQuantity + cartItem.Quantity; // نجمع الكمية الموجودة في السلة مع الكمية المتاحة
+                if (newQuantity > availableQuantity)
                 {
-                    _logger.LogWarning($"Cannot add more items than available stock for ProductId {productId}.");
-                    return Json(new { success = false, message = "Cannot add more items than available in stock." });
+                    _logger.LogWarning($"Cannot add more items than available stock for ProductId {productId}. Current: {cartItem.Quantity}, Requested: {quantity}, Available: {availableQuantity}");
+                    return Json(new { success = false, message = $"Out of Stock. Only {availableQuantity} items available." });
                 }
+                cartItem.Quantity = newQuantity;
             }
             else
             {
@@ -118,8 +119,12 @@ namespace Graduation_Project.Controllers
                 cart.CartItems.Add(cartItem);
             }
 
+            // Reduce stock quantity
+            product.StockQuantity -= quantity;
+            _context.Products.Update(product);
+
             await _context.SaveChangesAsync();
-            _logger.LogInformation($"Added {quantity} of ProductId {productId} to cart for UserId {userId}");
+            _logger.LogInformation($"Added {quantity} of ProductId {productId} to cart for UserId {userId}. Stock updated to {product.StockQuantity}");
 
             return Json(new { success = true, message = $"{product.Name} added to cart!" });
         }
@@ -139,6 +144,7 @@ namespace Graduation_Project.Controllers
 
             var cartItem = await _context.CartItems
                 .Include(ci => ci.Cart)
+                .Include(ci => ci.Product)
                 .FirstOrDefaultAsync(ci => ci.CartItemId == cartItemId && ci.Cart.UserId == userId);
 
             if (cartItem == null)
@@ -147,9 +153,13 @@ namespace Graduation_Project.Controllers
                 return Json(new { success = false, message = "Item not found in cart." });
             }
 
+            // Restore stock quantity
+            cartItem.Product.StockQuantity += cartItem.Quantity;
+            _context.Products.Update(cartItem.Product);
+
             _context.CartItems.Remove(cartItem);
             await _context.SaveChangesAsync();
-            _logger.LogInformation($"Removed CartItemId {cartItemId} from cart for UserId {userId}");
+            _logger.LogInformation($"Removed CartItemId {cartItemId} from cart for UserId {userId}. Stock restored to {cartItem.Product.StockQuantity}");
 
             return Json(new { success = true, message = "Item removed from cart." });
         }
@@ -180,23 +190,89 @@ namespace Graduation_Project.Controllers
 
             if (quantity <= 0)
             {
+                // Restore stock quantity
+                cartItem.Product.StockQuantity += cartItem.Quantity;
+                _context.Products.Update(cartItem.Product);
+
                 _context.CartItems.Remove(cartItem);
                 await _context.SaveChangesAsync();
-                _logger.LogInformation($"Removed CartItemId {cartItemId} due to quantity <= 0 for UserId {userId}");
+                _logger.LogInformation($"Removed CartItemId {cartItemId} due to quantity <= 0 for UserId {userId}. Stock restored to {cartItem.Product.StockQuantity}");
                 return Json(new { success = true, message = "Item removed from cart." });
             }
 
-            if (quantity > cartItem.Product.StockQuantity)
+            if (quantity > cartItem.Product.StockQuantity + cartItem.Quantity) // غيرنا >= إلى >
             {
-                _logger.LogWarning($"Cannot set quantity greater than available stock for CartItemId {cartItemId}. Requested: {quantity}, Available: {cartItem.Product.StockQuantity}");
-                return Json(new { success = false, message = "Cannot set quantity greater than available stock." });
+                _logger.LogWarning($"Cannot set quantity at or above available stock for CartItemId {cartItemId}. Requested: {quantity}, Available: {cartItem.Product.StockQuantity + cartItem.Quantity}");
+                return Json(new { success = false, message = $"Out of Stock. Only {cartItem.Product.StockQuantity + cartItem.Quantity} items available." });
             }
+
+            // Update stock: restore previous quantity, then deduct new quantity
+            cartItem.Product.StockQuantity += cartItem.Quantity; // Restore old quantity
+            cartItem.Product.StockQuantity -= quantity; // Deduct new quantity
+            _context.Products.Update(cartItem.Product);
 
             cartItem.Quantity = quantity;
             await _context.SaveChangesAsync();
-            _logger.LogInformation($"Updated CartItemId {cartItemId} quantity to {quantity} for UserId {userId}");
+            _logger.LogInformation($"Updated CartItemId {cartItemId} quantity to {quantity} for UserId {userId}. Stock updated to {cartItem.Product.StockQuantity}");
 
             return Json(new { success = true, message = "Cart updated successfully." });
+        }
+
+        // GET: Cart/Checkout
+        public async Task<IActionResult> Checkout()
+        {
+            var userIdStr = HttpContext.Session.GetString("UserId");
+            if (string.IsNullOrEmpty(userIdStr) || !int.TryParse(userIdStr, out int userId))
+            {
+                _logger.LogWarning("User not logged in or invalid UserId in session.");
+                TempData["ErrorMessage"] = "Please log in to proceed to checkout.";
+                return RedirectToAction("Index", "Login");
+            }
+
+            var cart = await _context.Carts
+                .Include(c => c.CartItems)
+                .ThenInclude(ci => ci.Product)
+                .FirstOrDefaultAsync(c => c.UserId == userId);
+
+            if (cart == null || !cart.CartItems.Any())
+            {
+                _logger.LogWarning($"No cart or empty cart for UserId {userId}.");
+                TempData["ErrorMessage"] = "Your cart is empty.";
+                return RedirectToAction("Index");
+            }
+
+            return View(cart);
+        }
+
+        // POST: Cart/ConfirmOrder
+        [HttpPost]
+        public async Task<IActionResult> ConfirmOrder()
+        {
+            var userIdStr = HttpContext.Session.GetString("UserId");
+            if (string.IsNullOrEmpty(userIdStr) || !int.TryParse(userIdStr, out int userId))
+            {
+                _logger.LogWarning("User not logged in or invalid UserId in session.");
+                return Json(new { success = false, message = "Please log in to confirm your order." });
+            }
+
+            var cart = await _context.Carts
+                .Include(c => c.CartItems)
+                .ThenInclude(ci => ci.Product)
+                .FirstOrDefaultAsync(c => c.UserId == userId);
+
+            if (cart == null || !cart.CartItems.Any())
+            {
+                _logger.LogWarning($"No cart or empty cart for UserId {userId}.");
+                return Json(new { success = false, message = "Your cart is empty." });
+            }
+
+            // Clear the cart (stock already updated in AddToCart)
+            _context.CartItems.RemoveRange(cart.CartItems);
+            await _context.SaveChangesAsync();
+
+            _logger.LogInformation($"Order confirmed for UserId {userId}. Cart cleared.");
+
+            return Json(new { success = true, message = "Order confirmed successfully!" });
         }
     }
 }
