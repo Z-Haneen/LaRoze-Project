@@ -9,11 +9,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // مدة صلاحية الجلسة
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
     options.Cookie.SameSite = SameSiteMode.Lax;
-    options.Cookie.SecurePolicy = CookieSecurePolicy.None; // For localhost testing
+    options.Cookie.SecurePolicy = CookieSecurePolicy.None; // للتجربة على localhost
 });
 
 // Register ProductService
@@ -32,11 +32,10 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
-app.UseSession();
+app.UseSession(); // تأكد من أن UseSession يأتي قبل UseAuthorization
 app.UseAuthorization();
 
 app.MapControllerRoute(

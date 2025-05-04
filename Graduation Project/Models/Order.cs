@@ -15,11 +15,10 @@ namespace Graduation_Project.Models
         public string PaymentMethod { get; set; }
         public DateTime OrderDate { get; set; }
         public DateTime? DeliveryDate { get; set; }
-        public string TrackingNumber { get; set; }
-
+        public string? TrackingNumber { get; set; } // nullable string
 
         public Product Product { get; set; }
-        public int ProductId { get; set; }
+        public int? ProductId { get; set; }
         public User User { get; set; }
         public UserAddress ShippingAddress { get; set; }
         public ICollection<OrderItem> OrderItems { get; set; }

@@ -30,7 +30,7 @@ namespace Graduation_Project.Controllers
             {
                 var user = _context.Users.FirstOrDefault(u => u.Email == loginModel.Email);
 
-                if (user != null && user.Password == loginModel.Password)
+                if (user != null && user.Password == loginModel.Password) // ملاحظة: يُفضل تشفير كلمة المرور
                 {
                     user.LastLogin = DateTime.Now;
                     _context.SaveChanges();
@@ -40,12 +40,7 @@ namespace Graduation_Project.Controllers
                     HttpContext.Session.SetString("UserRole", user.RoleId.ToString());
                     _logger.LogInformation($"User {user.UserId} logged in successfully. Session UserId set to {user.UserId}");
 
-                    // Log session keys and cookie for debugging
-                    var sessionKeys = HttpContext.Session.Keys;
-                    var sessionCookie = HttpContext.Request.Cookies["ASP.NET_SessionId"];
-                    _logger.LogInformation($"After setting session. Session Keys: {string.Join(", ", sessionKeys)}, Session Cookie: {sessionCookie ?? "null"}");
-
-                    // Ensure session is committed before redirect
+                    // Ensure session is committed
                     HttpContext.Session.CommitAsync().GetAwaiter().GetResult();
 
                     TempData["SuccessMessage"] = "Login successful! Redirecting to home.";

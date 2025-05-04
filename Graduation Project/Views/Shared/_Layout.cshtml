@@ -15,7 +15,6 @@
     <div class="off-screen-menu">
         <ul>
             <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-            <!-- In off-screen-menu -->
             <li class="nav-item dropdown">
                 <a class="dropdown-toggle" href="#" id="navbarDropdownCategoriesOffScreen" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Categories
@@ -36,7 +35,16 @@
             }
             else
             {
-                <li><a asp-controller="Login" asp-action="Logout" class="btn btn-secondary">Logout</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProfileOffScreen" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Welcome
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownProfileOffScreen">
+                        <li><a class="dropdown-item" asp-controller="Account" asp-action="Profile">Profile</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" asp-controller="Account" asp-action="Logout">Logout</a></li>
+                    </ul>
+                </li>
             }
         </ul>
     </div>
@@ -56,7 +64,6 @@
         </div>
         <ul class="nav-links">
             <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-            <!-- In nav-links -->
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCategories" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Categories
@@ -82,9 +89,9 @@
                         <i class="bi bi-person-circle me-1"></i> Welcome
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownProfile">
-                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" asp-controller="Account" asp-action="Profile">Profile</a></li>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" asp-controller="Login" asp-action="Logout">Logout</a></li>
+                        <li><a class="dropdown-item" asp-controller="Account" asp-action="Logout">Logout</a></li>
                     </ul>
                 </li>
             }

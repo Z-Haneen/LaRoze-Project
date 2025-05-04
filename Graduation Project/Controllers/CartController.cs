@@ -29,9 +29,9 @@ namespace Graduation_Project.Controllers
             if (string.IsNullOrEmpty(userIdStr) && TempData["UserId"] != null)
             {
                 userIdStr = TempData["UserId"].ToString();
-                HttpContext.Session.SetString("UserId", userIdStr); // Persist TempData UserId into session
-                await HttpContext.Session.CommitAsync(); // Ensure session is saved
-                TempData.Remove("UserId"); // Clear TempData to avoid reuse
+                HttpContext.Session.SetString("UserId", userIdStr);
+                await HttpContext.Session.CommitAsync();
+                TempData.Remove("UserId");
             }
 
             var sessionKeys = HttpContext.Session.Keys;
@@ -42,7 +42,7 @@ namespace Graduation_Project.Controllers
             {
                 _logger.LogWarning("User not logged in or invalid UserId in session. Falling back to TempData failed.");
                 TempData["ErrorMessage"] = "Please log in to view your cart.";
-                return RedirectToAction("Index", "Login"); // Redirect to login page
+                return RedirectToAction("Index", "Login");
             }
 
             var cart = await _context.Carts
@@ -84,7 +84,7 @@ namespace Graduation_Project.Controllers
                 return Json(new { success = false, message = "Product not found." });
             }
 
-            if (quantity > product.StockQuantity) // غيرنا >= إلى >
+            if (quantity > product.StockQuantity)
             {
                 _logger.LogWarning($"Cannot add requested quantity for ProductId {productId}. Requested: {quantity}, Available: {product.StockQuantity}");
                 return Json(new { success = false, message = $"Out of Stock. Only {product.StockQuantity} items available." });
@@ -105,7 +105,7 @@ namespace Graduation_Project.Controllers
             if (cartItem != null)
             {
                 var newQuantity = cartItem.Quantity + quantity;
-                var availableQuantity = product.StockQuantity + cartItem.Quantity; // نجمع الكمية الموجودة في السلة مع الكمية المتاحة
+                var availableQuantity = product.StockQuantity + cartItem.Quantity;
                 if (newQuantity > availableQuantity)
                 {
                     _logger.LogWarning($"Cannot add more items than available stock for ProductId {productId}. Current: {cartItem.Quantity}, Requested: {quantity}, Available: {availableQuantity}");
@@ -200,15 +200,15 @@ namespace Graduation_Project.Controllers
                 return Json(new { success = true, message = "Item removed from cart." });
             }
 
-            if (quantity > cartItem.Product.StockQuantity + cartItem.Quantity) // غيرنا >= إلى >
+            if (quantity > cartItem.Product.StockQuantity + cartItem.Quantity)
             {
                 _logger.LogWarning($"Cannot set quantity at or above available stock for CartItemId {cartItemId}. Requested: {quantity}, Available: {cartItem.Product.StockQuantity + cartItem.Quantity}");
                 return Json(new { success = false, message = $"Out of Stock. Only {cartItem.Product.StockQuantity + cartItem.Quantity} items available." });
             }
 
             // Update stock: restore previous quantity, then deduct new quantity
-            cartItem.Product.StockQuantity += cartItem.Quantity; // Restore old quantity
-            cartItem.Product.StockQuantity -= quantity; // Deduct new quantity
+            cartItem.Product.StockQuantity += cartItem.Quantity;
+            cartItem.Product.StockQuantity -= quantity;
             _context.Products.Update(cartItem.Product);
 
             cartItem.Quantity = quantity;
@@ -244,35 +244,108 @@ namespace Graduation_Project.Controllers
             return View(cart);
         }
 
-        // POST: Cart/ConfirmOrder
+        [HttpGet]
+        public IActionResult ConfirmOrder()
+        {
+            _logger.LogWarning("Direct GET request to ConfirmOrder. Redirecting to Checkout.");
+            return RedirectToAction("Checkout");
+        }
         [HttpPost]
-        public async Task<IActionResult> ConfirmOrder()
+        public async Task<IActionResult> ConfirmOrder([FromForm] UserAddress address)
         {
             var userIdStr = HttpContext.Session.GetString("UserId");
-            if (string.IsNullOrEmpty(userIdStr) || !int.TryParse(userIdStr, out int userId))
+            _logger.LogInformation($"ConfirmOrder called. Session UserId: {userIdStr ?? "null"}, Address: AddressLine1={address.AddressLine1}, City={address.City}, State={address.State}, PostalCode={address.PostalCode}, Country={address.Country}, Phone={address.Phone}");
+
+            int userId = 0;
+
+            try
             {
-                _logger.LogWarning("User not logged in or invalid UserId in session.");
-                return Json(new { success = false, message = "Please log in to confirm your order." });
+                if (string.IsNullOrEmpty(userIdStr) || !int.TryParse(userIdStr, out userId))
+                {
+                    _logger.LogWarning("User not logged in or invalid UserId in session.");
+                    return Json(new { success = false, message = "Please log in to confirm your order." });
+                }
+
+                var cart = await _context.Carts
+                    .Include(c => c.CartItems)
+                    .ThenInclude(ci => ci.Product)
+                    .FirstOrDefaultAsync(c => c.UserId == userId);
+
+                if (cart == null || !cart.CartItems.Any())
+                {
+                    _logger.LogWarning($"No cart or empty cart for UserId {userId}.");
+                    return Json(new { success = false, message = "Your cart is empty." });
+                }
+
+                if (string.IsNullOrEmpty(address.AddressLine1) || string.IsNullOrEmpty(address.City) ||
+                    string.IsNullOrEmpty(address.State) || string.IsNullOrEmpty(address.PostalCode) ||
+                    string.IsNullOrEmpty(address.Country) || string.IsNullOrEmpty(address.Phone))
+                {
+                    _logger.LogWarning($"Invalid address provided for UserId {userId}. AddressLine1: {address.AddressLine1}, City: {address.City}, State: {address.State}, PostalCode: {address.PostalCode}, Country: {address.Country}, Phone: {address.Phone}");
+                    return Json(new { success = false, message = "Please fill in all required address fields." });
+                }
+
+                address.UserId = userId;
+                address.AddressLine2 ??= string.Empty;
+                _context.UserAddresses.Add(address);
+                await _context.SaveChangesAsync();
+                _logger.LogInformation($"Address saved with AddressId: {address.AddressId} for UserId {userId}");
+
+                // إنشاء الـ Payment أولاً
+                var payment = new Payment
+                {
+                    PaymentMethod = "Cash",
+                    PaymentStatus = "Pending",
+                    TransactionId = Guid.NewGuid().ToString(),
+                    PaymentDate = DateTime.Now,
+                    PaymentAmount = cart.CartItems.Sum(ci => ci.Quantity * ci.Product.Price)
+                };
+
+                // إنشاء الـ Order وربطه بالـ Payment
+                var order = new Order
+                {
+                    UserId = userId,
+                    ShippingAddressId = address.AddressId,
+                    OrderDate = DateTime.Now,
+                    TotalPrice = payment.PaymentAmount,
+                    OrderStatus = "Pending",
+                    PaymentStatus = "Pending",
+                    PaymentMethod = "Cash",
+                    TrackingNumber = "Pending",
+                    ProductId = cart.CartItems.First().ProductId,
+                    OrderItems = cart.CartItems.Select(ci => new OrderItem
+                    {
+                        ProductId = ci.ProductId,
+                        Quantity = ci.Quantity,
+                        Price = ci.Product.Price
+                    }).ToList(),
+                    Payment = payment, // ربط الـ Payment هنا
+                    PaymentId =  // حط null مؤقتاً
+                };
+
+                payment.Order = order; // ربط الـ Order بالـ Payment
+
+                _context.Orders.Add(order);
+                _context.Payments.Add(payment);
+                await _context.SaveChangesAsync();
+                _logger.LogInformation($"Order created with OrderId: {order.OrderId} and PaymentId: {payment.PaymentId} for UserId {userId}");
+
+                _context.CartItems.RemoveRange(cart.CartItems);
+                await _context.SaveChangesAsync();
+                _logger.LogInformation($"Cart cleared for UserId {userId} after order confirmation");
+
+                return Json(new { success = true, message = "Order confirmed successfully!", redirectUrl = Url.Action("Profile", "Account") });
             }
-
-            var cart = await _context.Carts
-                .Include(c => c.CartItems)
-                .ThenInclude(ci => ci.Product)
-                .FirstOrDefaultAsync(c => c.UserId == userId);
-
-            if (cart == null || !cart.CartItems.Any())
+            catch (DbUpdateException dbEx)
             {
-                _logger.LogWarning($"No cart or empty cart for UserId {userId}.");
-                return Json(new { success = false, message = "Your cart is empty." });
+                _logger.LogError(dbEx, "Database error confirming order for UserId {UserId}. Inner Exception: {InnerExceptionMessage}, StackTrace: {StackTrace}", userId, dbEx.InnerException?.Message, dbEx.StackTrace);
+                return Json(new { success = false, message = $"Database error: {dbEx.InnerException?.Message ?? "An error occurred while saving to the database. Please try again."}" });
             }
-
-            // Clear the cart (stock already updated in AddToCart)
-            _context.CartItems.RemoveRange(cart.CartItems);
-            await _context.SaveChangesAsync();
-
-            _logger.LogInformation($"Order confirmed for UserId {userId}. Cart cleared.");
-
-            return Json(new { success = true, message = "Order confirmed successfully!" });
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Unexpected error confirming order for UserId {UserId}. StackTrace: {StackTrace}, Inner Exception: {InnerExceptionMessage}", userId, ex.StackTrace, ex.InnerException?.Message);
+                return Json(new { success = false, message = $"An unexpected error occurred: {ex.Message}. Please try again." });
+            }
         }
     }
-}
+    }

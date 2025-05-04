@@ -1,17 +1,27 @@
 ﻿@model Graduation_Project.Models.Cart
+@{
+    ViewData["Title"] = "Cart";
+}
 
 <div class="container my-5">
-    <h2 class="text-center mb-4">Your Cart</h2>
+    <h2 class="text-center mb-4">Shopping Cart</h2>
 
-    <!-- Placeholder for success/error message -->
-    <div id="message" class="alert d-none" role="alert"></div>
+    <!-- Error/Success Message Placeholder -->
+    <div id="cartMessage" class="alert d-none" role="alert"></div>
 
-    @if (Model.CartItems.Any())
+    @if (Model == null || Model.CartItems == null || !Model.CartItems.Any())
     {
-        <table class="table">
+        <div class="col-12 text-center text-muted">
+            <p>Your cart is empty.</p>
+            <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Continue Shopping</a>
+        </div>
+    }
+    else
+    {
+        <table class="table table-bordered" id="cartTable">
             <thead>
                 <tr>
-                    <th>Image</th>
+                    <th>Product Image</th>
                     <th>Product</th>
                     <th>Price</th>
                     <th>Quantity</th>
@@ -22,82 +32,50 @@
             <tbody>
                 @foreach (var item in Model.CartItems)
                 {
-                    <tr>
-                        <td><img src="@item.Product.ImageUrl" alt="@item.Product.Name" style="width: 50px;" /></td>
+                    <tr data-cart-item-id="@item.CartItemId">
+                        <td>
+                            @if (!string.IsNullOrEmpty(item.Product.ImageUrl))
+                            {
+                                <img src="@item.Product.ImageUrl" alt="@item.Product.Name" style="width: 50px; height: 50px; object-fit: cover;" />
+                            }
+                            else
+                            {
+                                <span>No Image</span>
+                            }
+                        </td>
                         <td>@item.Product.Name</td>
                         <td>@item.Product.Price.ToString("C")</td>
-                        <td>
-                            <form class="update-quantity-form" data-cart-item-id="@item.CartItemId">
-                                <input type="number" name="quantity" value="@item.Quantity" min="1" max="@(item.Product.StockQuantity + item.Quantity)" class="form-control w-25 d-inline" />
-                                <button type="submit" class="btn btn-secondary btn-sm">Update</button>
-                            </form>
-                        </td>
+                        <td>@item.Quantity</td>
                         <td>@((item.Quantity * item.Product.Price).ToString("C"))</td>
                         <td>
-                            <form class="remove-item-form" data-cart-item-id="@item.CartItemId">
-                                <button type="submit" class="btn btn-danger btn-sm">Remove</button>
-                            </form>
+                            <button class="btn btn-danger btn-sm remove-from-cart" data-cart-item-id="@item.CartItemId">Remove</button>
                         </td>
                     </tr>
                 }
             </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4" class="text-end"><strong>Total:</strong></td>
+                    <td>@Model.CartItems.Sum(item => item.Quantity * item.Product.Price).ToString("C")</td>
+                    <td></td>
+                </tr>
+            </tfoot>
         </table>
 
-        <div class="text-center mt-4">
-            <a href="@Url.Action("Index", "Home")" class="btn btn-success">Continue Shopping</a>
+        <div class="text-end mt-4">
+            <a href="@Url.Action("Index", "Home")" class="btn btn-secondary">Continue Shopping</a>
             <a href="@Url.Action("Checkout", "Cart")" class="btn btn-primary">Complete Order</a>
         </div>
-    }
-    else
-    {
-        <p class="text-center">Your cart is empty.</p>
     }
 </div>
 
 @section Scripts {
     <script>
         $(document).ready(function () {
-            // Update Quantity
-            $('.update-quantity-form').submit(function (e) {
-                e.preventDefault();
-                var form = $(this);
-                var cartItemId = form.data('cart-item-id');
-                var quantity = form.find('input[name="quantity"]').val();
-                var messageDiv = $('#message');
-
-                $.ajax({
-                    url: '@Url.Action("UpdateQuantity", "Cart")',
-                    type: 'POST',
-                    data: { cartItemId: cartItemId, quantity: quantity },
-                    success: function (response) {
-                        if (response.success) {
-                            messageDiv.removeClass('alert-danger d-none').addClass('alert-success').text(response.message);
-                            setTimeout(function () {
-                                messageDiv.addClass('d-none'); // اخفاء الرسالة
-                                location.reload(); // تجديد الصفحة
-                            }, 1500); // انتظار 1.5 ثانية
-                        } else {
-                            messageDiv.removeClass('alert-success d-none').addClass('alert-danger').text(response.message);
-                            setTimeout(function () {
-                                messageDiv.addClass('d-none'); // اخفاء الرسالة
-                            }, 3000); // اخفاء بعد 3 ثواني لو فيه خطأ
-                        }
-                    },
-                    error: function () {
-                        messageDiv.removeClass('alert-success d-none').addClass('alert-danger').text('An error occurred while updating the quantity.');
-                        setTimeout(function () {
-                            messageDiv.addClass('d-none');
-                        }, 3000);
-                    }
-                });
-            });
-
-            // Remove Item
-            $('.remove-item-form').submit(function (e) {
-                e.preventDefault();
-                var form = $(this);
-                var cartItemId = form.data('cart-item-id');
-                var messageDiv = $('#message');
+            // Handle Remove from Cart
+            $('.remove-from-cart').click(function () {
+                var cartItemId = $(this).data('cart-item-id');
+                var messageDiv = $('#cartMessage');
 
                 $.ajax({
                     url: '@Url.Action("RemoveFromCart", "Cart")',
@@ -105,36 +83,111 @@
                     data: { cartItemId: cartItemId },
                     success: function (response) {
                         if (response.success) {
-                            messageDiv.removeClass('alert-danger d-none').addClass('alert-success').text(response.message);
-                            setTimeout(function () {
-                                messageDiv.addClass('d-none');
-                                location.reload();
-                            }, 1500);
+                            // Remove the row from the table
+                            $('tr[data-cart-item-id="' + cartItemId + '"]').remove();
+
+                            // Update the total
+                            $.ajax({
+                                url: '@Url.Action("Index", "Cart")',
+                                type: 'GET',
+                                success: function (data) {
+                                    var newTable = $(data).find('#cartTable');
+                                    $('#cartTable').replaceWith(newTable);
+                                }
+                            });
+
+                            messageDiv.removeClass('d-none alert-danger').addClass('alert-success').text(response.message);
                         } else {
-                            messageDiv.removeClass('alert-success d-none').addClass('alert-danger').text(response.message);
-                            setTimeout(function () {
-                                messageDiv.addClass('d-none');
-                            }, 3000);
+                            messageDiv.removeClass('d-none alert-success').addClass('alert-danger').text(response.message);
                         }
                     },
                     error: function () {
-                        messageDiv.removeClass('alert-success d-none').addClass('alert-danger').text('An error occurred while removing the item.');
-                        setTimeout(function () {
-                            messageDiv.addClass('d-none');
-                        }, 3000);
+                        messageDiv.removeClass('d-none alert-success').addClass('alert-danger').text('An error occurred while removing the item. Please try again.');
                     }
                 });
+            });
+
+            // Open address modal when clicking "Complete Order"
+            $('#completeOrderBtn').click(function () {
+                $('#addressModal').modal('show');
+            });
+
+            // Handle address confirmation
+            $('#confirmAddressBtn').click(function () {
+                var messageDiv = $('#checkoutMessage');
+                var formData = $('#addressForm').serialize();
+
+                // Validate form before submission
+                if ($('#addressForm')[0].checkValidity()) {
+                    $.ajax({
+                        url: '@Url.Action("ConfirmOrder", "Cart")',
+                        type: 'POST',
+                        data: formData,
+                        success: function (response) {
+                            if (response.success) {
+                                messageDiv.removeClass('d-none alert-danger').addClass('alert-success').text(response.message);
+                                $('#addressModal').modal('hide');
+                                setTimeout(function () {
+                                    window.location.href = response.redirectUrl;
+                                }, 1500);
+                            } else {
+                                messageDiv.removeClass('d-none alert-success').addClass('alert-danger').text(response.message);
+                            }
+                        },
+                        error: function (xhr, status, error) {
+                            let errorMessage = 'An error occurred while confirming the order. Please try again.';
+                            try {
+                                const errorResponse = JSON.parse(xhr.responseText);
+                                if (errorResponse.message) {
+                                    errorMessage = errorResponse.message;
+                                }
+                            } catch (e) {
+                                console.error("Error parsing response:", e);
+                            }
+                            messageDiv.removeClass('d-none alert-success').addClass('alert-danger').text(errorMessage);
+                        }
+                    });
+                } else {
+                    $('#addressForm')[0].reportValidity();
+                }
             });
         });
     </script>
     <style>
-        #message {
-            margin-top: 10px; /* مسافة صغيرة تحت العنوان */
+        #cartMessage {
+            margin-top: 20px;
             text-align: center;
             width: 100%;
-            max-width: 500px; /* عرض مناسب */
+            max-width: 600px;
             margin-left: auto;
             margin-right: auto;
+            padding: 15px;
+            border-radius: 5px;
         }
+
+        .modal-content {
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-label {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .modal-header {
+            background-color: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+                border-color: #004085;
+            }
     </style>
 }

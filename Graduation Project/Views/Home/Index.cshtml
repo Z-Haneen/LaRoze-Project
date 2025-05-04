@@ -1,8 +1,7 @@
-﻿
+﻿@model Graduation_Project.Models.HomePageViewModel
 @{
     ViewData["Title"] = "Home Page";
 }
-@* by haneen *@
 @if (TempData["SuccessMessage"] != null)
 {
     <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -13,7 +12,6 @@
 @{
     TempData.Remove("SuccessMessage");
 }
-@* by fady *@
 <main>
     <div class="container">
         <section class="hero">
@@ -51,30 +49,70 @@
         <section class="best-sales">
             <h1>Best Selling</h1>
             <div class="best-sales-box">
+                <!-- Example product cards with dynamic productId -->
                 <div class="best-sales-card num1">
                     <img src="~/images/c0fe906f7fd102780b3957c19514dff4.png" alt="">
-                    <h3>psycho Bunny</h3>
+                    <h3>Psycho Bunny</h3>
                     <p>Tee 001 BLACK</p>
                     <span>$48</span>
-                    <button class="btn btn-primary mt-2" onclick="addToCart('Tee 001 BLACK', 48)">Add to Cart</button>
+                    <button class="btn btn-primary mt-2" onclick="buyNow(1, 'Tee 001 BLACK', 48)">Buy Now</button>
                 </div>
-
                 <div class="best-sales-card num2">
                     <img src="~/images/8ecc239031fd3b010ef0589725ce0e91.png" alt="">
-                    <h3>psycho Bunny</h3>
-                    <p>Tee 001 BLACK</p>
-                    <span>$48</span>
-                    <button class="btn btn-primary mt-2" onclick="addToCart('Tee 001 BLACK', 48)">Add to Cart</button>
+                    <h3>Psycho Bunny</h3>
+                    <p>Tee 002 WHITE</p>
+                    <span>$50</span>
+                    <button class="btn btn-primary mt-2" onclick="buyNow(2, 'Tee 002 WHITE', 50)">Buy Now</button>
                 </div>
-
                 <div class="best-sales-card num3">
                     <img src="~/images/7acf559f231ad01bef94a184d0596525.png" alt="">
-                    <h3>psycho Bunny</h3>
-                    <p>Tee 001 BLACK</p>
-                    <span>$48</span>
-                    <button class="btn btn-primary mt-2" onclick="addToCart('Tee 001 BLACK', 48)">Add to Cart</button>
+                    <h3>Psycho Bunny</h3>
+                    <p>Tee 003 BLUE</p>
+                    <span>$45</span>
+                    <button class="btn btn-primary mt-2" onclick="buyNow(3, 'Tee 003 BLUE', 45)">Buy Now</button>
                 </div>
             </div>
         </section>
     </div>
 </main>
+
+@section Scripts {
+    <script>
+        function buyNow(productId, productName, price) {
+            $.ajax({
+                url: '@Url.Action("AddToCart", "Cart")',
+                type: 'POST',
+                data: { productId: productId, quantity: 1 },
+                success: function (response) {
+                    if (response.success) {
+                        alert(`${productName} added to cart successfully!`);
+                        window.location.href = '@Url.Action("Checkout", "Cart")';
+                    } else {
+                        alert(response.message);
+                    }
+                },
+                error: function () {
+                    alert('An error occurred while adding the product to the cart. Please try again.');
+                }
+            });
+        }
+
+        function addToCart(productName, price) {
+            $.ajax({
+                url: '@Url.Action("AddToCart", "Cart")',
+                type: 'POST',
+                data: { productId: productId, quantity: 1 },
+                success: function (response) {
+                    if (response.success) {
+                        alert(`${productName} added to cart successfully!`);
+                    } else {
+                        alert(response.message);
+                    }
+                },
+                error: function () {
+                    alert('An error occurred while adding the product to the cart. Please try again.');
+                }
+            });
+        }
+    </script>
+}

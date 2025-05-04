@@ -52,14 +52,19 @@ namespace Graduation_Project.Models
                 .WithMany(u => u.Orders)
                 .HasForeignKey(o => o.UserId)
                 .OnDelete(DeleteBehavior.Restrict);
-
-            // Order ↔ Payment
+            // Order ↔ Payment (one-to-one)
             modelBuilder.Entity<Order>()
                 .HasOne(o => o.Payment)
-                .WithMany()
-                .HasForeignKey(o => o.PaymentId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .WithOne(p => p.Order)
+                .HasForeignKey<Order>(o => o.PaymentId)
+                .OnDelete(DeleteBehavior.Cascade); // غيرها لـ Cascade
 
+            // Payment ↔ Order (one-to-one)
+            modelBuilder.Entity<Payment>()
+                .HasOne(p => p.Order)
+                .WithOne(o => o.Payment)
+                .HasForeignKey<Payment>(p => p.OrderId)
+                .OnDelete(DeleteBehavior.Cascade); // غيرها لـ Cascade
             // OrderItem ↔ Order
             modelBuilder.Entity<OrderItem>()
                 .HasOne(oi => oi.Order)
@@ -154,7 +159,7 @@ namespace Graduation_Project.Models
             // Category ↔ ParentCategory (Self-referencing relationship)
             modelBuilder.Entity<Category>()
                 .HasOne(c => c.ParentCategory)
-                .WithMany(c => c.ChildCategories) // Updated to use ChildCategories
+                .WithMany(c => c.ChildCategories)
                 .HasForeignKey(c => c.ParentCategoryId)
                 .OnDelete(DeleteBehavior.Restrict);
 
