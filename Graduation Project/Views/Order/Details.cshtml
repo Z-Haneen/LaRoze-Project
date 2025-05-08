@@ -1,0 +1,161 @@
+@model Graduation_Project.Models.Order
+
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<div class="container my-5">
+    <div class="row">
+        <!-- Sidebar -->
+        <partial name="_AccountSidebar" />
+
+        <!-- Main Content -->
+        <div class="col-md-9">
+            <div class="card shadow mb-4">
+                <div class="card-header bg-light d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">Order #@Model.OrderId</h5>
+                    <a asp-action="History" class="btn btn-sm btn-outline-secondary">
+                        <i class="bi bi-arrow-left"></i> Back to Orders
+                    </a>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h6 class="text-muted">Order Information</h6>
+                            <p>
+                                <strong>Order Date:</strong> @Model.OrderDate.ToString("MMM dd, yyyy HH:mm")<br>
+                                <strong>Status:</strong>
+                                @switch (Model.Status)
+                                {
+                                    case "Pending":
+                                        <span class="badge bg-warning text-dark">Pending</span>
+                                        break;
+                                    case "Processing":
+                                        <span class="badge bg-info">Processing</span>
+                                        break;
+                                    case "Shipped":
+                                        <span class="badge bg-primary">Shipped</span>
+                                        break;
+                                    case "Delivered":
+                                        <span class="badge bg-success">Delivered</span>
+                                        break;
+                                    case "Cancelled":
+                                        <span class="badge bg-danger">Cancelled</span>
+                                        break;
+                                    default:
+                                        <span class="badge bg-secondary">@Model.Status</span>
+                                        break;
+                                }
+                                <br>
+                                <strong>Payment Method:</strong> @Model.Payment.PaymentMethod<br>
+                                <strong>Payment Status:</strong>
+                                @if (Model.Payment.Status == "Paid")
+                                {
+                                    <span class="badge bg-success">Paid</span>
+                                }
+                                else if (Model.Payment.Status == "Pending")
+                                {
+                                    <span class="badge bg-warning text-dark">Pending</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-secondary">@Model.Payment.Status</span>
+                                }
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="text-muted">Shipping Address</h6>
+                            <p>
+                                @Model.ShippingName<br>
+                                @Model.ShippingAddress<br>
+                                @Model.ShippingCity, @Model.ShippingState @Model.ShippingPostalCode<br>
+                                @Model.ShippingCountry<br>
+                                <strong>Phone:</strong> @Model.ShippingPhone
+                            </p>
+                        </div>
+                    </div>
+
+                    <h6 class="text-muted mb-3">Order Items</h6>
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Product</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th class="text-end">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.OrderItems)
+                                {
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                @if (!string.IsNullOrEmpty(item.ProductImage))
+                                                {
+                                                    <img src="@item.ProductImage" alt="@item.ProductName" class="me-3" style="width: 50px; height: 50px; object-fit: cover;">
+                                                }
+                                                else
+                                                {
+                                                    <div class="bg-light me-3 d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                                                        <i class="bi bi-image text-muted"></i>
+                                                    </div>
+                                                }
+                                                <div>
+                                                    <h6 class="mb-0">@item.ProductName</h6>
+                                                    @if (!string.IsNullOrEmpty(item.SelectedSize))
+                                                    {
+                                                        <small class="text-muted">Size: @item.SelectedSize</small>
+                                                    }
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>$@item.Price.ToString("F2")</td>
+                                        <td>@item.Quantity</td>
+                                        <td class="text-end">$@((item.Price * item.Quantity).ToString("F2"))</td>
+                                    </tr>
+                                }
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3" class="text-end"><strong>Subtotal:</strong></td>
+                                    <td class="text-end">$@Model.SubTotal.ToString("F2")</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" class="text-end"><strong>Shipping:</strong></td>
+                                    <td class="text-end">$@Model.ShippingCost.ToString("F2")</td>
+                                </tr>
+                                @if (Model.Discount > 0)
+                                {
+                                    <tr>
+                                        <td colspan="3" class="text-end"><strong>Discount:</strong></td>
+                                        <td class="text-end text-danger">-$@Model.Discount.ToString("F2")</td>
+                                    </tr>
+                                }
+                                <tr>
+                                    <td colspan="3" class="text-end"><strong>Total:</strong></td>
+                                    <td class="text-end"><strong>$@Model.TotalAmount.ToString("F2")</strong></td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            @if (Model.Status != "Cancelled" && Model.Status != "Delivered")
+            {
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h6 class="mb-3">Need to make changes?</h6>
+                        <form asp-action="Cancel" asp-route-id="@Model.OrderId" method="post"
+                              onsubmit="return confirm('Are you sure you want to cancel this order? This action cannot be undone.');">
+                            <button type="submit" class="btn btn-danger">Cancel Order</button>
+                        </form>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+

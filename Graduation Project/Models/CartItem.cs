@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Graduation_Project.Models
 {
@@ -10,7 +12,10 @@ namespace Graduation_Project.Models
         public int ProductId { get; set; }
         public int Quantity { get; set; }
 
-        public Cart Cart { get; set; }
-        public Product Product { get; set; }
+        [NotMapped] // This property doesn't exist in the database
+        public DateTime AddedAt { get; set; } = DateTime.Now;
+
+        public virtual Cart Cart { get; set; } = null!;
+        public virtual Product Product { get; set; } = null!;
     }
 }

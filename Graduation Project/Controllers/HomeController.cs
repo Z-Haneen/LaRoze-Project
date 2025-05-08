@@ -1,68 +1,79 @@
-using Microsoft.AspNetCore.Mvc;
-using Graduation_Project.Services;
-using System.Diagnostics;
 using Graduation_Project.Models;
+using Graduation_Project.Services;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using System.Diagnostics;
+using Microsoft.AspNetCore.Http;
 
 namespace Graduation_Project.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ProductService _productService;
         private readonly ILogger<HomeController> _logger;
+        private readonly GraduationDbContext _context;
+        private readonly ProductService _productService;
 
-        public HomeController(ProductService productService, ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, GraduationDbContext context, ProductService productService)
         {
-            _productService = productService;
             _logger = logger;
+            _context = context;
+            _productService = productService;
         }
 
         public IActionResult Index()
         {
-            var userIdStr = HttpContext.Session.GetString("UserId");
-            _logger.LogInformation($"Index called. Session UserId: {userIdStr ?? "null"}");
-            ViewBag.Categories = _productService.GetCategories();
-            return View();
-        }
+            try
+            {
+                // Create a view model for the home page
+                var viewModel = new HomePageViewModel
+                {
+                    // Get categories
+                    Categories = _context.Categories.Take(3).ToList(),
 
-        public IActionResult Shop()
-        {
-            var userIdStr = HttpContext.Session.GetString("UserId");
-            _logger.LogInformation($"Shop called. Session UserId: {userIdStr ?? "null"}");
-            ViewBag.Categories = _productService.GetCategories();
-            return View();
-        }
+                    // Get featured products (newest products)
+                    FeaturedProducts = _context.Products
+                        .Include(p => p.Category)
+                        .OrderByDescending(p => p.CreatedAt)
+                        .Take(6)
+                        .ToList(),
 
-        public IActionResult About()
-        {
-            var userIdStr = HttpContext.Session.GetString("UserId");
-            _logger.LogInformation($"About called. Session UserId: {userIdStr ?? "null"}");
-            ViewBag.Categories = _productService.GetCategories();
-            return View();
-        }
+                    // Get best selling products (for now, just get some products)
+                    BestSellingProducts = _context.Products
+                        .Include(p => p.Category)
+                        .Take(3)
+                        .ToList(),
 
-        public IActionResult Contact()
-        {
-            var userIdStr = HttpContext.Session.GetString("UserId");
-            _logger.LogInformation($"Contact called. Session UserId: {userIdStr ?? "null"}");
-            ViewBag.Categories = _productService.GetCategories();
-            return View();
+                    // Get active promotions
+                    Promotions = _context.Promotions
+                        .Where(p => p.StartDate <= DateTime.Now && p.EndDate >= DateTime.Now)
+                        .Take(3)
+                        .ToList()
+                };
+
+                _logger.LogInformation($"Loaded home page data: {viewModel.Categories.Count} categories, " +
+                    $"{viewModel.FeaturedProducts.Count} featured products, " +
+                    $"{viewModel.BestSellingProducts.Count} best selling products, " +
+                    $"{viewModel.Promotions.Count} promotions");
+
+                return View(viewModel);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error loading home page data");
+                // Return the view without data in case of error
+                return View(new HomePageViewModel());
+            }
         }
 
         public IActionResult Privacy()
         {
-            var userIdStr = HttpContext.Session.GetString("UserId");
-            _logger.LogInformation($"Privacy called. Session UserId: {userIdStr ?? "null"}");
-            ViewBag.Categories = _productService.GetCategories();
             return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            var userIdStr = HttpContext.Session.GetString("UserId");
-            _logger.LogInformation($"Error called. Session UserId: {userIdStr ?? "null"}");
-            ViewBag.Categories = _productService.GetCategories();
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 

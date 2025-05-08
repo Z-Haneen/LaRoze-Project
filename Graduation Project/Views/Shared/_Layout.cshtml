@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,6 +12,7 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Graduation_Project.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/style.css" asp-append-version="true">
+    @RenderSection("Styles", required: false)
     <title>@ViewData["Title"] - Laroze</title>
 </head>
 <body>
@@ -29,10 +33,10 @@
             <li><a asp-controller="Home" asp-action="Shop">Shop</a></li>
             <li><a asp-controller="Home" asp-action="About">About</a></li>
             <li><a asp-controller="Home" asp-action="Contact">Contact</a></li>
-            @if (string.IsNullOrEmpty(Context.Session.GetString("UserId")))
+            @if (string.IsNullOrEmpty(HttpContextAccessor.HttpContext.Session.GetString("UserId")))
             {
-                <li><a asp-controller="Login" asp-action="Index" class="btn btn-primary">Sign in</a></li>
-                <li><a asp-controller="Register" asp-action="add" class="btn btn-secondary">Register</a></li>
+                <li><a asp-controller="Login" asp-action="Login" class="btn btn-primary">Sign in</a></li>
+                <li><a asp-controller="Register" asp-action="Add" class="btn btn-secondary">Register</a></li>
             }
             else
             {
@@ -70,10 +74,10 @@
             <li><a asp-controller="Home" asp-action="Shop">Shop</a></li>
             <li><a asp-controller="Home" asp-action="About">About</a></li>
             <li><a asp-controller="Home" asp-action="Contact">Contact</a></li>
-            @if (string.IsNullOrEmpty(Context.Session.GetString("UserId")))
+            @if (string.IsNullOrEmpty(HttpContextAccessor.HttpContext.Session.GetString("UserId")))
             {
-                <li class="sign-in-li"><a asp-controller="Login" asp-action="Index" class="btn btn-primary">Sign in</a></li>
-                <li><a asp-controller="Register" asp-action="add" class="btn btn-secondary">Register</a></li>
+                <li class="sign-in-li"><a asp-controller="Login" asp-action="Login" class="btn btn-primary">Sign in</a></li>
+                <li><a asp-controller="Register" asp-action="Add" class="btn btn-secondary">Register</a></li>
             }
             else
             {
@@ -82,9 +86,20 @@
                         <i class="bi bi-person-circle me-1"></i> Welcome
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownProfile">
-                        <li><a class="dropdown-item" href="#">Profile</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" asp-controller="Login" asp-action="Logout">Logout</a></li>
+                        @if (Context.Session.GetString("UserId") != null)
+                        {
+                            <li><a class="dropdown-item" asp-controller="Account" asp-action="Profile">My Account</a></li>
+                            <li><a class="dropdown-item" asp-controller="Order" asp-action="History">Order History</a></li>
+                            <li><a class="dropdown-item" asp-controller="Wishlist" asp-action="Index">Wishlist</a></li>
+                            <li><a class="dropdown-item" asp-controller="Address" asp-action="Index">My Addresses</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item text-danger" asp-controller="Login" asp-action="Logout">Logout</a></li>
+                        }
+                        else
+                        {
+                            <li><a class="dropdown-item" asp-controller="Login" asp-action="Login">Login</a></li>
+                            <li><a class="dropdown-item" asp-controller="Register" asp-action="Add">Register</a></li>
+                        }
                     </ul>
                 </li>
             }
@@ -104,5 +119,30 @@
     <script src="~/js/main.js" asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
+
+    <!-- Add sticky navbar -->
+    <style>
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        /* Highlight active link */
+        .nav-links li a.active {
+            font-weight: bold;
+            border-bottom: 2px solid white;
+        }
+
+        /* Improve mobile menu animation */
+        .off-screen-menu {
+            transition: transform 0.3s ease;
+            transform: translateX(-100%);
+        }
+
+        .off-screen-menu.active {
+            transform: translateX(0);
+        }
+    </style>
 </body>
 </html>

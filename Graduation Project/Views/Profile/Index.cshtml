@@ -1,0 +1,91 @@
+@model Graduation_Project.Models.User
+
+@{
+    ViewData["Title"] = "My Profile";
+}
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card shadow-sm mb-4">
+                <div class="card-body text-center">
+                    <div class="mb-3">
+                        <i class="bi bi-person-circle" style="font-size: 5rem;"></i>
+                    </div>
+                    <h4>@Model.FirstName @Model.LastName</h4>
+                </div>
+            </div>
+            
+            <div class="list-group shadow-sm" style="margin-top:300px;">
+                <a asp-controller="Profile" asp-action="Index" class="list-group-item list-group-item-action active">Profile Information</a>
+                <a asp-controller="Address" asp-action="Index" class="list-group-item list-group-item-action">My Addresses</a>
+                <a asp-controller="Order" asp-action="History" class="list-group-item list-group-item-action">Order History</a>
+                <a asp-controller="Wishlist" asp-action="Index" class="list-group-item list-group-item-action">Wishlist</a>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="card shadow">
+                <div class="card-header bg-light d-flex justify-content-between align-items-center">
+                    <h2 class="mb-0">My Profile</h2>
+                    <div>
+                        <a asp-action="Edit" class="btn btn-primary me-2">Edit Profile</a>
+                        <a asp-action="ChangePassword" class="btn btn-outline-secondary">Change Password</a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    @if (TempData["SuccessMessage"] != null)
+                    {
+                        <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+                    }
+                    
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <h5>Personal Information</h5>
+                            <hr />
+                            <dl class="row">
+                                <dt class="col-sm-4">First Name</dt>
+                                <dd class="col-sm-8">@Model.FirstName</dd>
+                                
+                                <dt class="col-sm-4">Last Name</dt>
+                                <dd class="col-sm-8">@Model.LastName</dd>
+                                
+                                <dt class="col-sm-4">Email</dt>
+                                <dd class="col-sm-8">@Model.Email</dd>
+                                
+                                <dt class="col-sm-4">Phone</dt>
+                                <dd class="col-sm-8">@Model.Phone</dd>
+                            </dl>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <h5>Account Information</h5>
+                            <hr />
+                            <dl class="row">
+                                <dt class="col-sm-4">Member Since</dt>
+                                <dd class="col-sm-8">@Model.RegistrationDate.ToString("MMMM dd, yyyy")</dd>
+                                
+                                <dt class="col-sm-4">Last Login</dt>
+                                <dd class="col-sm-8">
+                                    @if (Model.LastLogin != default(DateTime))
+                                    {
+                                        @Model.LastLogin.ToString("MMMM dd, yyyy HH:mm")
+                                    }
+                                    else
+                                    {
+                                        <span>N/A</span>
+                                    }
+                                </dd>
+                                
+                                <dt class="col-sm-4">Status</dt>
+                                <dd class="col-sm-8">
+                                    <span class="badge bg-success">@Model.Status</span>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
