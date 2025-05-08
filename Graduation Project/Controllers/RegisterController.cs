@@ -1,6 +1,6 @@
 ﻿using Graduation_Project.Models;
 using Microsoft.AspNetCore.Mvc;
-//using BCrypt.Net;
+using BCrypt.Net;
 
 namespace Graduation_Project.Controllers
 {
@@ -12,6 +12,13 @@ namespace Graduation_Project.Controllers
         {
             _context = context;
         }
+        
+        // GET: Register/Index - Add this method to handle the link from login page
+        public IActionResult Index()
+        {
+            return RedirectToAction("Add");
+        }
+        
         // GET: عرض صفحة التسجيل
         //  /Register/Add
         public IActionResult Add()
@@ -30,11 +37,23 @@ namespace Graduation_Project.Controllers
                 !string.IsNullOrWhiteSpace(newUserFromRequest.Email) &&
                 !string.IsNullOrWhiteSpace(newUserFromRequest.Password))
             {
-               // newUserFromRequest.Password = BCrypt.HashPassword(newUserFromRequest.Password);
+                // Check if email already exists
+                var existingUser = _context.Users.FirstOrDefault(u => u.Email == newUserFromRequest.Email);
+                if (existingUser != null)
+                {
+                    ModelState.AddModelError("Email", "This email is already registered.");
+                    return View("Add", newUserFromRequest);
+                }
+                
+                // Continue with registration
+                // Hash password before storing
+                newUserFromRequest.Password = BCrypt.Net.BCrypt.HashPassword(newUserFromRequest.Password);
+                
                 // تعيين القيم الأساسية والافتراضية
                 newUserFromRequest.RegistrationDate = DateTime.Now; // تاريخ التسجيل الآن
                 newUserFromRequest.Status = "Active"; // حالة المستخدم
                 newUserFromRequest.LastLogin = default(DateTime); // لم يقم بتسجيل الدخول بعد
+                newUserFromRequest.RoleId = 2; // Default role ID for regular users
                 
                 // إضافة المستخدم إلى قاعدة البيانات
                 _context.Users.Add(newUserFromRequest);
@@ -42,7 +61,7 @@ namespace Graduation_Project.Controllers
 
                 // رسالة نجاح
                 TempData["SuccessMessage"] = "Registration is done successfully.";
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Login");
             }
             else
             {

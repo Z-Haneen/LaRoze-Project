@@ -1,0 +1,167 @@
+@model Graduation_Project.Models.User
+
+@{
+    ViewData["Title"] = "Edit Profile";
+}
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-8 mx-auto account-section">
+            <div class="card shadow centered-content">
+                <div class="card-header bg-light">
+                    <h2 class="mb-0">Edit Profile</h2>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Edit" method="post">
+                        <input type="hidden" asp-for="UserId" />
+                        <input type="hidden" asp-for="RoleId" />
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label asp-for="FirstName" class="form-label">First Name</label>
+                                <input asp-for="FirstName" class="form-control" />
+                                <span asp-validation-for="FirstName" class="text-danger"></span>
+                            </div>
+                            <div class="col-md-6">
+                                <label asp-for="LastName" class="form-label">Last Name</label>
+                                <input asp-for="LastName" class="form-control" />
+                                <span asp-validation-for="LastName" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Email" class="form-label">Email</label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Phone" class="form-label">Phone</label>
+                            <input asp-for="Phone" class="form-control" />
+                            <span asp-validation-for="Phone" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-flex justify-content-between mt-4">
+                            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+                            <button type="submit" class="btn btn-primary">Save Changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<style>
+    /* Section Container */
+    .account-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: calc(100vh - 60px);
+        padding: 0 15px;
+    }
+
+    /* Card Styling */
+    .centered-content {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .card {
+        border: none;
+        border-radius: 10px;
+        background: #fff;
+        transition: box-shadow 0.3s ease;
+    }
+
+        .card:hover {
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+    .card-header {
+        border-bottom: 1px solid #e9ecef;
+        padding: 15px 20px;
+        background: #f8f9fa;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .form-label {
+        font-weight: 500;
+        color: #333;
+    }
+
+    .form-control {
+        border-radius: 5px;
+        transition: border-color 0.3s ease;
+    }
+
+        .form-control:focus {
+            border-color: #0d6efd;
+            box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+        }
+
+    .text-danger {
+        font-size: 0.85rem;
+    }
+
+    /* Buttons */
+    .btn {
+        border-radius: 5px;
+        padding: 8px 16px;
+        transition: transform 0.2s ease, background-color 0.3s ease;
+    }
+
+    .btn-primary {
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+    }
+
+        .btn-primary:hover {
+            background-color: #005cbf;
+            border-color: #005cbf;
+        }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        border-color: #6c757d;
+    }
+
+        .btn-secondary:hover {
+            background-color: #5c636a;
+            border-color: #5c636a;
+        }
+
+    /* Responsive Design */
+   </style>
+
+<script>
+    // Add click animation for buttons
+    document.querySelectorAll('.btn').forEach(button => {
+        button.addEventListener('click', () => {
+            button.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                button.style.transform = 'scale(1)';
+            }, 100);
+        });
+    });
+
+    // Enhance form submission with confirmation
+    document.querySelector('form').addEventListener('submit', (e) => {
+        if (!confirm('Are you sure you want to save your changes?')) {
+            e.preventDefault();
+        }
+    });
+</script>

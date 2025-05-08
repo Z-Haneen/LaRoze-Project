@@ -6,6 +6,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 
 namespace Graduation_Project.Controllers
 {
@@ -53,7 +54,7 @@ namespace Graduation_Project.Controllers
             if (cart == null)
             {
                 _logger.LogInformation($"No cart found for UserId {userId}. Creating new cart.");
-                cart = new Cart { UserId = userId, CreatedAt = DateTime.Now, CartItems = new List<CartItem>() };
+                cart = new Models.Cart { UserId = userId, CreatedAt = DateTime.Now, CartItems = new List<Models.CartItem>() };
                 _context.Carts.Add(cart);
                 await _context.SaveChangesAsync();
             }
@@ -97,7 +98,7 @@ namespace Graduation_Project.Controllers
             if (cart == null)
             {
                 _logger.LogInformation($"No cart found for UserId {userId}. Creating new cart.");
-                cart = new Cart { UserId = userId, CreatedAt = DateTime.Now, CartItems = new List<CartItem>() };
+                cart = new Models.Cart { UserId = userId, CreatedAt = DateTime.Now, CartItems = new List<Models.CartItem>() };
                 _context.Carts.Add(cart);
             }
 
@@ -115,7 +116,7 @@ namespace Graduation_Project.Controllers
             }
             else
             {
-                cartItem = new CartItem { CartId = cart.CartId, ProductId = productId, Quantity = quantity };
+                cartItem = new Models.CartItem { CartId = cart.CartId, ProductId = productId, Quantity = quantity };
                 cart.CartItems.Add(cartItem);
             }
 
@@ -241,13 +242,29 @@ namespace Graduation_Project.Controllers
                 return RedirectToAction("Index");
             }
 
-            return View(cart);
+            // Get user addresses
+            var addresses = await _context.UserAddresses
+                .Where(a => a.UserId == userId)
+                .OrderByDescending(a => a.IsDefault)
+                .ThenBy(a => a.FullName)
+                .ToListAsync();
+
+            // Create a view model with cart and addresses
+            var viewModel = new ViewModels.CheckoutViewModel
+            {
+                Cart = cart,
+                Addresses = addresses
+            };
+
+            return View(viewModel);
         }
 
         // POST: Cart/ConfirmOrder
         [HttpPost]
-        public async Task<IActionResult> ConfirmOrder()
+        [ValidateAntiForgeryToken(Order = 1000)] // Lower order to make it run after model binding
+        public async Task<IActionResult> ConfirmOrder(int? addressId)
         {
+            _logger.LogInformation($"ConfirmOrder called with addressId: {addressId}");
             var userIdStr = HttpContext.Session.GetString("UserId");
             if (string.IsNullOrEmpty(userIdStr) || !int.TryParse(userIdStr, out int userId))
             {
@@ -266,13 +283,114 @@ namespace Graduation_Project.Controllers
                 return Json(new { success = false, message = "Your cart is empty." });
             }
 
-            // Clear the cart (stock already updated in AddToCart)
-            _context.CartItems.RemoveRange(cart.CartItems);
-            await _context.SaveChangesAsync();
+            // Validate that an address was selected
+            if (!addressId.HasValue)
+            {
+                return Json(new { success = false, message = "Please select a shipping address before placing your order." });
+            }
 
-            _logger.LogInformation($"Order confirmed for UserId {userId}. Cart cleared.");
+            // Get shipping address
+            var shippingAddress = await _context.UserAddresses
+                .FirstOrDefaultAsync(a => a.AddressId == addressId.Value && a.UserId == userId);
 
-            return Json(new { success = true, message = "Order confirmed successfully!" });
+            if (shippingAddress == null)
+            {
+                _logger.LogWarning($"Address with ID {addressId} not found for UserId {userId}.");
+                return Json(new { success = false, message = "The selected shipping address was not found. Please select a valid address." });
+            }
+
+            try
+            {
+                // Create payment record first
+                var payment = new Models.Payment
+                {
+                    PaymentMethod = "Cash on Delivery",
+                    PaymentStatus = "Pending",
+                    Amount = cart.CartItems.Sum(ci => ci.Quantity * ci.Product.Price),
+                    PaymentDate = DateTime.Now
+                };
+
+                _context.Payments.Add(payment);
+                await _context.SaveChangesAsync();
+
+                // Create new order with payment ID
+                var order = new Models.Order
+                {
+                    UserId = userId,
+                    ShippingAddressId = shippingAddress.AddressId, // Use AddressId instead of Id
+                    OrderDate = DateTime.Now,
+                    Status = "Pending", // This will set StatusId to 0
+                    TotalPrice = cart.CartItems.Sum(ci => ci.Quantity * ci.Product.Price),
+                    TrackingNumber = GenerateTrackingNumber(),
+                    PaymentId = payment.PaymentId,
+                    OrderItems = new List<Models.OrderItem>()
+                };
+
+                _context.Orders.Add(order);
+                await _context.SaveChangesAsync();
+
+                // Update payment with order ID
+                payment.OrderId = order.OrderId;
+                _context.Payments.Update(payment);
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error creating order or payment: {ex.Message}");
+                return Json(new { success = false, message = "An error occurred while processing your order. Please try again." });
+            }
+
+            try
+            {
+                // Get the order we just created
+                var order = await _context.Orders
+                    .OrderByDescending(o => o.OrderId)
+                    .FirstOrDefaultAsync(o => o.UserId == userId);
+
+                if (order == null)
+                {
+                    _logger.LogError("Order not found after creation");
+                    return Json(new { success = false, message = "An error occurred while processing your order. Please try again." });
+                }
+
+                // Add order items
+                foreach (var cartItem in cart.CartItems)
+                {
+                    var orderItem = new Models.OrderItem
+                    {
+                        OrderId = order.OrderId, // Set the correct OrderId
+                        ProductId = cartItem.ProductId,
+                        Quantity = cartItem.Quantity,
+                        Price = cartItem.Product.Price,
+                        TotalPrice = cartItem.Quantity * cartItem.Product.Price,
+                        ProductName = cartItem.Product.Name ?? "Unknown Product",
+                        ProductSku = cartItem.Product.Sku ?? "",
+                        ProductImage = cartItem.Product.ImageUrl ?? ""
+                    };
+
+                    _context.OrderItems.Add(orderItem);
+                }
+                await _context.SaveChangesAsync();
+
+                // Clear the cart
+                _context.CartItems.RemoveRange(cart.CartItems);
+                await _context.SaveChangesAsync();
+
+                _logger.LogInformation($"Order #{order.OrderId} confirmed for UserId {userId}. Cart cleared.");
+
+                return Json(new { success = true, message = "Order confirmed successfully!", redirectUrl = Url.Action("Profile", "Account") });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error creating order items: {ex.Message}");
+                return Json(new { success = false, message = "An error occurred while processing your order. Please try again." });
+            }
+        }
+
+        // Helper method to generate a tracking number
+        private string GenerateTrackingNumber()
+        {
+            return "TRK" + DateTime.Now.ToString("yyyyMMddHHmmss") + new Random().Next(1000, 9999).ToString();
         }
     }
 }

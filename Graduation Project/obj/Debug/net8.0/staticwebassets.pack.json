@@ -1,399 +1,407 @@
 {
   "Files": [
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Graduation Project.bundle.scp.css",
+      "Id": "F:\\laroze star\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Graduation Project.bundle.scp.css",
       "PackagePath": "staticwebassets\\Graduation Project.hi2qgzlr1m.bundle.scp.css"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\css\\site.css",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\css\\account.css",
+      "PackagePath": "staticwebassets\\css\\account.css"
+    },
+    {
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\css\\style.css",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\favicon.ico",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\1c9eec6dad94dfe052fadee794d3d311.jpg",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\1c9eec6dad94dfe052fadee794d3d311.jpg",
       "PackagePath": "staticwebassets\\images\\1c9eec6dad94dfe052fadee794d3d311.jpg"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\20250428185637558.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185637558.png",
       "PackagePath": "staticwebassets\\images\\20250428185637558.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\20250428185656497.jpg",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185656497.jpg",
       "PackagePath": "staticwebassets\\images\\20250428185656497.jpg"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\20250428185705326.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185705326.png",
       "PackagePath": "staticwebassets\\images\\20250428185705326.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\20250428185712692.jpg",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185712692.jpg",
       "PackagePath": "staticwebassets\\images\\20250428185712692.jpg"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\20250428185719764.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185719764.png",
       "PackagePath": "staticwebassets\\images\\20250428185719764.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\20250428185726618.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185726618.png",
       "PackagePath": "staticwebassets\\images\\20250428185726618.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\20250428185754763.jpg",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185754763.jpg",
       "PackagePath": "staticwebassets\\images\\20250428185754763.jpg"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\20250428185804416.jpg",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185804416.jpg",
       "PackagePath": "staticwebassets\\images\\20250428185804416.jpg"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\20250428185822318.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185822318.png",
       "PackagePath": "staticwebassets\\images\\20250428185822318.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\285936577be25b998c758479b04f0ac4.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\285936577be25b998c758479b04f0ac4.png",
       "PackagePath": "staticwebassets\\images\\285936577be25b998c758479b04f0ac4.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\2faadc710b84f9d3875e674a81274137.jpg",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\2faadc710b84f9d3875e674a81274137.jpg",
       "PackagePath": "staticwebassets\\images\\2faadc710b84f9d3875e674a81274137.jpg"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\3ddc1cd528270fe310bfe715bcb4840c.jpg",
       "PackagePath": "staticwebassets\\images\\3ddc1cd528270fe310bfe715bcb4840c.jpg"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\641fb71b6e610e9e2496af24e1cde9f8.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\641fb71b6e610e9e2496af24e1cde9f8.png",
       "PackagePath": "staticwebassets\\images\\641fb71b6e610e9e2496af24e1cde9f8.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\7389d65b3e3fd0d8561cba3756a24e6c.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\7389d65b3e3fd0d8561cba3756a24e6c.png",
       "PackagePath": "staticwebassets\\images\\7389d65b3e3fd0d8561cba3756a24e6c.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\7acf559f231ad01bef94a184d0596525.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\7acf559f231ad01bef94a184d0596525.png",
       "PackagePath": "staticwebassets\\images\\7acf559f231ad01bef94a184d0596525.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\8ecc239031fd3b010ef0589725ce0e91.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\8ecc239031fd3b010ef0589725ce0e91.png",
       "PackagePath": "staticwebassets\\images\\8ecc239031fd3b010ef0589725ce0e91.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\b366f2b1cccc6ee838112b9eaf20b553cb393a1eeebefdf390185ce12985832a.jpeg",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\b366f2b1cccc6ee838112b9eaf20b553cb393a1eeebefdf390185ce12985832a.jpeg",
       "PackagePath": "staticwebassets\\images\\b366f2b1cccc6ee838112b9eaf20b553cb393a1eeebefdf390185ce12985832a.jpeg"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\bde5f982972185f839a8e1eb6a491078.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\bde5f982972185f839a8e1eb6a491078.png",
       "PackagePath": "staticwebassets\\images\\bde5f982972185f839a8e1eb6a491078.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\c0fe906f7fd102780b3957c19514dff4.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\c0fe906f7fd102780b3957c19514dff4.png",
       "PackagePath": "staticwebassets\\images\\c0fe906f7fd102780b3957c19514dff4.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\c5e484ced9dd246ed3366ed2b44dad6a.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\c5e484ced9dd246ed3366ed2b44dad6a.png",
       "PackagePath": "staticwebassets\\images\\c5e484ced9dd246ed3366ed2b44dad6a.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\login.jpg",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\login.jpg",
       "PackagePath": "staticwebassets\\images\\login.jpg"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\portrait-young-japanese-woman-with-jacket.jpg",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\portrait-young-japanese-woman-with-jacket.jpg",
       "PackagePath": "staticwebassets\\images\\portrait-young-japanese-woman-with-jacket.jpg"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525.png",
       "PackagePath": "staticwebassets\\images\\products\\129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311.jpg",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311.jpg",
       "PackagePath": "staticwebassets\\images\\products\\1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311.jpg"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e2496af24e1cde9f8.png",
       "PackagePath": "staticwebassets\\images\\products\\25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e2496af24e1cde9f8.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg",
       "PackagePath": "staticwebassets\\images\\products\\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\5016d45d-c949-4f48-aeff-4b0166d52b50_20250428185656497.jpg",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\490b593a-d225-488d-9589-4e7ac00453ad_3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\490b593a-d225-488d-9589-4e7ac00453ad_3ddc1cd528270fe310bfe715bcb4840c.jpg"
+    },
+    {
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\5016d45d-c949-4f48-aeff-4b0166d52b50_20250428185656497.jpg",
       "PackagePath": "staticwebassets\\images\\products\\5016d45d-c949-4f48-aeff-4b0166d52b50_20250428185656497.jpg"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.jpg",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.jpg",
       "PackagePath": "staticwebassets\\images\\products\\5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.jpg"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png",
       "PackagePath": "staticwebassets\\images\\products\\5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png",
       "PackagePath": "staticwebassets\\images\\products\\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.png",
       "PackagePath": "staticwebassets\\images\\products\\970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.jpg",
       "PackagePath": "staticwebassets\\images\\products\\b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.jpg"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.png",
       "PackagePath": "staticwebassets\\images\\products\\c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.png",
       "PackagePath": "staticwebassets\\images\\products\\ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.png"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\images\\products\\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg",
       "PackagePath": "staticwebassets\\images\\products\\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\js\\main.js",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\js\\site.js",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "F:\\ExtraImpt\\LaRoze-Project\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

@@ -1,6 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Graduation_Project.Models;
+﻿using Graduation_Project.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using System;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 
 namespace Graduation_Project.Controllers
 {
@@ -15,62 +19,79 @@ namespace Graduation_Project.Controllers
             _logger = logger;
         }
 
-        // GET: Display login page
+        // GET: Login
         public IActionResult Index()
         {
-            return View("Login");
+            // If user is already logged in, redirect to home
+            if (HttpContext.Session.GetString("UserId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            return View();
         }
 
-        // POST: Handle login
+        // POST: Login
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Login(LoginModel loginModel)
+        public async Task<IActionResult> Index(LoginViewModel model)
         {
             if (ModelState.IsValid)
             {
-                var user = _context.Users.FirstOrDefault(u => u.Email == loginModel.Email);
+                var user = await _context.Users
+                    .Include(u => u.Role) // Include Role to access role information
+                    .FirstOrDefaultAsync(u => u.Email == model.Email);
 
-                if (user != null && user.Password == loginModel.Password)
+                if (user != null && BCrypt.Net.BCrypt.Verify(model.Password, user.Password))
                 {
+                    // Update last login time
                     user.LastLogin = DateTime.Now;
-                    _context.SaveChanges();
+                    await _context.SaveChangesAsync();
 
-                    // Set session data
+                    // Set session variables
                     HttpContext.Session.SetString("UserId", user.UserId.ToString());
+                    HttpContext.Session.SetString("UserName", $"{user.FirstName} {user.LastName}");
+                    HttpContext.Session.SetString("UserEmail", user.Email);
                     HttpContext.Session.SetString("UserRole", user.RoleId.ToString());
-                    _logger.LogInformation($"User {user.UserId} logged in successfully. Session UserId set to {user.UserId}");
+                    HttpContext.Session.SetString("UserRoleName", user.Role?.Name ?? "User");
 
-                    // Log session keys and cookie for debugging
-                    var sessionKeys = HttpContext.Session.Keys;
-                    var sessionCookie = HttpContext.Request.Cookies["ASP.NET_SessionId"];
-                    _logger.LogInformation($"After setting session. Session Keys: {string.Join(", ", sessionKeys)}, Session Cookie: {sessionCookie ?? "null"}");
+                    _logger.LogInformation($"User {user.Email} logged in successfully");
 
-                    // Ensure session is committed before redirect
-                    HttpContext.Session.CommitAsync().GetAwaiter().GetResult();
-
-                    TempData["SuccessMessage"] = "Login successful! Redirecting to home.";
+                    // Redirect to home page
                     return RedirectToAction("Index", "Home");
                 }
 
-                // Handle invalid login
-                TempData["ErrorMessage"] = "Invalid email or password.";
-                _logger.LogWarning($"Failed login attempt for email: {loginModel.Email}");
-            }
-            else
-            {
-                TempData["ErrorMessage"] = "Please provide valid email and password.";
+                ModelState.AddModelError("", "Invalid email or password");
+                _logger.LogWarning($"Failed login attempt for email: {model.Email}");
             }
 
-            return View("Login", loginModel);
+            return View(model);
         }
 
-        // GET: Handle logout
+        // For backward compatibility with Login.cshtml
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Login(LoginViewModel model)
+        {
+            // Just redirect to the Index action with the same model
+            return await Index(model);
+        }
+
+        // GET: Login/Login
+        public IActionResult Login()
+        {
+            // If user is already logged in, redirect to home
+            if (HttpContext.Session.GetString("UserId") != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
+            return View();
+        }
+
+        // GET: Login/Logout
         public IActionResult Logout()
         {
             HttpContext.Session.Clear();
-            _logger.LogInformation("User logged out. Session cleared.");
-            TempData["SuccessMessage"] = "You have been logged out successfully.";
-            return RedirectToAction("Index", "Login");
+            return RedirectToAction("Index", "Home");
         }
     }
 }

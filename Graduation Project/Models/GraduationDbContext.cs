@@ -53,12 +53,38 @@ namespace Graduation_Project.Models
                 .HasForeignKey(o => o.UserId)
                 .OnDelete(DeleteBehavior.Restrict);
 
+            // Order table configuration
+            modelBuilder.Entity<Order>()
+                .Property(o => o.OrderId)
+                .HasColumnName("Id");
+
+            modelBuilder.Entity<Order>()
+                .Property(o => o.TotalPrice)
+                .HasColumnName("TotalAmount")
+                .HasColumnType("decimal(18, 2)");
+
+            modelBuilder.Entity<Order>()
+                .Property(o => o.StatusId)
+                .HasColumnName("Status");
+
             // Order ↔ Payment
             modelBuilder.Entity<Order>()
                 .HasOne(o => o.Payment)
-                .WithMany()
-                .HasForeignKey(o => o.PaymentId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .WithOne(p => p.Order)
+                .HasForeignKey<Order>(o => o.PaymentId);
+
+            // Payment configuration
+            modelBuilder.Entity<Payment>()
+                .Property(p => p.PaymentId)
+                .HasColumnName("Id");
+
+            modelBuilder.Entity<Payment>()
+                .Property(p => p.PaymentStatus)
+                .HasColumnName("Status");
+
+            modelBuilder.Entity<Payment>()
+                .Property(p => p.Amount)
+                .HasColumnType("decimal(18, 2)");
 
             // OrderItem ↔ Order
             modelBuilder.Entity<OrderItem>()
@@ -66,6 +92,15 @@ namespace Graduation_Project.Models
                 .WithMany(o => o.OrderItems)
                 .HasForeignKey(oi => oi.OrderId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            // OrderItem configuration
+            modelBuilder.Entity<OrderItem>()
+                .Property(oi => oi.OrderItemId)
+                .HasColumnName("Id");
+
+            modelBuilder.Entity<OrderItem>()
+                .Property(oi => oi.Price)
+                .HasColumnType("decimal(18, 2)");
 
             // OrderItem ↔ Product
             modelBuilder.Entity<OrderItem>()
@@ -109,6 +144,10 @@ namespace Graduation_Project.Models
                 .HasForeignKey(ci => ci.CartId)
                 .OnDelete(DeleteBehavior.Restrict);
 
+            // CartItem configuration
+            modelBuilder.Entity<CartItem>()
+                .Ignore(ci => ci.AddedAt); // Explicitly ignore this property
+
             // CartItem ↔ Product
             modelBuilder.Entity<CartItem>()
                 .HasOne(ci => ci.Product)
@@ -122,6 +161,10 @@ namespace Graduation_Project.Models
                 .WithMany(u => u.Wishlists)
                 .HasForeignKey(w => w.UserId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            // Wishlist configuration
+            modelBuilder.Entity<Wishlist>()
+                .Ignore(w => w.DateAdded); // Explicitly ignore this property
 
             // Wishlist ↔ Product
             modelBuilder.Entity<Wishlist>()

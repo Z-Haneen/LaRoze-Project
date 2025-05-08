@@ -1,4 +1,4 @@
-﻿
+﻿@model HomePageViewModel
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -18,62 +18,129 @@
     <div class="container">
         <section class="hero">
             <img src="~/images/bde5f982972185f839a8e1eb6a491078.png" alt="">
+            <div class="hero-overlay">
+                <h2>Welcome to Laroze</h2>
+                <p>Discover our latest collections</p>
+                <a href="#categories" class="btn btn-primary">Shop Now</a>
+            </div>
         </section>
 
         <section class="categories">
             <h1>Categories</h1>
             <div class="categ-box">
-                <div class="categ-card one">
-                    <div class="overlay">
-                        <h1>Women</h1>
-                    </div>
-                </div>
-                <div class="categ-card two">
-                    <div class="overlay">
-                        <h1>Men</h1>
-                    </div>
-                </div>
-                <div class="categ-card three">
-                    <div class="overlay">
-                        <h1>Kids</h1>
-                    </div>
-                </div>
+                @if (Model != null && Model.Categories != null && Model.Categories.Any())
+                {
+                    var categoryClasses = new[] { "one", "two", "three" };
+                    for (int i = 0; i < Math.Min(Model.Categories.Count, 3); i++)
+                    {
+                        var category = Model.Categories[i];
+                        var cssClass = i < categoryClasses.Length ? categoryClasses[i] : "";
+                        <a href="@Url.Action("Products", "Category", new { categoryId = category.CategoryId })" class="categ-card @cssClass">
+                            <div class="overlay">
+                                <h1>@category.Name</h1>
+                            </div>
+                        </a>
+                    }
+                }
+                else
+                {
+                    <a href="@Url.Action("Products", "Category", new { categoryId = 1 })" class="categ-card one">
+                        <div class="overlay">
+                            <h1>Women</h1>
+                        </div>
+                    </a>
+                    <a href="@Url.Action("Products", "Category", new { categoryId = 2 })" class="categ-card two">
+                        <div class="overlay">
+                            <h1>Men</h1>
+                        </div>
+                    </a>
+                    <a href="@Url.Action("Products", "Category", new { categoryId = 3 })" class="categ-card three">
+                        <div class="overlay">
+                            <h1>Kids</h1>
+                        </div>
+                    </a>
+                }
             </div>
         </section>
 
         <section class="offers">
             <h1>Offers</h1>
             <div class="box">
-                <img src="~/images/7389d65b3e3fd0d8561cba3756a24e6c.png" alt="">
+                @if (Model != null && Model.Promotions != null && Model.Promotions.Any())
+                {
+                    foreach (var promotion in Model.Promotions)
+                    {
+                        var product = Model.FeaturedProducts.FirstOrDefault(p => p.ProductId == promotion.ProductId);
+                        if (product != null)
+                        {
+                            <div class="offer-card">
+                                <img src="@(string.IsNullOrEmpty(product.ImageUrl) ? "/images/products/no-image.png" : product.ImageUrl)" alt="@product.Name">
+                                <div class="offer-details">
+                                    <h3>@product.Name</h3>
+                                    <p>@promotion.PromotionType</p>
+                                    <div class="price-container">
+                                        <span class="original-price">$@product.Price.ToString("F2")</span>
+                                        <span class="discount-price">$@((product.Price * (100 - promotion.DiscountPercentage) / 100).ToString("F2"))</span>
+                                    </div>
+                                    <span class="discount-badge">@promotion.DiscountPercentage% OFF</span>
+                                    <button class="btn btn-primary mt-2" onclick="addToCart('@product.Name', @((product.Price * (100 - promotion.DiscountPercentage) / 100)))">Add to Cart</button>
+                                </div>
+                            </div>
+                        }
+                    }
+                }
+                else
+                {
+                    <img src="~/images/7389d65b3e3fd0d8561cba3756a24e6c.png" alt="">
+                }
             </div>
         </section>
 
         <section class="best-sales">
             <h1>Best Selling</h1>
             <div class="best-sales-box">
-                <div class="best-sales-card num1">
-                    <img src="~/images/c0fe906f7fd102780b3957c19514dff4.png" alt="">
-                    <h3>psycho Bunny</h3>
-                    <p>Tee 001 BLACK</p>
-                    <span>$48</span>
-                    <button class="btn btn-primary mt-2" onclick="addToCart('Tee 001 BLACK', 48)">Add to Cart</button>
-                </div>
+                @if (Model != null && Model.BestSellingProducts != null && Model.BestSellingProducts.Any())
+                {
+                    var cardClasses = new[] { "num1", "num2", "num3" };
+                    for (int i = 0; i < Math.Min(Model.BestSellingProducts.Count, 3); i++)
+                    {
+                        var product = Model.BestSellingProducts[i];
+                        var cssClass = i < cardClasses.Length ? cardClasses[i] : "";
+                        <div class="best-sales-card @cssClass">
+                            <img src="@(string.IsNullOrEmpty(product.ImageUrl) ? "/images/products/no-image.png" : product.ImageUrl)" alt="@product.Name">
+                            <h3>@(product.Category?.Name ?? "Product")</h3>
+                            <p>@product.Name</p>
+                            <span>$@product.Price.ToString("F2")</span>
+                            <button class="btn btn-primary mt-2" onclick="addToCart('@product.Name', @product.Price)">Add to Cart</button>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <div class="best-sales-card num1">
+                        <img src="~/images/c0fe906f7fd102780b3957c19514dff4.png" alt="">
+                        <h3>psycho Bunny</h3>
+                        <p>Tee 001 BLACK</p>
+                        <span>$48</span>
+                        <button class="btn btn-primary mt-2" onclick="addToCart('Tee 001 BLACK', 48)">Add to Cart</button>
+                    </div>
 
-                <div class="best-sales-card num2">
-                    <img src="~/images/8ecc239031fd3b010ef0589725ce0e91.png" alt="">
-                    <h3>psycho Bunny</h3>
-                    <p>Tee 001 BLACK</p>
-                    <span>$48</span>
-                    <button class="btn btn-primary mt-2" onclick="addToCart('Tee 001 BLACK', 48)">Add to Cart</button>
-                </div>
+                    <div class="best-sales-card num2">
+                        <img src="~/images/8ecc239031fd3b010ef0589725ce0e91.png" alt="">
+                        <h3>psycho Bunny</h3>
+                        <p>Tee 001 BLACK</p>
+                        <span>$48</span>
+                        <button class="btn btn-primary mt-2" onclick="addToCart('Tee 001 BLACK', 48)">Add to Cart</button>
+                    </div>
 
-                <div class="best-sales-card num3">
-                    <img src="~/images/7acf559f231ad01bef94a184d0596525.png" alt="">
-                    <h3>psycho Bunny</h3>
-                    <p>Tee 001 BLACK</p>
-                    <span>$48</span>
-                    <button class="btn btn-primary mt-2" onclick="addToCart('Tee 001 BLACK', 48)">Add to Cart</button>
-                </div>
+                    <div class="best-sales-card num3">
+                        <img src="~/images/7acf559f231ad01bef94a184d0596525.png" alt="">
+                        <h3>psycho Bunny</h3>
+                        <p>Tee 001 BLACK</p>
+                        <span>$48</span>
+                        <button class="btn btn-primary mt-2" onclick="addToCart('Tee 001 BLACK', 48)">Add to Cart</button>
+                    </div>
+                }
             </div>
         </section>
     </div>
