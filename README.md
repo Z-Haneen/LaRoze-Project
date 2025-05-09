@@ -96,19 +96,6 @@ Future enhancements include:
 
 We welcome contributions to enhance La Rozeî! Please fork the repo, create a feature branch, and submit a pull request.
 
----
 
-## 📄 License
 
-This project is licensed under the MIT License.
 
----
-
-## 📬 Contact
-
-For inquiries, partnerships, or demos, reach out to us at [info@larozei.com](mailto:info@larozei.com).
-
----
-```
-
-Would you like me to help generate a project structure or add installation instructions as well?
