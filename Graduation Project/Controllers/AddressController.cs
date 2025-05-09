@@ -2,6 +2,8 @@ using Graduation_Project.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace Graduation_Project.Controllers
 {
@@ -32,6 +34,8 @@ namespace Graduation_Project.Controllers
                 .ThenBy(a => a.FullName)
                 .ToListAsync();
 
+            // Success message is handled via TempData in the view
+            
             return View(addresses);
         }
 
@@ -60,30 +64,69 @@ namespace Graduation_Project.Controllers
                 return RedirectToAction("Index", "Login");
             }
 
+            // Set the UserId before validation
+            address.UserId = userId;
+            
+            // Clear validation errors for NotMapped properties
+            ModelState.Remove("User");
+            ModelState.Remove("AddressName");
+            ModelState.Remove("Phone");
+            ModelState.Remove("AddressType");
+            ModelState.Remove("DeliveryInstructions");
+
             if (ModelState.IsValid)
             {
-                address.UserId = userId;
-
-                // If this is the first address or marked as default
-                if (address.IsDefault || !_context.UserAddresses.Any(a => a.UserId == userId))
+                try
                 {
-                    // Set all other addresses as non-default
-                    var existingAddresses = await _context.UserAddresses
-                        .Where(a => a.UserId == userId)
-                        .ToListAsync();
-
-                    foreach (var existingAddress in existingAddresses)
+                    // If this is the first address or marked as default
+                    if (address.IsDefault || !_context.UserAddresses.Any(a => a.UserId == userId))
                     {
-                        existingAddress.IsDefault = false;
+                        // Set all other addresses as non-default
+                        var existingAddresses = await _context.UserAddresses
+                            .Where(a => a.UserId == userId)
+                            .ToListAsync();
+
+                        foreach (var existingAddress in existingAddresses)
+                        {
+                            existingAddress.IsDefault = false;
+                        }
+
+                        address.IsDefault = true;
                     }
 
-                    address.IsDefault = true;
-                }
+                    // If the NotMapped Phone property is provided, use it for PhoneNumber
+                    if (!string.IsNullOrEmpty(address.Phone) && string.IsNullOrEmpty(address.PhoneNumber))
+                    {
+                        address.PhoneNumber = address.Phone;
+                    }
 
-                _context.Add(address);
-                await _context.SaveChangesAsync();
-                TempData["SuccessMessage"] = "Address added successfully.";
-                return RedirectToAction(nameof(Index));
+                    _context.Add(address);
+                    await _context.SaveChangesAsync();
+                    TempData["SuccessMessage"] = "Address added successfully.";
+                    return RedirectToAction(nameof(Index));
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("", "An error occurred while saving your address. Please try again.");
+                    TempData["ErrorMessage"] = "Failed to save address. Please try again.";
+                }
+            }
+            else
+            {
+                // Log validation errors for debugging
+                var errorMessages = new List<string>();
+                foreach (var modelState in ModelState.Values)
+                {
+                    foreach (var error in modelState.Errors)
+                    {
+                        errorMessages.Add(error.ErrorMessage);
+                    }
+                }
+                
+                if (errorMessages.Any())
+                {
+                    TempData["ErrorMessage"] = string.Join(", ", errorMessages);
+                }
             }
             return View(address);
         }
@@ -130,6 +173,13 @@ namespace Graduation_Project.Controllers
             {
                 return NotFound();
             }
+            
+            // Clear validation errors for NotMapped properties
+            ModelState.Remove("User");
+            ModelState.Remove("AddressName");
+            ModelState.Remove("Phone");
+            ModelState.Remove("AddressType");
+            ModelState.Remove("DeliveryInstructions");
 
             if (ModelState.IsValid)
             {
@@ -162,11 +212,18 @@ namespace Graduation_Project.Controllers
                         }
                     }
 
+                    // If the NotMapped Phone property is provided, use it for PhoneNumber
+                    if (!string.IsNullOrEmpty(address.Phone) && string.IsNullOrEmpty(address.PhoneNumber))
+                    {
+                        address.PhoneNumber = address.Phone;
+                    }
+
                     _context.Update(address);
                     await _context.SaveChangesAsync();
                     TempData["SuccessMessage"] = "Address updated successfully.";
+                    return RedirectToAction(nameof(Index));
                 }
-                catch (DbUpdateConcurrencyException)
+                catch (DbUpdateConcurrencyException ex)
                 {
                     if (!AddressExists(address.AddressId))
                     {
@@ -174,10 +231,33 @@ namespace Graduation_Project.Controllers
                     }
                     else
                     {
-                        throw;
+                        TempData["ErrorMessage"] = "The address was modified by another user. Please try again.";
+                        return View(address);
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("", "An error occurred while updating your address. Please try again.");
+                    TempData["ErrorMessage"] = "Failed to update address. Please try again.";
+                    return View(address);
+                }
+            }
+            else
+            {
+                // Log validation errors for debugging
+                var errorMessages = new List<string>();
+                foreach (var modelState in ModelState.Values)
+                {
+                    foreach (var error in modelState.Errors)
+                    {
+                        errorMessages.Add(error.ErrorMessage);
+                    }
+                }
+                
+                if (errorMessages.Any())
+                {
+                    TempData["ErrorMessage"] = string.Join(", ", errorMessages);
+                }
             }
             return View(address);
         }
@@ -194,6 +274,8 @@ namespace Graduation_Project.Controllers
                 return RedirectToAction("Index", "Login");
             }
 
+            try
+            {
             var address = await _context.UserAddresses
                 .FirstOrDefaultAsync(a => a.AddressId == id && a.UserId == userId);
 
@@ -218,6 +300,12 @@ namespace Graduation_Project.Controllers
             _context.UserAddresses.Remove(address);
             await _context.SaveChangesAsync();
             TempData["SuccessMessage"] = "Address deleted successfully.";
+            }
+            catch (Exception ex)
+            {
+                TempData["ErrorMessage"] = "Failed to delete address. Please try again.";
+            }
+            
             return RedirectToAction(nameof(Index));
         }
 
@@ -262,4 +350,6 @@ namespace Graduation_Project.Controllers
         }
     }
 }
+
+
 

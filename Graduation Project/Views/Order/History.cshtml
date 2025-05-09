@@ -3,76 +3,207 @@
     ViewData["Title"] = "Order History";
 }
 
-<div class="container my-5">
-    <div class="row">
-        <!-- Sidebar -->
-        <partial name="_AccountSidebar" />
+@section Styles {
+    <link rel="stylesheet" href="~/css/account.css" />
+    <style>
+        /* Add enhanced styling for the view details button */
+        .view-details-btn {
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+        
+        .view-details-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .view-details-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: all 0.6s ease;
+            z-index: -1;
+        }
+        
+        .view-details-btn:hover::before {
+            left: 100%;
+        }
+        
+        /* Enhanced styling for the order card */
+        .order-card {
+            transition: all 0.3s ease;
+        }
+        
+        .order-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+    </style>
+}
 
-        <!-- Main Content -->
-        <div class="col-md-9">
-            <div class="card shadow">
-                <div class="card-header bg-light">
-                    <h5 class="mb-0">Order History</h5>
+<div class="container mt-4 mb-5">
+    <div class="account-container">
+        <div class="row">
+            <!-- Mobile Navigation -->
+            <div class="col-12 mobile-account-nav">
+                <button class="mobile-toggle" id="toggleAccountMenu">
+                    <i class="bi bi-person-circle"></i> Account Menu
+                </button>
+                <div class="mobile-account-menu" id="mobileAccountMenu">
+                    <div class="list-group">
+                        <a asp-controller="Account" asp-action="Profile" class="nav-item">
+                            <i class="bi bi-speedometer2"></i> Dashboard
+                        </a>
+                        <a asp-controller="Account" asp-action="EditProfile" class="nav-item">
+                            <i class="bi bi-person"></i> Edit Profile
+                        </a>
+                        <a asp-controller="Account" asp-action="ChangePassword" class="nav-item">
+                            <i class="bi bi-key"></i> Change Password
+                        </a>
+                        <a asp-controller="Address" asp-action="Index" class="nav-item">
+                            <i class="bi bi-geo-alt"></i> My Addresses
+                        </a>
+                        <a asp-controller="Order" asp-action="History" class="nav-item active">
+                            <i class="bi bi-box-seam"></i> Order History
+                        </a>
+                        <a asp-controller="Wishlist" asp-action="Index" class="nav-item">
+                            <i class="bi bi-heart"></i> Wishlist
+                        </a>
+                        <a asp-controller="Login" asp-action="Logout" class="nav-item danger">
+                            <i class="bi bi-box-arrow-right"></i> Logout
+                        </a>
+                    </div>
                 </div>
-                <div class="card-body">
+            </div>
+
+            <!-- Sidebar (Desktop) -->
+            <div class="col-md-3 account-sidebar">
+                <div class="profile-card">
+                    <div class="card-body text-center">
+                        <div class="profile-image">
+                            <i class="bi bi-person"></i>
+                        </div>
+                        <h3 class="profile-name">@Context.Session.GetString("UserName")</h3>
+                        <p class="profile-email">@Context.Session.GetString("UserEmail")</p>
+                    </div>
+                </div>
+
+                <div class="nav-list">
+                    <a asp-controller="Account" asp-action="Profile" class="nav-item">
+                        <i class="bi bi-speedometer2"></i> Dashboard
+                    </a>
+                    <a asp-controller="Account" asp-action="EditProfile" class="nav-item">
+                        <i class="bi bi-person"></i> Edit Profile
+                    </a>
+                    <a asp-controller="Account" asp-action="ChangePassword" class="nav-item">
+                        <i class="bi bi-key"></i> Change Password
+                    </a>
+                    <a asp-controller="Address" asp-action="Index" class="nav-item">
+                        <i class="bi bi-geo-alt"></i> My Addresses
+                    </a>
+                    <a asp-controller="Order" asp-action="History" class="nav-item active">
+                        <i class="bi bi-box-seam"></i> Order History
+                    </a>
+                    <a asp-controller="Wishlist" asp-action="Index" class="nav-item">
+                        <i class="bi bi-heart"></i> Wishlist
+                    </a>
+                    <a asp-controller="Login" asp-action="Logout" class="nav-item danger">
+                        <i class="bi bi-box-arrow-right"></i> Logout
+                    </a>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-md-9">
+                <div class="main-content">
+                    <h1 class="h4 mb-4">Order History</h1>
+
                     @if (!Model.Any())
                     {
-                        <div class="text-center py-5">
-                            <i class="bi bi-bag" style="font-size: 3rem; color: #ccc;"></i>
-                            <p class="mt-3">You haven't placed any orders yet.</p>
-                            <a asp-controller="Home" asp-action="Index" class="btn btn-primary mt-2">Start Shopping</a>
+                        <div class="empty-state">
+                            <i class="bi bi-bag empty-state-icon"></i>
+                            <p class="empty-state-text">You haven't placed any orders yet.</p>
+                            <a asp-controller="Home" asp-action="Index" class="btn btn-brand">Start Shopping</a>
                         </div>
                     }
                     else
                     {
-                        <div class="table-responsive">
-                            <table class="table table-hover">
-                                <thead class="table-light">
-                                    <tr>
-                                        <th>Order #</th>
-                                        <th>Date</th>
-                                        <th>Status</th>
-                                        <th>Total</th>
-                                        <th>Actions</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    @foreach (var order in Model)
-                                    {
-                                        <tr>
-                                            <td>@order.OrderId</td>
-                                            <td>@order.OrderDate.ToString("MMM dd, yyyy")</td>
-                                            <td>
-                                                @switch (order.Status)
-                                                {
-                                                    case "Pending":
-                                                        <span class="badge bg-warning text-dark">Pending</span>
-                                                        break;
-                                                    case "Processing":
-                                                        <span class="badge bg-info">Processing</span>
-                                                        break;
-                                                    case "Shipped":
-                                                        <span class="badge bg-primary">Shipped</span>
-                                                        break;
-                                                    case "Delivered":
-                                                        <span class="badge bg-success">Delivered</span>
-                                                        break;
-                                                    case "Cancelled":
-                                                        <span class="badge bg-danger">Cancelled</span>
-                                                        break;
-                                                    default:
-                                                        <span class="badge bg-secondary">@order.Status</span>
-                                                        break;
-                                                }
-                                            </td>
-                                            <td>$@order.TotalAmount.ToString("F2")</td>
-                                            <td>
-                                                <a asp-action="Details" asp-route-id="@order.OrderId" class="btn btn-sm btn-outline-primary">View Details</a>
-                                            </td>
-                                        </tr>
-                                    }
-                                </tbody>
-                            </table>
+                        <div class="order-filters mb-4">
+                            <div class="input-group">
+                                <input type="text" id="orderSearchInput" class="form-control" placeholder="Search by order number...">
+                                <button class="btn btn-brand" type="button" id="orderSearchButton">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="order-list">
+                            @foreach (var order in Model)
+                            {
+                                <div class="order-card">
+                                    <div class="order-card-header">
+                                        <div class="order-meta">
+                                            <div class="order-number">Order #@order.OrderId</div>
+                                            <div class="order-date">@order.OrderDate.ToString("MMM dd, yyyy")</div>
+                                        </div>
+                                        <div class="order-status">
+                                            @switch (order.Status)
+                                            {
+                                                case "Pending":
+                                                    <span class="status-badge status-pending">Pending</span>
+                                                    break;
+                                                case "Processing":
+                                                    <span class="status-badge status-processing">Processing</span>
+                                                    break;
+                                                case "Shipped":
+                                                    <span class="status-badge status-shipped">Shipped</span>
+                                                    break;
+                                                case "Delivered":
+                                                    <span class="status-badge status-delivered">Delivered</span>
+                                                    break;
+                                                case "Cancelled":
+                                                    <span class="status-badge status-cancelled">Cancelled</span>
+                                                    break;
+                                                default:
+                                                    <span class="status-badge">@order.Status</span>
+                                                    break;
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="order-card-body">
+                                        <div class="order-info">
+                                            <div class="order-info-item">
+                                                <span class="info-label">Total Amount</span>
+                                                <span class="info-value">$@order.TotalAmount.ToString("F2")</span>
+                                            </div>
+                                            @if (!string.IsNullOrEmpty(order.TrackingNumber))
+                                            {
+                                                <div class="order-info-item">
+                                                    <span class="info-label">Tracking</span>
+                                                    <span class="info-value">@order.TrackingNumber</span>
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="order-card-footer">
+                                        <a asp-action="Details" asp-route-id="@order.OrderId" class="btn btn-outline-brand view-details-btn">
+                                            <i class="bi bi-eye"></i> View Details
+                                        </a>
+                                        @if (order.Status == "Delivered")
+                                        {
+                                            <button class="btn btn-outline-brand btn-reorder">
+                                                <i class="bi bi-arrow-repeat"></i> Buy Again
+                                            </button>
+                                        }
+                                    </div>
+                                </div>
+                            }
                         </div>
                     }
                 </div>
@@ -81,19 +212,48 @@
     </div>
 </div>
 
-@functions {
-    public string GetStatusBadgeColor(string status)
-    {
-        return status.ToLower() switch
-        {
-            "pending" => "warning",
-            "processing" => "info",
-            "shipped" => "primary",
-            "delivered" => "success",
-            "cancelled" => "danger",
-            _ => "secondary"
-        };
-    }
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu toggle
+            const toggleBtn = document.getElementById('toggleAccountMenu');
+            const mobileMenu = document.getElementById('mobileAccountMenu');
+            
+            if (toggleBtn && mobileMenu) {
+                toggleBtn.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('show');
+                    this.classList.toggle('active');
+                });
+            }
+            
+            // Order search functionality
+            const searchInput = document.getElementById('orderSearchInput');
+            const searchButton = document.getElementById('orderSearchButton');
+            const orderCards = document.querySelectorAll('.order-card');
+            
+            if (searchInput && searchButton && orderCards.length > 0) {
+                const performSearch = () => {
+                    const searchTerm = searchInput.value.toLowerCase().trim();
+                    
+                    orderCards.forEach(card => {
+                        const orderNumber = card.querySelector('.order-number').textContent.toLowerCase();
+                        if (searchTerm === '' || orderNumber.includes(searchTerm)) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                };
+                
+                searchButton.addEventListener('click', performSearch);
+                searchInput.addEventListener('keyup', function(e) {
+                    if (e.key === 'Enter') {
+                        performSearch();
+                    }
+                });
+            }
+        });
+    </script>
 }
 
 

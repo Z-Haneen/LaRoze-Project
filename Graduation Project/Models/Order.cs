@@ -120,9 +120,6 @@ namespace Graduation_Project.Models
         [ForeignKey("PaymentId")]
         public Payment? Payment { get; set; }
 
-        // Remove circular reference
-        // public virtual ICollection<Payment> Payments { get; set; } = new List<Payment>();
-
         // Helper methods to convert between string status and int status
         private string GetStatusString(int statusId)
         {

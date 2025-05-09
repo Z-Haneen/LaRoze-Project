@@ -299,11 +299,31 @@ namespace Graduation_Project.Controllers
                 return Json(new { success = false, message = "The selected shipping address was not found. Please select a valid address." });
             }
 
+            // Declare order variable at a higher scope
+            Models.Order order = null;
+            Models.Payment payment = null;
+
             try
             {
-                // Create payment record first
-                var payment = new Models.Payment
+                // Create new order first without a PaymentId
+                order = new Models.Order
                 {
+                    UserId = userId,
+                    ShippingAddressId = shippingAddress.AddressId,
+                    OrderDate = DateTime.Now,
+                    Status = "Pending",
+                    TotalPrice = cart.CartItems.Sum(ci => ci.Quantity * ci.Product.Price),
+                    TrackingNumber = GenerateTrackingNumber(),
+                    OrderItems = new List<Models.OrderItem>() // Initialize with empty list
+                };
+
+                _context.Orders.Add(order);
+                await _context.SaveChangesAsync();
+                
+                // Now create payment with the correct OrderId
+                payment = new Models.Payment
+                {
+                    OrderId = order.OrderId,
                     PaymentMethod = "Cash on Delivery",
                     PaymentStatus = "Pending",
                     Amount = cart.CartItems.Sum(ci => ci.Quantity * ci.Product.Price),
@@ -313,52 +333,42 @@ namespace Graduation_Project.Controllers
                 _context.Payments.Add(payment);
                 await _context.SaveChangesAsync();
 
-                // Create new order with payment ID
-                var order = new Models.Order
-                {
-                    UserId = userId,
-                    ShippingAddressId = shippingAddress.AddressId, // Use AddressId instead of Id
-                    OrderDate = DateTime.Now,
-                    Status = "Pending", // This will set StatusId to 0
-                    TotalPrice = cart.CartItems.Sum(ci => ci.Quantity * ci.Product.Price),
-                    TrackingNumber = GenerateTrackingNumber(),
-                    PaymentId = payment.PaymentId,
-                    OrderItems = new List<Models.OrderItem>()
-                };
-
-                _context.Orders.Add(order);
-                await _context.SaveChangesAsync();
-
-                // Update payment with order ID
-                payment.OrderId = order.OrderId;
-                _context.Payments.Update(payment);
+                // Update order with the PaymentId
+                order.PaymentId = payment.PaymentId;
+                _context.Orders.Update(order);
                 await _context.SaveChangesAsync();
             }
             catch (Exception ex)
             {
                 _logger.LogError($"Error creating order or payment: {ex.Message}");
+                _logger.LogError($"Stack trace: {ex.StackTrace}");
+                
+                if (ex.InnerException != null)
+                {
+                    _logger.LogError($"Inner exception: {ex.InnerException.Message}");
+                    _logger.LogError($"Inner exception stack trace: {ex.InnerException.StackTrace}");
+                }
+                
                 return Json(new { success = false, message = "An error occurred while processing your order. Please try again." });
             }
 
             try
             {
-                // Get the order we just created
-                var order = await _context.Orders
-                    .OrderByDescending(o => o.OrderId)
-                    .FirstOrDefaultAsync(o => o.UserId == userId);
-
+                // Check if we have a valid order from the previous try block
                 if (order == null)
                 {
-                    _logger.LogError("Order not found after creation");
+                    _logger.LogError("Order object is null after creation attempt");
                     return Json(new { success = false, message = "An error occurred while processing your order. Please try again." });
                 }
-
-                // Add order items
+                
+                // Create order items list first
+                var orderItems = new List<Models.OrderItem>();
+                
                 foreach (var cartItem in cart.CartItems)
                 {
                     var orderItem = new Models.OrderItem
                     {
-                        OrderId = order.OrderId, // Set the correct OrderId
+                        OrderId = order.OrderId,
                         ProductId = cartItem.ProductId,
                         Quantity = cartItem.Quantity,
                         Price = cartItem.Product.Price,
@@ -367,9 +377,25 @@ namespace Graduation_Project.Controllers
                         ProductSku = cartItem.Product.Sku ?? "",
                         ProductImage = cartItem.Product.ImageUrl ?? ""
                     };
-
+                    
+                    orderItems.Add(orderItem);
                     _context.OrderItems.Add(orderItem);
                 }
+                
+                await _context.SaveChangesAsync();
+                
+                // Update inventory for each product
+                foreach (var cartItem in cart.CartItems)
+                {
+                    // Deduct product stock
+                    var product = await _context.Products.FindAsync(cartItem.ProductId);
+                    if (product != null)
+                    {
+                        product.StockQuantity -= cartItem.Quantity;
+                        _context.Products.Update(product);
+                    }
+                }
+                
                 await _context.SaveChangesAsync();
 
                 // Clear the cart
@@ -378,11 +404,19 @@ namespace Graduation_Project.Controllers
 
                 _logger.LogInformation($"Order #{order.OrderId} confirmed for UserId {userId}. Cart cleared.");
 
-                return Json(new { success = true, message = "Order confirmed successfully!", redirectUrl = Url.Action("Profile", "Account") });
+                return Json(new { success = true, message = "Order confirmed successfully!", redirectUrl = Url.Action("Confirmation", "Order", new { id = order.OrderId }) });
             }
             catch (Exception ex)
             {
                 _logger.LogError($"Error creating order items: {ex.Message}");
+                _logger.LogError($"Stack trace: {ex.StackTrace}");
+                
+                if (ex.InnerException != null)
+                {
+                    _logger.LogError($"Inner exception: {ex.InnerException.Message}");
+                    _logger.LogError($"Inner exception stack trace: {ex.InnerException.StackTrace}");
+                }
+                
                 return Json(new { success = false, message = "An error occurred while processing your order. Please try again." });
             }
         }

@@ -126,6 +126,51 @@ namespace Graduation_Project.Controllers
 
             return RedirectToAction(nameof(Details), new { id = id });
         }
+
+        // GET: Order/Confirmation/5
+        public async Task<IActionResult> Confirmation(int id)
+        {
+            var userIdStr = HttpContext.Session.GetString("UserId");
+            if (string.IsNullOrEmpty(userIdStr) || !int.TryParse(userIdStr, out int userId))
+            {
+                return RedirectToAction("Index", "Login");
+            }
+
+            var order = await _context.Orders
+                .Include(o => o.OrderItems)
+                .ThenInclude(oi => oi.Product)
+                .Include(o => o.Payment)
+                .FirstOrDefaultAsync(o => o.OrderId == id && o.UserId == userId);
+
+            if (order == null)
+            {
+                return NotFound();
+            }
+
+            // Get the shipping address
+            if (order.ShippingAddressId.HasValue)
+            {
+                var shippingAddress = await _context.UserAddresses
+                    .FirstOrDefaultAsync(a => a.AddressId == order.ShippingAddressId.Value);
+
+                if (shippingAddress != null)
+                {
+                    // Populate the shipping address fields
+                    order.ShippingName = shippingAddress.FullName;
+                    order.ShippingAddress = shippingAddress.StreetAddress;
+                    order.ShippingCity = shippingAddress.City;
+                    order.ShippingState = shippingAddress.State;
+                    order.ShippingPostalCode = shippingAddress.PostalCode;
+                    order.ShippingCountry = shippingAddress.Country;
+                    order.ShippingPhone = shippingAddress.PhoneNumber;
+                }
+            }
+
+            // Store success message for display
+            TempData["SuccessMessage"] = "Thank you for your order! Your order has been successfully placed.";
+
+            return View(order);
+        }
     }
 }
 
