@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t9aWrXxPh5sl/tglXNw+x6dRdBpJYPvZXIQhWA2ktYQ=",
+  "Hash": "6DxOCl2oRKTJlJ0TOWOOckMCUhjYyCLJVsAviOUdb7U=",
   "Source": "Graduation Project",
   "BasePath": "_content/Graduation Project",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Graduation Project\\wwwroot",
       "Source": "Graduation Project",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Graduation Project.styles.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Graduation Project.styles.css",
       "SourceId": "Graduation Project",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "Graduation Project#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "ORu3re/jB4E6gT6KLPvMDG6bb+FfY8APDb6YlqNawVQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\laroze star\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Graduation Project.styles.css"
+      "OriginalItemSpec": "F:\\laroze star - Copy\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Graduation Project.styles.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Graduation Project.bundle.scp.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Graduation Project.bundle.scp.css",
       "SourceId": "Graduation Project",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "Graduation Project#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "ORu3re/jB4E6gT6KLPvMDG6bb+FfY8APDb6YlqNawVQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\laroze star\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Graduation Project.bundle.scp.css"
+      "OriginalItemSpec": "F:\\laroze star - Copy\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Graduation Project.bundle.scp.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\css\\account.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\css\\account.css",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "css/account#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -73,17 +73,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "j3mbydfve6",
-      "Integrity": "n6pLu9Z7N5x3e9OLBaq3gdV0a6mn/JJW6Cq8VKg6HIQ=",
+      "Fingerprint": "5dm5znnozu",
+      "Integrity": "eS8ls7QRnew/gDxkHdow4VBxdJFDcZcUUL/mo4WBaIg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\account.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\css\\site.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\css\\site.css",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\css\\style.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\css\\style.css",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "css/style#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -115,17 +115,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jds7auq4hb",
-      "Integrity": "Z60yxhERrd5rGQJCrjcrNwue5qxMn5dNb4t8f+yceGo=",
+      "Fingerprint": "64lz8ekhxa",
+      "Integrity": "WiqsYifSufqaTl8Ry52r3kLGBDEN3kC9eYZRUoDAD+M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\favicon.ico",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\favicon.ico",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\1c9eec6dad94dfe052fadee794d3d311.jpg",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\1c9eec6dad94dfe052fadee794d3d311.jpg",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/1c9eec6dad94dfe052fadee794d3d311#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\images\\1c9eec6dad94dfe052fadee794d3d311.jpg"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185637558.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185637558.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/20250428185637558#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20250428185637558.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185656497.jpg",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185656497.jpg",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/20250428185656497#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20250428185656497.jpg"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185705326.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185705326.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/20250428185705326#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20250428185705326.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185712692.jpg",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185712692.jpg",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/20250428185712692#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20250428185712692.jpg"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185719764.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185719764.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/20250428185719764#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20250428185719764.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185726618.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185726618.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/20250428185726618#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20250428185726618.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185754763.jpg",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185754763.jpg",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/20250428185754763#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20250428185754763.jpg"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185804416.jpg",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185804416.jpg",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/20250428185804416#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20250428185804416.jpg"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185822318.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185822318.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/20250428185822318#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\images\\20250428185822318.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\285936577be25b998c758479b04f0ac4.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\285936577be25b998c758479b04f0ac4.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/285936577be25b998c758479b04f0ac4#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\images\\285936577be25b998c758479b04f0ac4.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\2faadc710b84f9d3875e674a81274137.jpg",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\2faadc710b84f9d3875e674a81274137.jpg",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/2faadc710b84f9d3875e674a81274137#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2faadc710b84f9d3875e674a81274137.jpg"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\3ddc1cd528270fe310bfe715bcb4840c.jpg",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/3ddc1cd528270fe310bfe715bcb4840c#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\images\\3ddc1cd528270fe310bfe715bcb4840c.jpg"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\641fb71b6e610e9e2496af24e1cde9f8.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\641fb71b6e610e9e2496af24e1cde9f8.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/641fb71b6e610e9e2496af24e1cde9f8#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\images\\641fb71b6e610e9e2496af24e1cde9f8.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\7389d65b3e3fd0d8561cba3756a24e6c.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\7389d65b3e3fd0d8561cba3756a24e6c.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/7389d65b3e3fd0d8561cba3756a24e6c#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\images\\7389d65b3e3fd0d8561cba3756a24e6c.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\7acf559f231ad01bef94a184d0596525.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\7acf559f231ad01bef94a184d0596525.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/7acf559f231ad01bef94a184d0596525#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\images\\7acf559f231ad01bef94a184d0596525.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\8ecc239031fd3b010ef0589725ce0e91.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\8ecc239031fd3b010ef0589725ce0e91.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/8ecc239031fd3b010ef0589725ce0e91#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\images\\8ecc239031fd3b010ef0589725ce0e91.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\b366f2b1cccc6ee838112b9eaf20b553cb393a1eeebefdf390185ce12985832a.jpeg",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\b366f2b1cccc6ee838112b9eaf20b553cb393a1eeebefdf390185ce12985832a.jpeg",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/b366f2b1cccc6ee838112b9eaf20b553cb393a1eeebefdf390185ce12985832a#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\images\\b366f2b1cccc6ee838112b9eaf20b553cb393a1eeebefdf390185ce12985832a.jpeg"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\bde5f982972185f839a8e1eb6a491078.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\bde5f982972185f839a8e1eb6a491078.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/bde5f982972185f839a8e1eb6a491078#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bde5f982972185f839a8e1eb6a491078.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\c0fe906f7fd102780b3957c19514dff4.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\c0fe906f7fd102780b3957c19514dff4.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/c0fe906f7fd102780b3957c19514dff4#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\images\\c0fe906f7fd102780b3957c19514dff4.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\c5e484ced9dd246ed3366ed2b44dad6a.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\c5e484ced9dd246ed3366ed2b44dad6a.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/c5e484ced9dd246ed3366ed2b44dad6a#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\images\\c5e484ced9dd246ed3366ed2b44dad6a.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\login.jpg",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\login.jpg",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/login#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\images\\login.jpg"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\portrait-young-japanese-woman-with-jacket.jpg",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\portrait-young-japanese-woman-with-jacket.jpg",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/portrait-young-japanese-woman-with-jacket#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -626,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\images\\portrait-young-japanese-woman-with-jacket.jpg"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/products/129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311.jpg",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311.jpg",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/products/1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -668,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311.jpg"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e2496af24e1cde9f8.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/products/25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e2496af24e1cde9f8#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -689,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e2496af24e1cde9f8.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/products/3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -710,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\490b593a-d225-488d-9589-4e7ac00453ad_3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\490b593a-d225-488d-9589-4e7ac00453ad_3ddc1cd528270fe310bfe715bcb4840c.jpg",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/products/490b593a-d225-488d-9589-4e7ac00453ad_3ddc1cd528270fe310bfe715bcb4840c#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\490b593a-d225-488d-9589-4e7ac00453ad_3ddc1cd528270fe310bfe715bcb4840c.jpg"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\5016d45d-c949-4f48-aeff-4b0166d52b50_20250428185656497.jpg",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\5016d45d-c949-4f48-aeff-4b0166d52b50_20250428185656497.jpg",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/products/5016d45d-c949-4f48-aeff-4b0166d52b50_20250428185656497#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -752,10 +752,31 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\5016d45d-c949-4f48-aeff-4b0166d52b50_20250428185656497.jpg"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.jpg",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\562fd430-6aa0-422e-a7a6-6303611f36fe_8ecc239031fd3b010ef0589725ce0e91.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
+      "BasePath": "_content/Graduation Project",
+      "RelativePath": "images/products/562fd430-6aa0-422e-a7a6-6303611f36fe_8ecc239031fd3b010ef0589725ce0e91#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nbv82194s5",
+      "Integrity": "k8Y0G61/ZOdmlLcKx40rK4RMk7Vz8OPbGGvszfzEITA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\562fd430-6aa0-422e-a7a6-6303611f36fe_8ecc239031fd3b010ef0589725ce0e91.png"
+    },
+    {
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.jpg",
+      "SourceId": "Graduation Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/products/5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -773,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.jpg"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/products/5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -794,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/products/70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -815,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/products/970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -836,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.jpg",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/products/b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -857,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.jpg"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/products/c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -878,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/products/ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -899,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.png"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "images/products/f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -920,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\js\\main.js",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\js\\main.js",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "js/main#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -934,17 +955,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8cmg865pwg",
-      "Integrity": "6LpngUic3sTOxHV5CQGbNomjAKMlWagfGmwdSzWBQao=",
+      "Fingerprint": "ty4js8vn8k",
+      "Integrity": "G/T8e40OLACuQP07gMDyipxvTxVCueDy7ZJBIKC1TnQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\js\\site.js",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\js\\site.js",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -962,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -983,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1004,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1025,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1046,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1067,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1088,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1109,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1130,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1151,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1172,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1193,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1214,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1235,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1256,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1277,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1298,10 +1319,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1319,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1340,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1361,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1382,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1403,10 +1424,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1424,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1445,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1466,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1487,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1508,10 +1529,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1529,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1550,10 +1571,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1571,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1592,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1613,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1634,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1655,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1676,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1697,10 +1718,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1718,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1739,10 +1760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1760,10 +1781,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1781,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1802,10 +1823,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1823,10 +1844,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1844,10 +1865,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1865,10 +1886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1886,10 +1907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1907,10 +1928,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1928,10 +1949,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1949,10 +1970,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1970,10 +1991,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1991,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2012,10 +2033,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2033,10 +2054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2054,10 +2075,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2075,10 +2096,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -2096,10 +2117,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2117,10 +2138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2138,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\laroze star\\Graduation Project\\wwwroot\\",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
       "BasePath": "_content/Graduation Project",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -2161,8 +2182,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/account.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\css\\account.css",
+      "Route": "css/account.5dm5znnozu.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\css\\account.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2171,7 +2192,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3168"
+          "Value": "19518"
         },
         {
           "Name": "Content-Type",
@@ -2179,48 +2200,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"n6pLu9Z7N5x3e9OLBaq3gdV0a6mn/JJW6Cq8VKg6HIQ=\""
+          "Value": "\"eS8ls7QRnew/gDxkHdow4VBxdJFDcZcUUL/mo4WBaIg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 20:16:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-n6pLu9Z7N5x3e9OLBaq3gdV0a6mn/JJW6Cq8VKg6HIQ="
-        }
-      ]
-    },
-    {
-      "Route": "css/account.j3mbydfve6.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\css\\account.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3168"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"n6pLu9Z7N5x3e9OLBaq3gdV0a6mn/JJW6Cq8VKg6HIQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 20:16:29 GMT"
+          "Value": "Fri, 09 May 2025 11:09:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2230,7 +2214,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j3mbydfve6"
+          "Value": "5dm5znnozu"
         },
         {
           "Name": "label",
@@ -2238,13 +2222,50 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-n6pLu9Z7N5x3e9OLBaq3gdV0a6mn/JJW6Cq8VKg6HIQ="
+          "Value": "sha256-eS8ls7QRnew/gDxkHdow4VBxdJFDcZcUUL/mo4WBaIg="
+        }
+      ]
+    },
+    {
+      "Route": "css/account.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\css\\account.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eS8ls7QRnew/gDxkHdow4VBxdJFDcZcUUL/mo4WBaIg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 11:09:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eS8ls7QRnew/gDxkHdow4VBxdJFDcZcUUL/mo4WBaIg="
         }
       ]
     },
     {
       "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\css\\site.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2289,7 +2310,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\css\\site.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2325,8 +2346,8 @@
       ]
     },
     {
-      "Route": "css/style.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\css\\style.css",
+      "Route": "css/style.64lz8ekhxa.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2335,7 +2356,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "26633"
+          "Value": "24971"
         },
         {
           "Name": "Content-Type",
@@ -2343,48 +2364,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Z60yxhERrd5rGQJCrjcrNwue5qxMn5dNb4t8f+yceGo=\""
+          "Value": "\"WiqsYifSufqaTl8Ry52r3kLGBDEN3kC9eYZRUoDAD+M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 20:23:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Z60yxhERrd5rGQJCrjcrNwue5qxMn5dNb4t8f+yceGo="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.jds7auq4hb.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\css\\style.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "26633"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Z60yxhERrd5rGQJCrjcrNwue5qxMn5dNb4t8f+yceGo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 20:23:59 GMT"
+          "Value": "Fri, 09 May 2025 09:43:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2394,7 +2378,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jds7auq4hb"
+          "Value": "64lz8ekhxa"
         },
         {
           "Name": "label",
@@ -2402,13 +2386,50 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Z60yxhERrd5rGQJCrjcrNwue5qxMn5dNb4t8f+yceGo="
+          "Value": "sha256-WiqsYifSufqaTl8Ry52r3kLGBDEN3kC9eYZRUoDAD+M="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24971"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WiqsYifSufqaTl8Ry52r3kLGBDEN3kC9eYZRUoDAD+M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 09:43:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WiqsYifSufqaTl8Ry52r3kLGBDEN3kC9eYZRUoDAD+M="
         }
       ]
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\favicon.ico",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2453,7 +2474,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\favicon.ico",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2490,7 +2511,7 @@
     },
     {
       "Route": "Graduation Project.bundle.scp.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Graduation Project.bundle.scp.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Graduation Project.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2511,7 +2532,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 15:18:31 GMT"
+          "Value": "Fri, 09 May 2025 11:50:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2527,7 +2548,7 @@
     },
     {
       "Route": "Graduation Project.hi2qgzlr1m.bundle.scp.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Graduation Project.bundle.scp.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Graduation Project.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2548,7 +2569,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 15:18:31 GMT"
+          "Value": "Fri, 09 May 2025 11:50:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2572,7 +2593,7 @@
     },
     {
       "Route": "Graduation Project.hi2qgzlr1m.styles.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Graduation Project.styles.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Graduation Project.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2593,7 +2614,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 15:18:31 GMT"
+          "Value": "Fri, 09 May 2025 11:50:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2617,7 +2638,7 @@
     },
     {
       "Route": "Graduation Project.styles.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Graduation Project.styles.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Graduation Project.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2638,7 +2659,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 08 May 2025 15:18:31 GMT"
+          "Value": "Fri, 09 May 2025 11:50:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2654,7 +2675,7 @@
     },
     {
       "Route": "images/1c9eec6dad94dfe052fadee794d3d311.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\1c9eec6dad94dfe052fadee794d3d311.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\1c9eec6dad94dfe052fadee794d3d311.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2691,7 +2712,7 @@
     },
     {
       "Route": "images/1c9eec6dad94dfe052fadee794d3d311.nm471apr0a.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\1c9eec6dad94dfe052fadee794d3d311.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\1c9eec6dad94dfe052fadee794d3d311.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2736,7 +2757,7 @@
     },
     {
       "Route": "images/20250428185637558.8api9nozz5.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185637558.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185637558.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2781,7 +2802,7 @@
     },
     {
       "Route": "images/20250428185637558.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185637558.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185637558.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2818,7 +2839,7 @@
     },
     {
       "Route": "images/20250428185656497.63ohx84n2c.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185656497.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185656497.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2863,7 +2884,7 @@
     },
     {
       "Route": "images/20250428185656497.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185656497.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185656497.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2900,7 +2921,7 @@
     },
     {
       "Route": "images/20250428185705326.nbv82194s5.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185705326.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185705326.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2945,7 +2966,7 @@
     },
     {
       "Route": "images/20250428185705326.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185705326.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185705326.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2982,7 +3003,7 @@
     },
     {
       "Route": "images/20250428185712692.gjxgp374m7.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185712692.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185712692.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3027,7 +3048,7 @@
     },
     {
       "Route": "images/20250428185712692.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185712692.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185712692.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3064,7 +3085,7 @@
     },
     {
       "Route": "images/20250428185719764.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185719764.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185719764.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3101,7 +3122,7 @@
     },
     {
       "Route": "images/20250428185719764.ta4hhbfs8n.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185719764.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185719764.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3146,7 +3167,7 @@
     },
     {
       "Route": "images/20250428185726618.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185726618.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185726618.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3183,7 +3204,7 @@
     },
     {
       "Route": "images/20250428185726618.rcmx8xczci.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185726618.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185726618.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3228,7 +3249,7 @@
     },
     {
       "Route": "images/20250428185754763.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185754763.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185754763.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3265,7 +3286,7 @@
     },
     {
       "Route": "images/20250428185754763.nm471apr0a.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185754763.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185754763.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3310,7 +3331,7 @@
     },
     {
       "Route": "images/20250428185804416.i092l6kugs.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185804416.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185804416.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3355,7 +3376,7 @@
     },
     {
       "Route": "images/20250428185804416.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185804416.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185804416.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3392,7 +3413,7 @@
     },
     {
       "Route": "images/20250428185822318.8api9nozz5.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185822318.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185822318.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3437,7 +3458,7 @@
     },
     {
       "Route": "images/20250428185822318.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\20250428185822318.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\20250428185822318.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3474,7 +3495,7 @@
     },
     {
       "Route": "images/285936577be25b998c758479b04f0ac4.8api9nozz5.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\285936577be25b998c758479b04f0ac4.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\285936577be25b998c758479b04f0ac4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3519,7 +3540,7 @@
     },
     {
       "Route": "images/285936577be25b998c758479b04f0ac4.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\285936577be25b998c758479b04f0ac4.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\285936577be25b998c758479b04f0ac4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3556,7 +3577,7 @@
     },
     {
       "Route": "images/2faadc710b84f9d3875e674a81274137.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\2faadc710b84f9d3875e674a81274137.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\2faadc710b84f9d3875e674a81274137.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3593,7 +3614,7 @@
     },
     {
       "Route": "images/2faadc710b84f9d3875e674a81274137.rfynvayr1q.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\2faadc710b84f9d3875e674a81274137.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\2faadc710b84f9d3875e674a81274137.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3638,7 +3659,7 @@
     },
     {
       "Route": "images/3ddc1cd528270fe310bfe715bcb4840c.63ohx84n2c.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\3ddc1cd528270fe310bfe715bcb4840c.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3683,7 +3704,7 @@
     },
     {
       "Route": "images/3ddc1cd528270fe310bfe715bcb4840c.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\3ddc1cd528270fe310bfe715bcb4840c.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3720,7 +3741,7 @@
     },
     {
       "Route": "images/641fb71b6e610e9e2496af24e1cde9f8.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\641fb71b6e610e9e2496af24e1cde9f8.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\641fb71b6e610e9e2496af24e1cde9f8.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3757,7 +3778,7 @@
     },
     {
       "Route": "images/641fb71b6e610e9e2496af24e1cde9f8.rcmx8xczci.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\641fb71b6e610e9e2496af24e1cde9f8.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\641fb71b6e610e9e2496af24e1cde9f8.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3802,7 +3823,7 @@
     },
     {
       "Route": "images/7389d65b3e3fd0d8561cba3756a24e6c.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\7389d65b3e3fd0d8561cba3756a24e6c.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\7389d65b3e3fd0d8561cba3756a24e6c.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3839,7 +3860,7 @@
     },
     {
       "Route": "images/7389d65b3e3fd0d8561cba3756a24e6c.ua8gpm3z4r.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\7389d65b3e3fd0d8561cba3756a24e6c.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\7389d65b3e3fd0d8561cba3756a24e6c.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3884,7 +3905,7 @@
     },
     {
       "Route": "images/7acf559f231ad01bef94a184d0596525.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\7acf559f231ad01bef94a184d0596525.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\7acf559f231ad01bef94a184d0596525.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3921,7 +3942,7 @@
     },
     {
       "Route": "images/7acf559f231ad01bef94a184d0596525.ta4hhbfs8n.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\7acf559f231ad01bef94a184d0596525.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\7acf559f231ad01bef94a184d0596525.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3966,7 +3987,7 @@
     },
     {
       "Route": "images/8ecc239031fd3b010ef0589725ce0e91.nbv82194s5.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\8ecc239031fd3b010ef0589725ce0e91.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\8ecc239031fd3b010ef0589725ce0e91.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4011,7 +4032,7 @@
     },
     {
       "Route": "images/8ecc239031fd3b010ef0589725ce0e91.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\8ecc239031fd3b010ef0589725ce0e91.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\8ecc239031fd3b010ef0589725ce0e91.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4048,7 +4069,7 @@
     },
     {
       "Route": "images/b366f2b1cccc6ee838112b9eaf20b553cb393a1eeebefdf390185ce12985832a.95c6owvmoi.jpeg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\b366f2b1cccc6ee838112b9eaf20b553cb393a1eeebefdf390185ce12985832a.jpeg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\b366f2b1cccc6ee838112b9eaf20b553cb393a1eeebefdf390185ce12985832a.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4093,7 +4114,7 @@
     },
     {
       "Route": "images/b366f2b1cccc6ee838112b9eaf20b553cb393a1eeebefdf390185ce12985832a.jpeg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\b366f2b1cccc6ee838112b9eaf20b553cb393a1eeebefdf390185ce12985832a.jpeg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\b366f2b1cccc6ee838112b9eaf20b553cb393a1eeebefdf390185ce12985832a.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4130,7 +4151,7 @@
     },
     {
       "Route": "images/bde5f982972185f839a8e1eb6a491078.77ae13s2oa.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\bde5f982972185f839a8e1eb6a491078.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\bde5f982972185f839a8e1eb6a491078.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4175,7 +4196,7 @@
     },
     {
       "Route": "images/bde5f982972185f839a8e1eb6a491078.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\bde5f982972185f839a8e1eb6a491078.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\bde5f982972185f839a8e1eb6a491078.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4212,7 +4233,7 @@
     },
     {
       "Route": "images/c0fe906f7fd102780b3957c19514dff4.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\c0fe906f7fd102780b3957c19514dff4.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\c0fe906f7fd102780b3957c19514dff4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4249,7 +4270,7 @@
     },
     {
       "Route": "images/c0fe906f7fd102780b3957c19514dff4.vnsujqq8s8.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\c0fe906f7fd102780b3957c19514dff4.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\c0fe906f7fd102780b3957c19514dff4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4294,7 +4315,7 @@
     },
     {
       "Route": "images/c5e484ced9dd246ed3366ed2b44dad6a.9w4xgdabad.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\c5e484ced9dd246ed3366ed2b44dad6a.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\c5e484ced9dd246ed3366ed2b44dad6a.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4339,7 +4360,7 @@
     },
     {
       "Route": "images/c5e484ced9dd246ed3366ed2b44dad6a.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\c5e484ced9dd246ed3366ed2b44dad6a.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\c5e484ced9dd246ed3366ed2b44dad6a.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4376,7 +4397,7 @@
     },
     {
       "Route": "images/login.i092l6kugs.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\login.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\login.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4421,7 +4442,7 @@
     },
     {
       "Route": "images/login.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\login.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\login.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4458,7 +4479,7 @@
     },
     {
       "Route": "images/portrait-young-japanese-woman-with-jacket.gjxgp374m7.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\portrait-young-japanese-woman-with-jacket.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\portrait-young-japanese-woman-with-jacket.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4503,7 +4524,7 @@
     },
     {
       "Route": "images/portrait-young-japanese-woman-with-jacket.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\portrait-young-japanese-woman-with-jacket.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\portrait-young-japanese-woman-with-jacket.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4540,7 +4561,7 @@
     },
     {
       "Route": "images/products/129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4577,7 +4598,7 @@
     },
     {
       "Route": "images/products/129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525.ta4hhbfs8n.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\129b5202-3320-4a18-98d5-24efdb404143_7acf559f231ad01bef94a184d0596525.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4622,7 +4643,7 @@
     },
     {
       "Route": "images/products/1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4659,7 +4680,7 @@
     },
     {
       "Route": "images/products/1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311.nm471apr0a.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\1d05aaf4-7d6b-40dd-9f57-75ceb19ed753_1c9eec6dad94dfe052fadee794d3d311.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4704,7 +4725,7 @@
     },
     {
       "Route": "images/products/25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e2496af24e1cde9f8.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e2496af24e1cde9f8.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4741,7 +4762,7 @@
     },
     {
       "Route": "images/products/25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e2496af24e1cde9f8.rcmx8xczci.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e2496af24e1cde9f8.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4786,7 +4807,7 @@
     },
     {
       "Route": "images/products/3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.63ohx84n2c.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4831,7 +4852,7 @@
     },
     {
       "Route": "images/products/3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4868,7 +4889,7 @@
     },
     {
       "Route": "images/products/490b593a-d225-488d-9589-4e7ac00453ad_3ddc1cd528270fe310bfe715bcb4840c.63ohx84n2c.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\490b593a-d225-488d-9589-4e7ac00453ad_3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\490b593a-d225-488d-9589-4e7ac00453ad_3ddc1cd528270fe310bfe715bcb4840c.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4913,7 +4934,7 @@
     },
     {
       "Route": "images/products/490b593a-d225-488d-9589-4e7ac00453ad_3ddc1cd528270fe310bfe715bcb4840c.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\490b593a-d225-488d-9589-4e7ac00453ad_3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\490b593a-d225-488d-9589-4e7ac00453ad_3ddc1cd528270fe310bfe715bcb4840c.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4950,7 +4971,7 @@
     },
     {
       "Route": "images/products/5016d45d-c949-4f48-aeff-4b0166d52b50_20250428185656497.63ohx84n2c.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\5016d45d-c949-4f48-aeff-4b0166d52b50_20250428185656497.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\5016d45d-c949-4f48-aeff-4b0166d52b50_20250428185656497.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4995,7 +5016,7 @@
     },
     {
       "Route": "images/products/5016d45d-c949-4f48-aeff-4b0166d52b50_20250428185656497.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\5016d45d-c949-4f48-aeff-4b0166d52b50_20250428185656497.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\5016d45d-c949-4f48-aeff-4b0166d52b50_20250428185656497.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5031,8 +5052,90 @@
       ]
     },
     {
+      "Route": "images/products/562fd430-6aa0-422e-a7a6-6303611f36fe_8ecc239031fd3b010ef0589725ce0e91.nbv82194s5.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\562fd430-6aa0-422e-a7a6-6303611f36fe_8ecc239031fd3b010ef0589725ce0e91.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k8Y0G61/ZOdmlLcKx40rK4RMk7Vz8OPbGGvszfzEITA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 14:01:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nbv82194s5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/562fd430-6aa0-422e-a7a6-6303611f36fe_8ecc239031fd3b010ef0589725ce0e91.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-k8Y0G61/ZOdmlLcKx40rK4RMk7Vz8OPbGGvszfzEITA="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/562fd430-6aa0-422e-a7a6-6303611f36fe_8ecc239031fd3b010ef0589725ce0e91.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\562fd430-6aa0-422e-a7a6-6303611f36fe_8ecc239031fd3b010ef0589725ce0e91.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "99246"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"k8Y0G61/ZOdmlLcKx40rK4RMk7Vz8OPbGGvszfzEITA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 14:01:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-k8Y0G61/ZOdmlLcKx40rK4RMk7Vz8OPbGGvszfzEITA="
+        }
+      ]
+    },
+    {
       "Route": "images/products/5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.gjxgp374m7.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5077,7 +5180,7 @@
     },
     {
       "Route": "images/products/5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5114,7 +5217,7 @@
     },
     {
       "Route": "images/products/5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5151,7 +5254,7 @@
     },
     {
       "Route": "images/products/5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.vnsujqq8s8.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5196,7 +5299,7 @@
     },
     {
       "Route": "images/products/70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5233,7 +5336,7 @@
     },
     {
       "Route": "images/products/70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.rcmx8xczci.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5278,7 +5381,7 @@
     },
     {
       "Route": "images/products/970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.nbv82194s5.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5323,7 +5426,7 @@
     },
     {
       "Route": "images/products/970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5360,7 +5463,7 @@
     },
     {
       "Route": "images/products/b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.63ohx84n2c.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5405,7 +5508,7 @@
     },
     {
       "Route": "images/products/b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5442,7 +5545,7 @@
     },
     {
       "Route": "images/products/c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.8api9nozz5.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5487,7 +5590,7 @@
     },
     {
       "Route": "images/products/c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5524,7 +5627,7 @@
     },
     {
       "Route": "images/products/ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5561,7 +5664,7 @@
     },
     {
       "Route": "images/products/ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.rcmx8xczci.png",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5606,7 +5709,7 @@
     },
     {
       "Route": "images/products/f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.63ohx84n2c.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5651,7 +5754,7 @@
     },
     {
       "Route": "images/products/f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\images\\products\\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5687,53 +5790,8 @@
       ]
     },
     {
-      "Route": "js/main.8cmg865pwg.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\js\\main.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4396"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6LpngUic3sTOxHV5CQGbNomjAKMlWagfGmwdSzWBQao=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 18:24:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "8cmg865pwg"
-        },
-        {
-          "Name": "label",
-          "Value": "js/main.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-6LpngUic3sTOxHV5CQGbNomjAKMlWagfGmwdSzWBQao="
-        }
-      ]
-    },
-    {
       "Route": "js/main.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\js\\main.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\js\\main.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5742,7 +5800,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4396"
+          "Value": "17520"
         },
         {
           "Name": "Content-Type",
@@ -5750,11 +5808,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6LpngUic3sTOxHV5CQGbNomjAKMlWagfGmwdSzWBQao=\""
+          "Value": "\"G/T8e40OLACuQP07gMDyipxvTxVCueDy7ZJBIKC1TnQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 07 May 2025 18:24:47 GMT"
+          "Value": "Fri, 09 May 2025 10:59:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5764,13 +5822,58 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6LpngUic3sTOxHV5CQGbNomjAKMlWagfGmwdSzWBQao="
+          "Value": "sha256-G/T8e40OLACuQP07gMDyipxvTxVCueDy7ZJBIKC1TnQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.ty4js8vn8k.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17520"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G/T8e40OLACuQP07gMDyipxvTxVCueDy7ZJBIKC1TnQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 10:59:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ty4js8vn8k"
+        },
+        {
+          "Name": "label",
+          "Value": "js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G/T8e40OLACuQP07gMDyipxvTxVCueDy7ZJBIKC1TnQ="
         }
       ]
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\js\\site.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5807,7 +5910,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\js\\site.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5852,7 +5955,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5889,7 +5992,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5934,7 +6037,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5971,7 +6074,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6016,7 +6119,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6053,7 +6156,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6098,7 +6201,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6135,7 +6238,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.ozu22stjof.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6180,7 +6283,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6217,7 +6320,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6262,7 +6365,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6299,7 +6402,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.gjcw7pocpk.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6344,7 +6447,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.6l4ir0ityv.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6389,7 +6492,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6426,7 +6529,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6471,7 +6574,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6508,7 +6611,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6545,7 +6648,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6582,7 +6685,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6627,7 +6730,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.5p029spbuu.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6672,7 +6775,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6709,7 +6812,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6754,7 +6857,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6791,7 +6894,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.nakmwdwsxp.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6836,7 +6939,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6873,7 +6976,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6918,7 +7021,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6955,7 +7058,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.e6q6xbwqzk.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7000,7 +7103,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7037,7 +7140,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7074,7 +7177,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7119,7 +7222,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.dy6jgresuo.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7164,7 +7267,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7201,7 +7304,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7246,7 +7349,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7283,7 +7386,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7320,7 +7423,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7357,7 +7460,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7402,7 +7505,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.z7kmom2977.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7447,7 +7550,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.mk8rdyw69w.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7492,7 +7595,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.97yrjpyf9r.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7537,7 +7640,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7574,7 +7677,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7619,7 +7722,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7656,7 +7759,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7693,7 +7796,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7730,7 +7833,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7775,7 +7878,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.y53cy5s2zj.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7820,7 +7923,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7857,7 +7960,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7902,7 +8005,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7939,7 +8042,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.2yn17lgxub.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7984,7 +8087,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8021,7 +8124,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8058,7 +8161,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8103,7 +8206,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8140,7 +8243,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8185,7 +8288,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8222,7 +8325,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8259,7 +8362,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8304,7 +8407,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8341,7 +8444,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.ik6i2hrs65.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8386,7 +8489,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.ophe14yye5.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8431,7 +8534,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.z9shlbduue.css",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8476,7 +8579,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.1piudyfv7h.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8521,7 +8624,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.f6zq8v6eb3.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8566,7 +8669,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8603,7 +8706,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8648,7 +8751,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8685,7 +8788,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.89qbw8ngem.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8730,7 +8833,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8767,7 +8870,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8812,7 +8915,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8849,7 +8952,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8886,7 +8989,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8931,7 +9034,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8968,7 +9071,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.jqwzsa9uv6.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9013,7 +9116,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9050,7 +9153,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9087,7 +9190,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9132,7 +9235,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.n5w6o92d9r.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9177,7 +9280,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9214,7 +9317,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9259,7 +9362,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9296,7 +9399,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.4908xmbfjr.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9341,7 +9444,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9378,7 +9481,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9415,7 +9518,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9460,7 +9563,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9497,7 +9600,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9542,7 +9645,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.7s2n0ol71w.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9587,7 +9690,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9624,7 +9727,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9669,7 +9772,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.ehgnz7f14e.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9714,7 +9817,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9751,7 +9854,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9788,7 +9891,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9833,7 +9936,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9870,7 +9973,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9915,7 +10018,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9952,7 +10055,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9997,7 +10100,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10034,7 +10137,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.6d0lkjaslc.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10079,7 +10182,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10116,7 +10219,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10153,7 +10256,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.l1zq2mitth.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10198,7 +10301,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10235,7 +10338,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10280,7 +10383,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.03hjc8e09r.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10325,7 +10428,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10362,7 +10465,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.48y08845bh.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10407,7 +10510,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10444,7 +10547,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10489,7 +10592,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "F:\\laroze star\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {

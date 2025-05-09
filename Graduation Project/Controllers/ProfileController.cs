@@ -91,6 +91,8 @@ namespace Graduation_Project.Controllers
             user.LastLogin = currentUser.LastLogin;
             user.Status = currentUser.Status;
 
+            // We don't need to preserve DateOfBirth and Gender as they are part of the form now
+
             if (ModelState.IsValid)
             {
                 try
@@ -105,7 +107,7 @@ namespace Graduation_Project.Controllers
                     TempData["SuccessMessage"] = "Your profile has been updated successfully.";
                     return RedirectToAction(nameof(Index));
                 }
-                catch (DbUpdateConcurrencyException)
+                catch (DbUpdateConcurrencyException ex)
                 {
                     if (!UserExists(user.UserId))
                     {
@@ -113,8 +115,16 @@ namespace Graduation_Project.Controllers
                     }
                     else
                     {
-                        throw;
+                        _logger.LogError(ex, "Error updating user profile for UserId: {UserId}", user.UserId);
+                        ModelState.AddModelError("", "An error occurred while saving your profile. Please try again later.");
+                        return View(user);
                     }
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Unexpected error updating user profile for UserId: {UserId}", user.UserId);
+                    ModelState.AddModelError("", "An error occurred while saving your profile. Please try again later.");
+                    return View(user);
                 }
             }
             return View(user);
@@ -150,6 +160,8 @@ namespace Graduation_Project.Controllers
 
             if (ModelState.IsValid)
             {
+                try
+            {
                 var user = _context.Users.Find(model.UserId);
                 if (user == null)
                 {
@@ -169,6 +181,12 @@ namespace Graduation_Project.Controllers
 
                 TempData["SuccessMessage"] = "Your password has been changed successfully.";
                 return RedirectToAction(nameof(Index));
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Error changing password for UserId: {UserId}", model.UserId);
+                    ModelState.AddModelError("", "An error occurred while changing your password. Please try again later.");
+                }
             }
 
             return View(model);

@@ -35,14 +35,14 @@
            class="list-group-item list-group-item-action @(IsActive("Account", "Profile") ? "active" : "")">
             Dashboard
         </a>
-@*         <a asp-controller="Account" asp-action="EditProfile"
-           class="list-group-item list-group-item-action @(IsActive("Account", "EditProfile") ? "active" : "")" style=" margin-top:300px;">
+        <a asp-controller="Account" asp-action="EditProfile"
+           class="list-group-item list-group-item-action @(IsActive("Account", "EditProfile") ? "active" : "")">
             Edit Profile
         </a>
         <a asp-controller="Account" asp-action="ChangePassword"
-           class="list-group-item list-group-item-action  @(IsActive("Account", "ChangePassword") ? "active" : "")" style=" margin-top:300px;">
+           class="list-group-item list-group-item-action @(IsActive("Account", "ChangePassword") ? "active" : "")">
             Change Password
-        </a> *@
+        </a>
         <a asp-controller="Address" asp-action="Index"
            class="list-group-item list-group-item-action @(IsActive("Address", "Index") ? "active" : "")">
             My Addresses
@@ -65,13 +65,13 @@
 <style>
     /* Sidebar Container */
     .account-sidebar {
-        margin-top: 300px;
         padding: 0 15px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         min-height: calc(100vh - 60px); /* Adjust based on header height */
+        margin-top: 60px; /* Reduced from 300px for better centering */
     }
 
     /* User Info Card and List Group */
@@ -88,9 +88,9 @@
         transition: box-shadow 0.3s ease;
     }
 
-        .account-sidebar .card:hover {
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-        }
+    .account-sidebar .card:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
 
     .account-sidebar .card-body {
         padding: 20px;
@@ -135,34 +135,35 @@
         transition: background-color 0.3s ease, color 0.3s ease, padding-left 0.3s ease;
     }
 
-        .list-group-item:hover {
-            background-color: #f8f9fa;
-            color: #0d6efd;
-            padding-left: 25px;
-        }
+    .list-group-item:hover {
+        background-color: #f8f9fa;
+        color: #0d6efd;
+        padding-left: 25px;
+    }
 
-        .list-group-item.active {
-            background-color: #0d6efd;
-            color: #fff;
-            border: none;
-        }
+    .list-group-item.active {
+        background-color: #0d6efd;
+        color: #fff;
+        border: none;
+    }
 
-            .list-group-item.active:hover {
-                background-color: #005cbf;
-                color: #fff;
-            }
+    .list-group-item.active:hover {
+        background-color: #005cbf;
+        color: #fff;
+    }
 
-        .list-group-item.text-danger {
-            color: #dc3545;
-        }
+    .list-group-item.text-danger {
+        color: #dc3545;
+    }
 
-            .list-group-item.text-danger:hover {
-                background-color: #f8d7da;
-                color: #b02a37;
-            }
+    .list-group-item.text-danger:hover {
+        background-color: #f8d7da;
+        color: #b02a37;
+    }
 
     /* Responsive Design */
-   </style>
+
+</style>
 
 <script>
     // Add click animation for list group items

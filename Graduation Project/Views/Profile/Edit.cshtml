@@ -17,6 +17,22 @@
                         <input type="hidden" asp-for="RoleId" />
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
+                        @if (TempData["SuccessMessage"] != null)
+                        {
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                @TempData["SuccessMessage"]
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        }
+
+                        @if (ViewData["ErrorMessage"] != null)
+                        {
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                @ViewData["ErrorMessage"]
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        }
+
                         <div class="row mb-3">
                             <div class="col-md-6">
                                 <label asp-for="FirstName" class="form-label">First Name</label>
@@ -40,6 +56,23 @@
                             <label asp-for="Phone" class="form-label">Phone</label>
                             <input asp-for="Phone" class="form-control" />
                             <span asp-validation-for="Phone" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="DateOfBirth" class="form-label">Date of Birth</label>
+                            <input asp-for="DateOfBirth" class="form-control" type="date" />
+                            <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Gender" class="form-label">Gender</label>
+                            <select asp-for="Gender" class="form-select">
+                                <option value="">-- Select Gender --</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <span asp-validation-for="Gender" class="text-danger"></span>
                         </div>
 
                         <div class="d-flex justify-content-between mt-4">
@@ -145,7 +178,8 @@
         }
 
     /* Responsive Design */
-   </style>
+ 
+</style>
 
 <script>
     // Add click animation for buttons
@@ -162,6 +196,11 @@
     document.querySelector('form').addEventListener('submit', (e) => {
         if (!confirm('Are you sure you want to save your changes?')) {
             e.preventDefault();
+        } else {
+            // Show loading message
+            const submitBtn = document.querySelector('button[type="submit"]');
+            submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Saving...';
+            submitBtn.disabled = true;
         }
     });
 </script>

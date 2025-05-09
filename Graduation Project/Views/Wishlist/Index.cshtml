@@ -3,18 +3,92 @@
     ViewData["Title"] = "My Wishlist";
 }
 
-<div class="container my-5">
-    <div class="row">
-        <!-- Sidebar -->
-        <partial name="_AccountSidebar" />
+@section Styles {
+    <link rel="stylesheet" href="~/css/account.css" />
+}
 
-        <!-- Main Content -->
-        <div class="col-md-9">
-            <div class="card shadow">
-                <div class="card-header bg-light">
-                    <h5 class="mb-0">My Wishlist</h5>
+<div class="container mt-4 mb-5">
+    <div class="account-container">
+        <div class="row">
+            <!-- Mobile Navigation -->
+            <div class="col-12 mobile-account-nav">
+                <button class="mobile-toggle" id="toggleAccountMenu">
+                    <i class="bi bi-person-circle"></i> Account Menu
+                </button>
+                <div class="mobile-account-menu" id="mobileAccountMenu">
+                    <div class="list-group">
+                        <a asp-controller="Account" asp-action="Profile" class="nav-item">
+                            <i class="bi bi-speedometer2"></i> Dashboard
+                        </a>
+                        <a asp-controller="Account" asp-action="EditProfile" class="nav-item">
+                            <i class="bi bi-person"></i> Edit Profile
+                        </a>
+                        <a asp-controller="Account" asp-action="ChangePassword" class="nav-item">
+                            <i class="bi bi-key"></i> Change Password
+                        </a>
+                        <a asp-controller="Address" asp-action="Index" class="nav-item">
+                            <i class="bi bi-geo-alt"></i> My Addresses
+                        </a>
+                        <a asp-controller="Order" asp-action="History" class="nav-item">
+                            <i class="bi bi-box-seam"></i> Order History
+                        </a>
+                        <a asp-controller="Wishlist" asp-action="Index" class="nav-item active">
+                            <i class="bi bi-heart"></i> Wishlist
+                        </a>
+                        <a asp-controller="Login" asp-action="Logout" class="nav-item danger">
+                            <i class="bi bi-box-arrow-right"></i> Logout
+                        </a>
+                    </div>
                 </div>
-                <div class="card-body">
+            </div>
+
+            <!-- Sidebar (Desktop) -->
+            <div class="col-md-3 account-sidebar">
+                <div class="profile-card">
+                    <div class="card-body text-center">
+                        <div class="profile-image">
+                            <i class="bi bi-person"></i>
+                        </div>
+                        <h3 class="profile-name">@Context.Session.GetString("UserName")</h3>
+                        <p class="profile-email">@Context.Session.GetString("UserEmail")</p>
+                    </div>
+                </div>
+
+                <div class="nav-list">
+                    <a asp-controller="Account" asp-action="Profile" class="nav-item">
+                        <i class="bi bi-speedometer2"></i> Dashboard
+                    </a>
+                    <a asp-controller="Account" asp-action="EditProfile" class="nav-item">
+                        <i class="bi bi-person"></i> Edit Profile
+                    </a>
+                    <a asp-controller="Account" asp-action="ChangePassword" class="nav-item">
+                        <i class="bi bi-key"></i> Change Password
+                    </a>
+                    <a asp-controller="Address" asp-action="Index" class="nav-item">
+                        <i class="bi bi-geo-alt"></i> My Addresses
+                    </a>
+                    <a asp-controller="Order" asp-action="History" class="nav-item">
+                        <i class="bi bi-box-seam"></i> Order History
+                    </a>
+                    <a asp-controller="Wishlist" asp-action="Index" class="nav-item active">
+                        <i class="bi bi-heart"></i> Wishlist
+                    </a>
+                    <a asp-controller="Login" asp-action="Logout" class="nav-item danger">
+                        <i class="bi bi-box-arrow-right"></i> Logout
+                    </a>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-md-9">
+                <div class="main-content">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h1 class="h4 mb-0">My Wishlist</h1>
+                        <a asp-controller="Home" asp-action="Shop" class="btn btn-outline-brand">
+                            <i class="bi bi-shop"></i> Continue Shopping
+                        </a>
+                    </div>
+
                     @if (TempData["SuccessMessage"] != null)
                     {
                         <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -25,63 +99,66 @@
 
                     @if (!Model.Any())
                     {
-                        <div class="text-center py-5">
-                            <i class="bi bi-heart" style="font-size: 3rem; color: #ccc;"></i>
-                            <p class="mt-3">Your wishlist is empty.</p>
-                            <a asp-controller="Home" asp-action="Index" class="btn btn-primary mt-2">Start Shopping</a>
+                        <div class="empty-state">
+                            <i class="bi bi-heart empty-state-icon"></i>
+                            <p class="empty-state-text">Your wishlist is empty.</p>
+                            <a asp-controller="Home" asp-action="Shop" class="btn btn-brand">Start Shopping</a>
                         </div>
                     }
                     else
                     {
-                        <div class="row">
-                            @foreach (var item in Model)
-                            {
-                                <div class="col-md-4 mb-4">
-                                    <div class="card h-100">
-                                        <div class="position-relative">
-                                            @if (!string.IsNullOrEmpty(item.Product.ImageUrl))
-                                            {
-                                                <img src="@item.Product.ImageUrl" class="card-img-top" alt="@item.Product.Name" style="height: 200px; object-fit: cover;">
-                                            }
-                                            else
-                                            {
-                                                <div class="bg-light d-flex align-items-center justify-content-center" style="height: 200px;">
-                                                    <i class="bi bi-image text-muted" style="font-size: 3rem;"></i>
-                                                </div>
-                                            }
-                                            <form asp-action="Remove" asp-route-id="@item.WishlistId" method="post" class="position-absolute" style="top: 10px; right: 10px;">
-                                                <button type="submit" class="btn btn-sm btn-light rounded-circle">
-                                                    <i class="bi bi-x"></i>
-                                                </button>
-                                            </form>
-                                        </div>
-                                        <div class="card-body d-flex flex-column">
-                                            <h6 class="card-title">@item.Product.Name</h6>
-                                            <p class="card-text text-primary mb-2">$@item.Product.Price.ToString("F2")</p>
-                                            <p class="card-text small text-muted mb-3">
-                                                @if (item.Product.StockQuantity > 0)
+                        <div class="wishlist-list">
+                            <div class="row">
+                                @foreach (var item in Model)
+                                {
+                                    <div class="col-md-6 col-lg-4 mb-4">
+                                        <div class="wishlist-card">
+                                            <div class="wishlist-card-image position-relative">
+                                                @if (!string.IsNullOrEmpty(item.Product.ImageUrl))
                                                 {
-                                                    <span class="text-success">In Stock</span>
+                                                    <img src="@item.Product.ImageUrl" alt="@item.Product.Name">
                                                 }
                                                 else
                                                 {
-                                                    <span class="text-danger">Out of Stock</span>
+                                                    <div class="placeholder-image">
+                                                        <i class="bi bi-image"></i>
+                                                    </div>
                                                 }
-                                            </p>
-                                            <div class="mt-auto">
-                                                <a asp-controller="Product" asp-action="Details" asp-route-id="@item.ProductId" class="btn btn-outline-secondary w-100 mb-2">View Details</a>
-                                                <form asp-controller="Cart" asp-action="AddToCart" method="post">
+                                                <form asp-action="Remove" asp-route-id="@item.WishlistId" method="post" class="remove-btn">
+                                                    <button type="submit" class="btn btn-light btn-sm rounded-circle">
+                                                        <i class="bi bi-x"></i>
+                                                    </button>
+                                                </form>
+                                                @if (item.Product.StockQuantity > 0)
+                                                {
+                                                    <span class="status-badge status-instock">In Stock</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="status-badge status-outofstock">Out of Stock</span>
+                                                }
+                                            </div>
+                                            <div class="wishlist-card-body">
+                                                <h3 class="wishlist-product-name">@item.Product.Name</h3>
+                                                <div class="wishlist-product-price">$@item.Product.Price.ToString("F2")</div>
+                                                <div class="wishlist-added-date">Added @item.DateAdded.ToString("MMM dd, yyyy")</div>
+                                            </div>
+                                            <div class="wishlist-card-footer">
+                                                <a asp-controller="Product" asp-action="Details" asp-route-id="@item.ProductId" class="btn btn-outline-brand">
+                                                    <i class="bi bi-eye"></i> View Details
+                                                </a>
+                                                <form asp-controller="Cart" asp-action="AddToCart" method="post" class="add-to-cart-form">
                                                     <input type="hidden" name="ProductId" value="@item.ProductId">
                                                     <input type="hidden" name="Quantity" value="1">
-                                                    <button type="submit" class="btn btn-primary w-100" @(item.Product.StockQuantity <= 0 ? "disabled" : "")>
-                                                        <i class="bi bi-cart-plus me-1"></i> Add to Cart
+                                                    <button type="submit" class="btn btn-brand" @(item.Product.StockQuantity <= 0 ? "disabled" : "")>
+                                                        <i class="bi bi-cart-plus"></i> Add to Cart
                                                     </button>
                                                 </form>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            }
+                                }
+                            </div>
                         </div>
                     }
                 </div>
@@ -89,4 +166,21 @@
         </div>
     </div>
 </div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu toggle
+            const toggleBtn = document.getElementById('toggleAccountMenu');
+            const mobileMenu = document.getElementById('mobileAccountMenu');
+            
+            if (toggleBtn && mobileMenu) {
+                toggleBtn.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('show');
+                    this.classList.toggle('active');
+                });
+            }
+        });
+    </script>
+}
 

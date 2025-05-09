@@ -31,6 +31,7 @@ wwwroot\images\products\25168461-2655-4ad0-b3c1-9af464015af3_641fb71b6e610e9e249
 wwwroot\images\products\3a41bacc-941f-4aac-ba12-760bb68ffaf7_20250428185656497.jpg
 wwwroot\images\products\490b593a-d225-488d-9589-4e7ac00453ad_3ddc1cd528270fe310bfe715bcb4840c.jpg
 wwwroot\images\products\5016d45d-c949-4f48-aeff-4b0166d52b50_20250428185656497.jpg
+wwwroot\images\products\562fd430-6aa0-422e-a7a6-6303611f36fe_8ecc239031fd3b010ef0589725ce0e91.png
 wwwroot\images\products\5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.jpg
 wwwroot\images\products\5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png
 wwwroot\images\products\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png

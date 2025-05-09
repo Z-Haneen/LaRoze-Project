@@ -12,12 +12,12 @@ namespace Graduation_Project.Models
         public int UserId { get; set; }
 
         [ForeignKey("UserId")]
-        public User User { get; set; }
+        public virtual User User { get; set; }
 
         [NotMapped]
         [StringLength(100)]
         [Display(Name = "Address Name")]
-        public string AddressName { get; set; }
+        public string? AddressName { get; set; }
 
         [Required(ErrorMessage = "Full name is required")]
         [Display(Name = "Full Name")]
@@ -25,12 +25,14 @@ namespace Graduation_Project.Models
         public string FullName { get; set; }
 
         [NotMapped]
+        [Display(Name = "Phone Number")]
+        [StringLength(20)]
+        public string? Phone { get; set; }
+
         [Required(ErrorMessage = "Phone number is required")]
         [Display(Name = "Phone Number")]
         [StringLength(20)]
-        public string Phone { get; set; }
-
-        public string? PhoneNumber { get; set; }
+        public string PhoneNumber { get; set; }
 
         [Required(ErrorMessage = "Street address is required")]
         [Display(Name = "Street Address")]
@@ -66,11 +68,11 @@ namespace Graduation_Project.Models
 
         [NotMapped]
         [Display(Name = "Address Type")]
-        public string AddressType { get; set; } // Home, Work, etc.
+        public string? AddressType { get; set; } // Home, Work, etc.
 
         [NotMapped]
         [StringLength(500)]
         [Display(Name = "Delivery Instructions")]
-        public string DeliveryInstructions { get; set; }
+        public string? DeliveryInstructions { get; set; }
     }
 }

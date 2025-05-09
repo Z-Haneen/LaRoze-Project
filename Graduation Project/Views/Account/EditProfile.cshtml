@@ -7,41 +7,96 @@
     <link rel="stylesheet" href="~/css/account.css" />
 }
 
-<div class="container my-5">
-    <div class="row">
-        <!-- Sidebar -->
-        <div class="col-md-3 account-sidebar">
-            <div class="card shadow-sm mb-4">
-                <div class="card-body text-center">
-                    <div class="mb-3">
-                        <i class="bi bi-person-circle" style="font-size: 5rem;"></i>
+<div class="container mt-4 mb-5">
+    <div class="account-container">
+        <div class="row">
+            <!-- Mobile Navigation -->
+            <div class="col-12 mobile-account-nav">
+                <button class="mobile-toggle" id="toggleAccountMenu">
+                    <i class="bi bi-person-circle"></i> Account Menu
+                </button>
+                <div class="mobile-account-menu" id="mobileAccountMenu">
+                    <div class="list-group">
+                        <a asp-controller="Account" asp-action="Profile" class="nav-item">
+                            <i class="bi bi-speedometer2"></i> Dashboard
+                        </a>
+                        <a asp-controller="Account" asp-action="EditProfile" class="nav-item active">
+                            <i class="bi bi-person"></i> Edit Profile
+                        </a>
+                        <a asp-controller="Account" asp-action="ChangePassword" class="nav-item">
+                            <i class="bi bi-key"></i> Change Password
+                        </a>
+                        <a asp-controller="Address" asp-action="Index" class="nav-item">
+                            <i class="bi bi-geo-alt"></i> My Addresses
+                        </a>
+                        <a asp-controller="Order" asp-action="History" class="nav-item">
+                            <i class="bi bi-box-seam"></i> Order History
+                        </a>
+                        <a asp-controller="Wishlist" asp-action="Index" class="nav-item">
+                            <i class="bi bi-heart"></i> Wishlist
+                        </a>
+                        <a asp-controller="Login" asp-action="Logout" class="nav-item danger">
+                            <i class="bi bi-box-arrow-right"></i> Logout
+                        </a>
                     </div>
-                    <h4>@Context.Session.GetString("UserName")</h4>
-                    <p class="text-muted">@Context.Session.GetString("UserEmail")</p>
                 </div>
             </div>
 
-            <div class="list-group shadow-sm">
-                <a asp-controller="Account" asp-action="Profile" class="list-group-item list-group-item-action">Dashboard</a>
-                <a asp-controller="Account" asp-action="EditProfile" class="list-group-item list-group-item-action active">Edit Profile</a>
-                <a asp-controller="Account" asp-action="ChangePassword" class="list-group-item list-group-item-action">Change Password</a>
-                <a asp-controller="Address" asp-action="Index" class="list-group-item list-group-item-action">My Addresses</a>
-                <a asp-controller="Order" asp-action="History" class="list-group-item list-group-item-action">Order History</a>
-                <a asp-controller="Wishlist" asp-action="Index" class="list-group-item list-group-item-action">Wishlist</a>
-                <a asp-controller="Login" asp-action="Logout" class="list-group-item list-group-item-action text-danger">Logout</a>
-            </div>
-        </div>
+            <!-- Sidebar (Desktop) -->
+            <div class="col-md-3 account-sidebar">
+                <div class="profile-card">
+                    <div class="card-body text-center">
+                        <div class="profile-image">
+                            <i class="bi bi-person"></i>
+                        </div>
+                        <h3 class="profile-name">@Context.Session.GetString("UserName")</h3>
+                        <p class="profile-email">@Context.Session.GetString("UserEmail")</p>
+                    </div>
+                </div>
 
-        <!-- Main Content -->
-        <div class="col-md-9">
-            <div class="card profile-info-card shadow">
-                <div class="card-header bg-light d-flex justify-content-between align-items-center">
-                    <h5 class="mb-0">Edit Profile</h5>
-                    <a asp-action="Profile" class="btn btn-outline-secondary btn-sm">
-                        <i class="bi bi-arrow-left"></i> Back
+                <div class="nav-list">
+                    <a asp-controller="Account" asp-action="Profile" class="nav-item">
+                        <i class="bi bi-speedometer2"></i> Dashboard
+                    </a>
+                    <a asp-controller="Account" asp-action="EditProfile" class="nav-item active">
+                        <i class="bi bi-person"></i> Edit Profile
+                    </a>
+                    <a asp-controller="Account" asp-action="ChangePassword" class="nav-item">
+                        <i class="bi bi-key"></i> Change Password
+                    </a>
+                    <a asp-controller="Address" asp-action="Index" class="nav-item">
+                        <i class="bi bi-geo-alt"></i> My Addresses
+                    </a>
+                    <a asp-controller="Order" asp-action="History" class="nav-item">
+                        <i class="bi bi-box-seam"></i> Order History
+                    </a>
+                    <a asp-controller="Wishlist" asp-action="Index" class="nav-item">
+                        <i class="bi bi-heart"></i> Wishlist
+                    </a>
+                    <a asp-controller="Login" asp-action="Logout" class="nav-item danger">
+                        <i class="bi bi-box-arrow-right"></i> Logout
                     </a>
                 </div>
-                <div class="card-body">
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-md-9">
+                <div class="main-content">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h1 class="h4 mb-0">Edit Profile</h1>
+                        <a asp-action="Profile" class="btn btn-outline-brand">
+                            <i class="bi bi-arrow-left"></i> Back to Dashboard
+                        </a>
+                    </div>
+                    
+                    @if (TempData["SuccessMessage"] != null)
+                    {
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            @TempData["SuccessMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    }
+
                     <form asp-action="EditProfile" method="post">
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                         <input type="hidden" asp-for="UserId" />
@@ -95,9 +150,9 @@
                             <span asp-validation-for="DateOfBirth" class="text-danger"></span>
                         </div>
 
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end mt-4">
                             <a asp-action="Profile" class="btn btn-outline-secondary me-md-2">Cancel</a>
-                            <button type="submit" class="btn btn-primary">Save Changes</button>
+                            <button type="submit" class="btn btn-brand">Save Changes</button>
                         </div>
                     </form>
                 </div>
@@ -108,6 +163,21 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu toggle
+            const toggleBtn = document.getElementById('toggleAccountMenu');
+            const mobileMenu = document.getElementById('mobileAccountMenu');
+            
+            if (toggleBtn && mobileMenu) {
+                toggleBtn.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('show');
+                    this.classList.toggle('active');
+                });
+            }
+        });
+    </script>
 }
 
 

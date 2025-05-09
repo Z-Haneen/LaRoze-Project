@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\laroze star\\Graduation Project\\Graduation Project.csproj": {}
+    "F:\\laroze star - Copy\\Graduation Project\\Graduation Project.csproj": {}
   },
   "projects": {
-    "F:\\laroze star\\Graduation Project\\Graduation Project.csproj": {
+    "F:\\laroze star - Copy\\Graduation Project\\Graduation Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\laroze star\\Graduation Project\\Graduation Project.csproj",
+        "projectUniqueName": "F:\\laroze star - Copy\\Graduation Project\\Graduation Project.csproj",
         "projectName": "Graduation Project",
-        "projectPath": "F:\\laroze star\\Graduation Project\\Graduation Project.csproj",
+        "projectPath": "F:\\laroze star - Copy\\Graduation Project\\Graduation Project.csproj",
         "packagesPath": "C:\\Users\\cm\\.nuget\\packages\\",
-        "outputPath": "F:\\laroze star\\Graduation Project\\obj\\",
+        "outputPath": "F:\\laroze star - Copy\\Graduation Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
