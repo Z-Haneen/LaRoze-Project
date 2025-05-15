@@ -1,0 +1,63 @@
+@model Graduation_Project.Models.Category
+@{
+    ViewData["Title"] = "Delete Category";
+    Layout = "_AdminLayout";
+}
+
+<div class="card">
+    <div class="card-header bg-danger text-white">
+        <h5 class="mb-0">Delete Category</h5>
+    </div>
+    <div class="card-body">
+        <h3>Are you sure you want to delete this category?</h3>
+        
+        <div class="alert alert-warning mt-3">
+            <strong>Warning:</strong> This action cannot be undone.
+        </div>
+        
+        @if (ViewBag.HasProducts || ViewBag.HasChildCategories)
+        {
+            <div class="alert alert-danger mt-3">
+                <strong>Cannot delete this category!</strong>
+                <ul class="mb-0 mt-2">
+                    @if (ViewBag.HasProducts)
+                    {
+                        <li>This category has products associated with it. Please remove or reassign these products first.</li>
+                    }
+                    @if (ViewBag.HasChildCategories)
+                    {
+                        <li>This category has child categories. Please remove or reassign these child categories first.</li>
+                    }
+                </ul>
+            </div>
+        }
+        
+        <div class="mt-4">
+            <dl class="row">
+                <dt class="col-sm-3">ID</dt>
+                <dd class="col-sm-9">@Model.CategoryId</dd>
+                
+                <dt class="col-sm-3">Name</dt>
+                <dd class="col-sm-9">@Model.Name</dd>
+                
+                <dt class="col-sm-3">Description</dt>
+                <dd class="col-sm-9">@Model.Description</dd>
+                
+                <dt class="col-sm-3">Parent Category</dt>
+                <dd class="col-sm-9">@(Model.ParentCategory?.Name ?? "None")</dd>
+            </dl>
+        </div>
+        
+        <div class="d-flex justify-content-between mt-4">
+            <a asp-action="Categories" class="btn btn-secondary">Back to List</a>
+            
+            @if (!ViewBag.HasProducts && !ViewBag.HasChildCategories)
+            {
+                <form asp-action="DeleteCategory" method="post">
+                    <input type="hidden" asp-for="CategoryId" />
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
+            }
+        </div>
+    </div>
+</div>

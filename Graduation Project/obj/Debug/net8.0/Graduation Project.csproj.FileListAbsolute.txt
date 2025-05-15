@@ -1211,10 +1211,10 @@ F:\laroze star - Copy\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuil
 F:\laroze star - Copy\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Graduation Project.props
 F:\laroze star - Copy\Graduation Project\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Graduation Project.props
 F:\laroze star - Copy\Graduation Project\obj\Debug\net8.0\staticwebassets.pack.json
-F:\laroze star - Copy\Graduation Project\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 F:\laroze star - Copy\Graduation Project\obj\Debug\net8.0\Graduati.512903E3.Up2Date
 F:\laroze star - Copy\Graduation Project\obj\Debug\net8.0\Graduation Project.dll
 F:\laroze star - Copy\Graduation Project\obj\Debug\net8.0\refint\Graduation Project.dll
 F:\laroze star - Copy\Graduation Project\obj\Debug\net8.0\Graduation Project.pdb
 F:\laroze star - Copy\Graduation Project\obj\Debug\net8.0\Graduation Project.genruntimeconfig.cache
 F:\laroze star - Copy\Graduation Project\obj\Debug\net8.0\ref\Graduation Project.dll
+F:\laroze star - Copy\Graduation Project\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -1,0 +1,129 @@
+@model Graduation_Project.Models.Order
+@{
+    ViewData["Title"] = "Order Details";
+    Layout = "_AdminLayout";
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="row mb-4">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">Order Information</h5>
+            </div>
+            <div class="card-body">
+                <p><strong>Order ID:</strong> @Model.OrderId</p>
+                <p><strong>Date:</strong> @Model.OrderDate.ToString("MMM dd, yyyy HH:mm")</p>
+                <p><strong>Customer:</strong> @Model.User?.FirstName @Model.User?.LastName</p>
+                <p><strong>Email:</strong> @Model.User?.Email</p>
+                <p><strong>Total:</strong> @Model.TotalPrice.ToString("C")</p>
+                <p>
+                    <strong>Status:</strong>
+                    <span class="badge @(Model.Status == "Completed" ? "bg-success" :
+                                       Model.Status == "Processing" ? "bg-primary" :
+                                       Model.Status == "Shipped" ? "bg-info" : "bg-warning")">
+                        @Model.Status
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">Update Order Status</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="UpdateOrderStatus" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="orderId" value="@Model.OrderId" />
+                    <div class="mb-3">
+                        <label class="form-label">Status</label>
+                        <select name="status" class="form-select">
+                            <option value="Pending" selected="@(Model.Status == "Pending")">Pending</option>
+                            <option value="Processing" selected="@(Model.Status == "Processing")">Processing</option>
+                            <option value="Shipped" selected="@(Model.Status == "Shipped")">Shipped</option>
+                            <option value="Delivered" selected="@(Model.Status == "Delivered")">Delivered</option>
+                            <option value="Completed" selected="@(Model.Status == "Completed")">Completed</option>
+                            <option value="Cancelled" selected="@(Model.Status == "Cancelled")">Cancelled</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Update Status</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header bg-primary text-white">
+        <h5 class="mb-0">Order Items</h5>
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>SKU</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.OrderItems)
+                    {
+                        <tr>
+                            <td>
+                                @if (!string.IsNullOrEmpty(item.ProductImage))
+                                {
+                                    <img src="@item.ProductImage" alt="@item.ProductName" style="width: 50px; height: 50px; object-fit: cover;" class="me-2" />
+                                }
+                                @item.ProductName
+                            </td>
+                            <td>@item.ProductSku</td>
+                            <td>@item.Price.ToString("C")</td>
+                            <td>@item.Quantity</td>
+                            <td>@((item.Price * item.Quantity).ToString("C"))</td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4" class="text-end"><strong>Total:</strong></td>
+                        <td><strong>@Model.TotalPrice.ToString("C")</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header bg-primary text-white">
+        <h5 class="mb-0">Payment Information</h5>
+    </div>
+    <div class="card-body">
+        <p><strong>Payment Method:</strong> @Model.Payment?.PaymentMethod</p>
+        <p><strong>Payment Status:</strong> @Model.Payment?.PaymentStatus</p>
+        <p><strong>Payment Date:</strong> @(Model.Payment?.PaymentDate.ToString("MMM dd, yyyy HH:mm") ?? "N/A")</p>
+        <p><strong>Amount:</strong> @(Model.Payment?.Amount.ToString("C") ?? "N/A")</p>
+    </div>
+</div>
+

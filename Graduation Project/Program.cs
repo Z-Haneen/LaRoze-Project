@@ -23,6 +23,7 @@ builder.Services.AddSession(options =>
 
 // Register services
 builder.Services.AddScoped<ProductService, ProductService>();
+builder.Services.AddScoped<Graduation_Project.Filters.AdminAuthorizationFilter>();
 
 // Register DbContext
 builder.Services.AddDbContext<GraduationDbContext>(options =>
