@@ -161,3 +161,19 @@ We welcome contributions!
 - Easily adaptable to any clothing niche
 
 ---
+## 👥 About the Team
+
+This project was created by five friends from the Digital Egypt Pioneers initiative who share a passion for programming and building meaningful software together. 
+Through teamwork and collaboration, our goal is to learn, grow, and bring our ideas to life.
+
+### Team Members  
+- [**EmanMS**](https://github.com/EmanMS)
+- [**Fady Adel**](https://github.com/fady-adel852)
+- [**Ibrahim Elmahy**](https://github.com/IbrahimElmahy)
+- [**Haneen Wael**](https://github.com/Z-Haneen)
+- [**Ahmed Nagy**](https://github.com/AhmedNAgy25)
+
+We believe in learning by doing, and this project reflects our collective effort, creativity, and dedication.
+
+Feel free to reach out or contribute if you'd like to be part of our journey!
+
