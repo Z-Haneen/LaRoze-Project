@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "F:\\laroze star - Copy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA5A6CFE-4857-4AB2-910E-7792AEC586A2}|Graduation Project\\Graduation Project.csproj|f:\\laroze star - copy\\graduation project\\views\\profile\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA5A6CFE-4857-4AB2-910E-7792AEC586A2}|Graduation Project\\Graduation Project.csproj|solutionrelative:graduation project\\views\\profile\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EA5A6CFE-4857-4AB2-910E-7792AEC586A2}|Graduation Project\\Graduation Project.csproj|f:\\laroze star - copy\\graduation project\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA5A6CFE-4857-4AB2-910E-7792AEC586A2}|Graduation Project\\Graduation Project.csproj|solutionrelative:graduation project\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA5A6CFE-4857-4AB2-910E-7792AEC586A2}|Graduation Project\\Graduation Project.csproj|f:\\laroze star - copy\\graduation project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA5A6CFE-4857-4AB2-910E-7792AEC586A2}|Graduation Project\\Graduation Project.csproj|solutionrelative:graduation project\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA5A6CFE-4857-4AB2-910E-7792AEC586A2}|Graduation Project\\Graduation Project.csproj|f:\\laroze star - copy\\graduation project\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA5A6CFE-4857-4AB2-910E-7792AEC586A2}|Graduation Project\\Graduation Project.csproj|solutionrelative:graduation project\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA5A6CFE-4857-4AB2-910E-7792AEC586A2}|Graduation Project\\Graduation Project.csproj|f:\\laroze star - copy\\graduation project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA5A6CFE-4857-4AB2-910E-7792AEC586A2}|Graduation Project\\Graduation Project.csproj|solutionrelative:graduation project\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EA5A6CFE-4857-4AB2-910E-7792AEC586A2}|Graduation Project\\Graduation Project.csproj|f:\\laroze star - copy\\graduation project\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA5A6CFE-4857-4AB2-910E-7792AEC586A2}|Graduation Project\\Graduation Project.csproj|solutionrelative:graduation project\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA5A6CFE-4857-4AB2-910E-7792AEC586A2}|Graduation Project\\Graduation Project.csproj|f:\\laroze star - copy\\graduation project\\models\\useraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA5A6CFE-4857-4AB2-910E-7792AEC586A2}|Graduation Project\\Graduation Project.csproj|solutionrelative:graduation project\\models\\useraddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,39 +47,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ChangePassword.cshtml",
-              "DocumentMoniker": "F:\\laroze star - Copy\\Graduation Project\\Views\\Profile\\ChangePassword.cshtml",
-              "RelativeDocumentMoniker": "Graduation Project\\Views\\Profile\\ChangePassword.cshtml",
-              "ToolTip": "F:\\laroze star - Copy\\Graduation Project\\Views\\Profile\\ChangePassword.cshtml",
-              "RelativeToolTip": "Graduation Project\\Views\\Profile\\ChangePassword.cshtml",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAIwJwAAAABAAAAAAAAAA==",
+              "Title": "About.cshtml",
+              "DocumentMoniker": "F:\\laroze star - Copy\\Graduation Project\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Graduation Project\\Views\\Home\\About.cshtml",
+              "ToolTip": "F:\\laroze star - Copy\\Graduation Project\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Graduation Project\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T13:54:44.747Z",
+              "WhenOpened": "2025-05-16T10:36:33.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "F:\\laroze star - Copy\\Graduation Project\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Graduation Project\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "F:\\laroze star - Copy\\Graduation Project\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Graduation Project\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAYwHcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T10:36:14.078Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "F:\\laroze star - Copy\\Graduation Project\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Graduation Project\\Views\\Home\\Index.cshtml",
-              "ToolTip": "F:\\laroze star - Copy\\Graduation Project\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Graduation Project\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T12:57:51.806Z"
+              "Title": "Contact.cs",
+              "DocumentMoniker": "F:\\laroze star - Copy\\Graduation Project\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "Graduation Project\\Models\\Contact.cs",
+              "ToolTip": "F:\\laroze star - Copy\\Graduation Project\\Models\\Contact.cs",
+              "RelativeToolTip": "Graduation Project\\Models\\Contact.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T10:35:33.49Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "F:\\laroze star - Copy\\Graduation Project\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Graduation Project\\Controllers\\HomeController.cs",
-              "ToolTip": "F:\\laroze star - Copy\\Graduation Project\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Graduation Project\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwDIAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "UserAddress.cs",
+              "DocumentMoniker": "F:\\laroze star - Copy\\Graduation Project\\Models\\UserAddress.cs",
+              "RelativeDocumentMoniker": "Graduation Project\\Models\\UserAddress.cs",
+              "ToolTip": "F:\\laroze star - Copy\\Graduation Project\\Models\\UserAddress.cs",
+              "RelativeToolTip": "Graduation Project\\Models\\UserAddress.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAwEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T12:57:37.617Z"
+              "WhenOpened": "2025-05-16T09:10:02.475Z",
+              "EditorCaption": ""
             }
           ]
         }

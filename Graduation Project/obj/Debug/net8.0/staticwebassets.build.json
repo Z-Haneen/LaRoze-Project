@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6DxOCl2oRKTJlJ0TOWOOckMCUhjYyCLJVsAviOUdb7U=",
+  "Hash": "YclhbqTVAwO5XGvfmucjUezDQeHiyy4Adnr7d35xNWE=",
   "Source": "Graduation Project",
   "BasePath": "_content/Graduation Project",
   "Mode": "Default",
@@ -78,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\account.css"
+    },
+    {
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\css\\admin.css",
+      "SourceId": "Graduation Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
+      "BasePath": "_content/Graduation Project",
+      "RelativePath": "css/admin#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ced28c58yf",
+      "Integrity": "rEemi47byu6VetoDruz++WtuWXOnTIPDkevXl86rPEA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\admin.css"
     },
     {
       "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\css\\site.css",
@@ -815,6 +836,27 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png"
     },
     {
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\6e47175a-aed2-4d0e-8f6a-2b566e45af65_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "SourceId": "Graduation Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
+      "BasePath": "_content/Graduation Project",
+      "RelativePath": "images/products/6e47175a-aed2-4d0e-8f6a-2b566e45af65_641fb71b6e610e9e2496af24e1cde9f8#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rcmx8xczci",
+      "Integrity": "a5sfIYFf/8NZDxbmyRrNTHiwsUz9qMp9HwzDCicINok=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\6e47175a-aed2-4d0e-8f6a-2b566e45af65_641fb71b6e610e9e2496af24e1cde9f8.png"
+    },
+    {
       "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png",
       "SourceId": "Graduation Project",
       "SourceType": "Discovered",
@@ -939,6 +981,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg"
+    },
+    {
+      "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\fd873710-ac46-4612-b308-bd61c84cfbad_285936577be25b998c758479b04f0ac4.png",
+      "SourceId": "Graduation Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\",
+      "BasePath": "_content/Graduation Project",
+      "RelativePath": "images/products/fd873710-ac46-4612-b308-bd61c84cfbad_285936577be25b998c758479b04f0ac4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8api9nozz5",
+      "Integrity": "gPV7gK+/tLkDQph/r579h6nB/vYgnon4KgaNHqx4Zk8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\fd873710-ac46-4612-b308-bd61c84cfbad_285936577be25b998c758479b04f0ac4.png"
     },
     {
       "Identity": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\js\\main.js",
@@ -2260,6 +2323,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-eS8ls7QRnew/gDxkHdow4VBxdJFDcZcUUL/mo4WBaIg="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin.ced28c58yf.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\css\\admin.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rEemi47byu6VetoDruz++WtuWXOnTIPDkevXl86rPEA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 21:38:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ced28c58yf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/admin.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rEemi47byu6VetoDruz++WtuWXOnTIPDkevXl86rPEA="
+        }
+      ]
+    },
+    {
+      "Route": "css/admin.css",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\css\\admin.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rEemi47byu6VetoDruz++WtuWXOnTIPDkevXl86rPEA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 12 May 2025 21:38:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rEemi47byu6VetoDruz++WtuWXOnTIPDkevXl86rPEA="
         }
       ]
     },
@@ -5298,6 +5443,88 @@
       ]
     },
     {
+      "Route": "images/products/6e47175a-aed2-4d0e-8f6a-2b566e45af65_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\6e47175a-aed2-4d0e-8f6a-2b566e45af65_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "215291"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a5sfIYFf/8NZDxbmyRrNTHiwsUz9qMp9HwzDCicINok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 16:07:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-a5sfIYFf/8NZDxbmyRrNTHiwsUz9qMp9HwzDCicINok="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/6e47175a-aed2-4d0e-8f6a-2b566e45af65_641fb71b6e610e9e2496af24e1cde9f8.rcmx8xczci.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\6e47175a-aed2-4d0e-8f6a-2b566e45af65_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "215291"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"a5sfIYFf/8NZDxbmyRrNTHiwsUz9qMp9HwzDCicINok=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 16:07:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rcmx8xczci"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/6e47175a-aed2-4d0e-8f6a-2b566e45af65_641fb71b6e610e9e2496af24e1cde9f8.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-a5sfIYFf/8NZDxbmyRrNTHiwsUz9qMp9HwzDCicINok="
+        }
+      ]
+    },
+    {
       "Route": "images/products/70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png",
       "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png",
       "Selectors": [],
@@ -5786,6 +6013,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-MnU1x2MrSSAkAi9sQ6a8BEaciqLM98nDd84rkDKZ70Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/fd873710-ac46-4612-b308-bd61c84cfbad_285936577be25b998c758479b04f0ac4.8api9nozz5.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\fd873710-ac46-4612-b308-bd61c84cfbad_285936577be25b998c758479b04f0ac4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4973533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gPV7gK+/tLkDQph/r579h6nB/vYgnon4KgaNHqx4Zk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 16:09:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8api9nozz5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/products/fd873710-ac46-4612-b308-bd61c84cfbad_285936577be25b998c758479b04f0ac4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gPV7gK+/tLkDQph/r579h6nB/vYgnon4KgaNHqx4Zk8="
+        }
+      ]
+    },
+    {
+      "Route": "images/products/fd873710-ac46-4612-b308-bd61c84cfbad_285936577be25b998c758479b04f0ac4.png",
+      "AssetFile": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\fd873710-ac46-4612-b308-bd61c84cfbad_285936577be25b998c758479b04f0ac4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4973533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gPV7gK+/tLkDQph/r579h6nB/vYgnon4KgaNHqx4Zk8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 16:09:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gPV7gK+/tLkDQph/r579h6nB/vYgnon4KgaNHqx4Zk8="
         }
       ]
     },

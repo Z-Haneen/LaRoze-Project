@@ -40,6 +40,11 @@
             }
             else
             {
+                @if (HttpContextAccessor.HttpContext.Session.GetString("RoleId") == "1")
+                {
+                    <li><a asp-controller="Admin" asp-action="Dashboard" class="btn btn-primary"><i class="bi bi-speedometer2 me-1"></i> Admin Dashboard</a></li>
+                }
+                <li><a asp-controller="Account" asp-action="Profile" class="btn btn-outline-secondary">My Account</a></li>
                 <li><a asp-controller="Login" asp-action="Logout" class="btn btn-secondary">Logout</a></li>
             }
         </ul>
@@ -88,6 +93,11 @@
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownProfile">
                         @if (Context.Session.GetString("UserId") != null)
                         {
+                            @if (Context.Session.GetString("RoleId") == "1")
+                            {
+                                <li><a class="dropdown-item text-primary" asp-controller="Admin" asp-action="Dashboard"><i class="bi bi-speedometer2 me-1"></i> Admin Dashboard</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                            }
                             <li><a class="dropdown-item" asp-controller="Account" asp-action="Profile">My Account</a></li>
                             <li><a class="dropdown-item" asp-controller="Order" asp-action="History">Order History</a></li>
                             <li><a class="dropdown-item" asp-controller="Wishlist" asp-action="Index">Wishlist</a></li>

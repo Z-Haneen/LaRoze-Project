@@ -1,0 +1,133 @@
+@model Graduation_Project.Models.User
+@{
+    ViewData["Title"] = "User Details";
+    Layout = "_AdminLayout";
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="row mb-4">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">User Information</h5>
+            </div>
+            <div class="card-body">
+                <p><strong>User ID:</strong> @Model.UserId</p>
+                <p><strong>Name:</strong> @Model.FirstName @Model.LastName</p>
+                <p><strong>Email:</strong> @Model.Email</p>
+                <p><strong>Phone:</strong> @Model.Phone</p>
+                <p><strong>Gender:</strong> @Model.Gender</p>
+                <p><strong>Date of Birth:</strong> @(Model.DateOfBirth?.ToString("MMM dd, yyyy") ?? "N/A")</p>
+                <p><strong>Role:</strong> @Model.Role?.Name</p>
+                <p><strong>Status:</strong> @Model.Status</p>
+                <p><strong>Registered:</strong> @Model.RegistrationDate.ToString("MMM dd, yyyy")</p>
+                <p><strong>Last Login:</strong> @Model.LastLogin.ToString("MMM dd, yyyy HH:mm")</p>
+
+                <div class="mt-4">
+                    <div class="d-flex justify-content-between">
+                        <a asp-controller="Admin" asp-action="Users" class="btn btn-secondary">Back to List</a>
+                        <a asp-controller="Admin" asp-action="DeleteUser" asp-route-id="@Model.UserId" class="btn btn-danger">Delete User</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">Update User Role</h5>
+            </div>
+            <div class="card-body">
+                <form asp-action="UpdateUserRole" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="userId" value="@Model.UserId" />
+
+                    <div class="mb-3">
+                        <label class="form-label">Role</label>
+                        <select name="roleId" class="form-select">
+                            @foreach (var role in ViewBag.Roles)
+                            {
+                                <option value="@role.RoleId" selected="@(Model.RoleId == role.RoleId)">@role.Name</option>
+                            }
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Status</label>
+                        <select name="status" class="form-select">
+                            <option value="Active" selected="@(Model.Status == "Active")">Active</option>
+                            <option value="Inactive" selected="@(Model.Status == "Inactive")">Inactive</option>
+                            <option value="Suspended" selected="@(Model.Status == "Suspended")">Suspended</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Update User</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header bg-primary text-white">
+        <h5 class="mb-0">Order History</h5>
+    </div>
+    <div class="card-body">
+        @if (ViewBag.Orders != null && ((List<Graduation_Project.Models.Order>)ViewBag.Orders).Any())
+        {
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                            <th>Total</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var order in (List<Graduation_Project.Models.Order>)ViewBag.Orders)
+                        {
+                            <tr>
+                                <td>@order.OrderId</td>
+                                <td>@order.OrderDate.ToString("MMM dd, yyyy")</td>
+                                <td>
+                                    <span class="badge @(order.Status == "Completed" ? "bg-success" :
+                                                       order.Status == "Processing" ? "bg-primary" :
+                                                       order.Status == "Shipped" ? "bg-info" : "bg-warning")">
+                                        @order.Status
+                                    </span>
+                                </td>
+                                <td>@order.TotalPrice.ToString("C")</td>
+                                <td>
+                                    <a asp-controller="Admin" asp-action="OrderDetails" asp-route-id="@order.OrderId" class="btn btn-sm btn-info">View</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <p>No orders found for this user.</p>
+        }
+    </div>
+</div>

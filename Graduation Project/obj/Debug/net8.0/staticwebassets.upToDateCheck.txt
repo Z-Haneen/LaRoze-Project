@@ -1,4 +1,5 @@
 wwwroot\css\account.css
+wwwroot\css\admin.css
 wwwroot\css\site.css
 wwwroot\css\style.css
 wwwroot\favicon.ico
@@ -34,12 +35,14 @@ wwwroot\images\products\5016d45d-c949-4f48-aeff-4b0166d52b50_20250428185656497.j
 wwwroot\images\products\562fd430-6aa0-422e-a7a6-6303611f36fe_8ecc239031fd3b010ef0589725ce0e91.png
 wwwroot\images\products\5a2e244b-d2ad-4067-af90-bb1f0e215a6c_portrait-young-japanese-woman-with-jacket.jpg
 wwwroot\images\products\5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png
+wwwroot\images\products\6e47175a-aed2-4d0e-8f6a-2b566e45af65_641fb71b6e610e9e2496af24e1cde9f8.png
 wwwroot\images\products\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png
 wwwroot\images\products\970611e2-9e78-4a5e-84e7-7f180a698ec2_8ecc239031fd3b010ef0589725ce0e91.png
 wwwroot\images\products\b2e48231-893c-4ae1-9b93-3af0975923e7_3ddc1cd528270fe310bfe715bcb4840c.jpg
 wwwroot\images\products\c096ac22-857e-4a10-a7e4-c5acdc5cd3a2_285936577be25b998c758479b04f0ac4.png
 wwwroot\images\products\ccc18309-4973-42ec-a135-0e34866f1107_641fb71b6e610e9e2496af24e1cde9f8.png
 wwwroot\images\products\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg
+wwwroot\images\products\fd873710-ac46-4612-b308-bd61c84cfbad_285936577be25b998c758479b04f0ac4.png
 wwwroot\js\main.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

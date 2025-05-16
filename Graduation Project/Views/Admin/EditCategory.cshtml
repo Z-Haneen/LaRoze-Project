@@ -1,0 +1,46 @@
+@model Graduation_Project.Models.Category
+@{
+    ViewData["Title"] = "Edit Category";
+    Layout = "_AdminLayout";
+}
+
+<div class="card">
+    <div class="card-header bg-primary text-white">
+        <h5 class="mb-0">Edit Category</h5>
+    </div>
+    <div class="card-body">
+        <form asp-action="EditCategory" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CategoryId" />
+            
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label">Name</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label">Description</label>
+                <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            
+            <div class="mb-3">
+                <label asp-for="ParentCategoryId" class="form-label">Parent Category (Optional)</label>
+                <select asp-for="ParentCategoryId" class="form-select" asp-items="@(new SelectList(ViewBag.Categories ?? new List<Graduation_Project.Models.Category>(), "CategoryId", "Name"))">
+                    <option value="">-- None --</option>
+                </select>
+                <span asp-validation-for="ParentCategoryId" class="text-danger"></span>
+            </div>
+            
+            <div class="d-flex justify-content-between">
+                <a asp-action="Categories" class="btn btn-secondary">Back to List</a>
+                <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

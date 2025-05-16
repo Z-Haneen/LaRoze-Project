@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\account.css"
     },
     {
+      "Id": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
       "Id": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -149,6 +153,10 @@
       "PackagePath": "staticwebassets\\images\\products\\5f38e67e-1caf-42ca-b364-42930a36c0de_c0fe906f7fd102780b3957c19514dff4.png"
     },
     {
+      "Id": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\6e47175a-aed2-4d0e-8f6a-2b566e45af65_641fb71b6e610e9e2496af24e1cde9f8.png",
+      "PackagePath": "staticwebassets\\images\\products\\6e47175a-aed2-4d0e-8f6a-2b566e45af65_641fb71b6e610e9e2496af24e1cde9f8.png"
+    },
+    {
       "Id": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png",
       "PackagePath": "staticwebassets\\images\\products\\70a17103-8496-4d71-a717-00fac892db99_641fb71b6e610e9e2496af24e1cde9f8.png"
     },
@@ -171,6 +179,10 @@
     {
       "Id": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg",
       "PackagePath": "staticwebassets\\images\\products\\f0617d2d-18f8-48c6-9443-5272374e00a3_3ddc1cd528270fe310bfe715bcb4840c.jpg"
+    },
+    {
+      "Id": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\images\\products\\fd873710-ac46-4612-b308-bd61c84cfbad_285936577be25b998c758479b04f0ac4.png",
+      "PackagePath": "staticwebassets\\images\\products\\fd873710-ac46-4612-b308-bd61c84cfbad_285936577be25b998c758479b04f0ac4.png"
     },
     {
       "Id": "F:\\laroze star - Copy\\Graduation Project\\wwwroot\\js\\main.js",

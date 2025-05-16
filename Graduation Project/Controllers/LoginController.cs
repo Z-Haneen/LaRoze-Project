@@ -20,13 +20,53 @@ namespace Graduation_Project.Controllers
         }
 
         // GET: Login
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             // If user is already logged in, redirect to home
             if (HttpContext.Session.GetString("UserId") != null)
             {
                 return RedirectToAction("Index", "Home");
             }
+
+            // Check if admin user exists, if not create one
+            var adminExists = await _context.Users.AnyAsync(u => u.Email == "admin@laroze.com");
+            if (!adminExists)
+            {
+                // Check if admin role exists
+                var adminRole = await _context.Roles.FirstOrDefaultAsync(r => r.Name == "Admin");
+                if (adminRole == null)
+                {
+                    // Create admin role
+                    adminRole = new Role
+                    {
+                        Name = "Admin",
+                        Description = "Administrator with full access"
+                    };
+                    _context.Roles.Add(adminRole);
+                    await _context.SaveChangesAsync();
+                }
+
+                // Create admin user
+                var adminUser = new User
+                {
+                    FirstName = "Admin",
+                    LastName = "User",
+                    Email = "admin@laroze.com",
+                    Password = BCrypt.Net.BCrypt.HashPassword("Admin123!"),
+                    Phone = "1234567890",
+                    DateOfBirth = new DateTime(1990, 1, 1),
+                    Gender = "Male",
+                    RegistrationDate = DateTime.Now,
+                    LastLogin = DateTime.Now,
+                    Status = "Active",
+                    RoleId = adminRole.RoleId
+                };
+                _context.Users.Add(adminUser);
+                await _context.SaveChangesAsync();
+
+                _logger.LogInformation("Created admin user: admin@laroze.com with password: Admin123!");
+            }
+
             return View();
         }
 
@@ -41,7 +81,7 @@ namespace Graduation_Project.Controllers
                     .Include(u => u.Role) // Include Role to access role information
                     .FirstOrDefaultAsync(u => u.Email == model.Email);
 
-                if (user != null && BCrypt.Net.BCrypt.Verify(model.Password, user.Password))
+                if (user != null && !string.IsNullOrEmpty(user.Password) && BCrypt.Net.BCrypt.Verify(model.Password, user.Password))
                 {
                     // Update last login time
                     user.LastLogin = DateTime.Now;
@@ -72,18 +112,92 @@ namespace Graduation_Project.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(LoginViewModel model)
         {
-            // Just redirect to the Index action with the same model
-            return await Index(model);
+            if (ModelState.IsValid)
+            {
+                var user = await _context.Users
+                    .Include(u => u.Role)
+                    .FirstOrDefaultAsync(u => u.Email == model.Email);
+
+                if (user != null && !string.IsNullOrEmpty(user.Password) && BCrypt.Net.BCrypt.Verify(model.Password, user.Password))
+                {
+                    // Update last login
+                    user.LastLogin = DateTime.Now;
+                    _context.Update(user);
+                    await _context.SaveChangesAsync();
+
+                    // Store user info in session
+                    HttpContext.Session.SetString("UserId", user.UserId.ToString());
+                    HttpContext.Session.SetString("UserName", $"{user.FirstName} {user.LastName}");
+                    HttpContext.Session.SetString("RoleId", user.RoleId.ToString());
+                    HttpContext.Session.SetString("RoleName", user.Role.Name);
+
+                    // Redirect based on role
+                    if (user.RoleId == 1) // Admin role
+                    {
+                        return RedirectToAction("Dashboard", "Admin");
+                    }
+                    else
+                    {
+                        return RedirectToAction("Index", "Home");
+                    }
+                }
+                else
+                {
+                    ModelState.AddModelError("", "Invalid login attempt.");
+                }
+            }
+
+            return View(model);
         }
 
         // GET: Login/Login
-        public IActionResult Login()
+        public async Task<IActionResult> Login()
         {
             // If user is already logged in, redirect to home
             if (HttpContext.Session.GetString("UserId") != null)
             {
                 return RedirectToAction("Index", "Home");
             }
+
+            // Check if admin user exists, if not create one
+            var adminExists = await _context.Users.AnyAsync(u => u.Email == "admin@laroze.com");
+            if (!adminExists)
+            {
+                // Check if admin role exists
+                var adminRole = await _context.Roles.FirstOrDefaultAsync(r => r.Name == "Admin");
+                if (adminRole == null)
+                {
+                    // Create admin role
+                    adminRole = new Role
+                    {
+                        Name = "Admin",
+                        Description = "Administrator with full access"
+                    };
+                    _context.Roles.Add(adminRole);
+                    await _context.SaveChangesAsync();
+                }
+
+                // Create admin user
+                var adminUser = new User
+                {
+                    FirstName = "Admin",
+                    LastName = "User",
+                    Email = "admin@laroze.com",
+                    Password = BCrypt.Net.BCrypt.HashPassword("Admin123!"),
+                    Phone = "1234567890",
+                    DateOfBirth = new DateTime(1990, 1, 1),
+                    Gender = "Male",
+                    RegistrationDate = DateTime.Now,
+                    LastLogin = DateTime.Now,
+                    Status = "Active",
+                    RoleId = adminRole.RoleId
+                };
+                _context.Users.Add(adminUser);
+                await _context.SaveChangesAsync();
+
+                _logger.LogInformation("Created admin user: admin@laroze.com with password: Admin123!");
+            }
+
             return View();
         }
 
